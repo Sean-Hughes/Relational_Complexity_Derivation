@@ -30,63 +30,63 @@ stimulus items and labels immediately below this line.
 
 ***********************************************************************
 <item attributeAlabel>
-/1 = "Good"
+/1 = "Woof"
 </item>
 
 <item attributeA>
-/1 = "Marvelous"
-/2 = "Superb"
-/3 = "Pleasure"
-/4 = "Beautiful"
-/5 = "Joyful"
-/6 = "Glorious"
-/7 = "Lovely"
-/8 = "Wonderful"
+/1 = "Woof"
+/2 = "Woof"
+/3 = "Woof"
+/4 = "Woof"
+/5 = "Woof"
+/6 = "Woof"
+/7 = "Woof"
+/8 = "Woof"
 </item>
 
 <item attributeBlabel>
-/1 = "Bad"
+/1 = "Meow"
 </item>
 
 <item attributeB>
-/1 = "Tragic"
-/2 = "Horrible"
-/3 = "Agony"
-/4 = "Painful"
-/5 = "Terrible"
-/6 = "Awful"
-/7 = "Humiliate"
-/8 = "Nasty"
+/1 = "Meow"
+/2 = "Meow"
+/3 = "Meow"
+/4 = "Meow"
+/5 = "Meow"
+/6 = "Meow"
+/7 = "Meow"
+/8 = "Meow"
 </item>
 
 <item targetAlabel>
-/1 = "Flowers"
+/1 = "Dogs"
 </item>
 
 <item targetA>
-/1 = "Orchid"
-/2 = "Lily"
-/3 = "Violet"
-/4 = "Daisy"
-/5 = "Tulip"
-/6 = "Poppy"
-/7 = "Daffodil"
-/8 = "Lilac"
+/1 = "Dogs"
+/2 = "Dogs"
+/3 = "Dogs"
+/4 = "Dogs"
+/5 = "Dogs"
+/6 = "Dogs"
+/7 = "Dogs"
+/8 = "Dogs"
 </item>
 
 <item targetBlabel>
-/1 = "Insects"
+/1 = "Cats"
 </item>
 
 <item targetB>
-/1 = "Ant"
-/2 = "Locust"
-/3 = "Bee"
-/4 = "Wasp"
-/5 = "Beetle"
-/6 = "Termite"
-/7 = "Roach"
-/8 = "Moth"
+/1 = "Cats"
+/2 = "Cats"
+/3 = "Cats"
+/4 = "Cats"
+/5 = "Cats"
+/6 = "Cats"
+/7 = "Cats"
+/8 = "Cats"
 </item>
 
 ***********************************************************************
@@ -306,19 +306,21 @@ Task instruction stimuli
 </text>
 
 <item instructions>
-/ 1 = "Please put your index fingers on the E and I keys of your keyboard. 
+/ 1 = "This is a timed task where you have to sort words. Put your fingers on the E and the I key. Sort the words in the middle of the screen based on the categories on the left (E) or right (I).
+ 
+Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.
 
-Words representing the categories at the top will appear one-by-one in the middle of the screen. When an item belongs to a category on the left press the E key; when an item belongs to a category on the right press the I key. If you make an error, an X will appear - to continue press the correct key.
+When you make a mistake there will be a red cross. This cross will remain onscreen until you press the correct key."
 
-This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. This task will take about 5 minutes to complete."
-/ 2 = "Look above. The categories have changed. So have the items. However, the rules are the same.
 
-When the item belongs to a category on the left press the E key. When the item belongs to a category on the right press the I key. An X appears after an error - to continue press the correct key. GO AS FAST AS YOU CAN."
+/ 2 = "Look above. The categories have changed. So have the items. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes."
 / 3 = "
 
 Look above. The four categories you saw separately now appear together. 
 
-The green and white labels and items will help you identify the appropriate category. Use the E and I keys to categorize items into each of the four groups. Correct any mistakes you make by pressing the correct key."
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes"
 
 / 4 = "
 
@@ -327,12 +329,12 @@ Please sort the same four categories again. Once again go as fast as you can whi
 "
 / 5 = "Look above. There are only two cateogries now and they have switched locations. The category that was previously on the left is now on the right (and vice-versa). 
 
-Use the E and I keys to catgorize items left and right. Once again correct any mistakes you make by pressing the correct key."
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes"
 / 6 = "
 
-Look above. The four categories now appear together in a new way. 
+Look above. The four categories now appear together. 
 
-The green and white labels and items will help you to identify the correct category. Use the E and I keys to categorize items into the four groups."
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes"
 / 7 = "
 
 Sort the same four categories once again. Remember to go as fast as you can while making as few mistakes as possible.
@@ -512,35 +514,35 @@ Blocks
 
 <block attributepractice>
 / bgstim = (attributeAleft, attributeBright)
-/ trials = [1=instructions;2-21 = random(attributeA, attributeB)]
+/ trials = [1=instructions;2-8 = random(attributeA, attributeB)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
 
 <block targetcompatiblepractice>
 / bgstim = (targetAleft, targetBright)
-/ trials = [1=instructions;2-21 = random(targetAleft, targetBright)]
+/ trials = [1=instructions;2-8 = random(targetAleft, targetBright)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
 
 <block targetincompatiblepractice>
 / bgstim = (targetAright, targetBleft)
-/ trials = [1=instructions;2-21 = random(targetAright, targetBleft)]
+/ trials = [1=instructions;2-8 = random(targetAright, targetBleft)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
 
 <block targetcompatiblepracticeswitch>
 / bgstim = (targetAleft, targetBright)
-/ trials = [1=instructions;2-41 = random(targetAleft, targetBright)]
+/ trials = [1=instructions;2-8 = random(targetAleft, targetBright)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
 
 <block targetincompatiblepracticeswitch>
 / bgstim = (targetAright, targetBleft)
-/ trials = [1=instructions;2-41 = random(targetAright, targetBleft)]
+/ trials = [1=instructions;2-8 = random(targetAright, targetBleft)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
@@ -619,23 +621,23 @@ Blocks
 ***********************************************************************
 Experiment
 ***********************************************************************
-Groupassignment is done by groupnumber
+Groupassignment is done by subject number
 
 <expt>
 /subjects = (1 of 2)
-/groupassignment = groupnumber
-/ blocks = [1=targetcompatiblepractice; 2=attributepractice; 3=compatibletest1; 4=compatibletestinstructions;
-				5=compatibletest2; 6=targetincompatiblepractice; 7=incompatibletest1; 8=incompatibletestinstructions;
-				9=incompatibletest2; 10=summary]
+/groupassignment = subjectnumber
+/ blocks = [1=targetcompatiblepractice; 2=attributepractice; 3= compatibletestinstructions;
+				4=compatibletest2; 5=targetincompatiblepractice; 6= incompatibletestinstructions;
+				7=incompatibletest2; 8=summary]
 /onexptend = [values.completed = 1]
 </expt>
 
 <expt>
 /subjects = (2 of 2)
-/groupassignment = groupnumber
-/ blocks = [1=targetincompatiblepractice; 2=attributepractice; 3=incompatibletest1; 4=incompatibletestinstructions;
-				5=incompatibletest2; 6=targetcompatiblepractice; 7=compatibletest1; 8=compatibletestinstructions; 
-				9=compatibletest2; 10=summary]
+/groupassignment = subjectnumber
+/ blocks = [1=targetincompatiblepractice; 2=attributepractice; 3=incompatibletestinstructions;
+				4=incompatibletest2; 5=targetcompatiblepractice; 6=compatibletestinstructions; 
+				7=compatibletest2; 8 =summary]
 /onexptend = [values.completed = 1]
 </expt>
 

@@ -12,12 +12,12 @@
 </defaults>
 
 <expt>
-/ blocks = [1 = block1]
+/ blocks = [1 = block1; 2 = block2]
 </expt>
 
 <variables>
 
-/group = (1 of 1) (block1 = Derivation_Opportunities)
+/group = (1 of 1) (block1 = Derivation_Opportunities_1, block2 = Derivation_Opportunities_2)
 
 </variables>
 
@@ -235,91 +235,91 @@
 
 ********** Relational Testing Phase ***********
 
-<trial A1_C1_C2> 
+<trial B1_C1_C2> 
 / inputdevice = mouse
 / correctresponse = (C1_sample1)
 / validresponse = (C1_sample1, C2_sample2)
-/ stimulustimes = [500 = A1_target; 1000 = C1_sample1, C2_sample2]
+/ stimulustimes = [500 = B1_target; 1000 = C1_sample1, C2_sample2]
 / pretrialpause = 1000
 
-/ ontrialend = [if (trial.A1_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.B1_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
-<trial A1_C2_C1> 
+<trial B1_C2_C1> 
 / inputdevice = mouse
 / correctresponse = (C1_sample2)
 / validresponse = (C1_sample2, C2_sample1)
-/ stimulustimes = [500 = A1_target; 1000 = C1_sample2, C2_sample1]
+/ stimulustimes = [500 = B1_target; 1000 = C1_sample2, C2_sample1]
 / pretrialpause = 500
 
-/ ontrialend = [if (trial.A1_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.B1_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
-<trial C1_A1_A2> 
+<trial C1_B1_B2> 
 / inputdevice = mouse
-/ correctresponse = (A1_sample1)
-/ validresponse = (A1_sample1, A2_sample2)
-/ stimulustimes = [500 = C1_target; 1000 = A1_sample1, A2_sample2]
+/ correctresponse = (B1_sample1)
+/ validresponse = (B1_sample1, B2_sample2)
+/ stimulustimes = [500 = C1_target; 1000 = B1_sample1, B2_sample2]
 / pretrialpause = 500
 
-/ ontrialend = [if (trial.C1_A1_A2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.C1_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
-<trial C1_A2_A1> 
+<trial C1_B2_B1> 
 / inputdevice = mouse
-/ correctresponse = (A1_sample2)
-/ validresponse = (A1_sample2, A2_sample1)
-/ stimulustimes = [500 = C1_target; 1000 = A1_sample2, A2_sample1]
+/ correctresponse = (B1_sample2)
+/ validresponse = (B1_sample2, B2_sample1)
+/ stimulustimes = [500 = C1_target; 1000 = B1_sample2, B2_sample1]
 / pretrialpause = 500
 
-/ ontrialend = [if (trial.C1_A2_A1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.C1_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
-<trial A2_C2_C1> 
+<trial B2_C2_C1> 
 / inputdevice = mouse
 / correctresponse = (C2_sample1)
 / validresponse = (C2_sample1, C1_sample2)
-/ stimulustimes = [500 = A2_target; 1000= C2_sample1, C1_sample2]
+/ stimulustimes = [500 = B2_target; 1000= C2_sample1, C1_sample2]
 / pretrialpause = 500
 
-/ ontrialend = [if (trial.A2_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.B2_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
-<trial A2_C1_C2> 
+<trial B2_C1_C2> 
 / inputdevice = mouse
 / correctresponse = (C2_sample2)
 / validresponse = (C2_sample2, C1_sample1)
-/ stimulustimes = [500 = A2_target; 1000 = C2_sample2, C1_sample1]
+/ stimulustimes = [500 = B2_target; 1000 = C2_sample2, C1_sample1]
 / pretrialpause = 500
 
-/ ontrialend = [if (trial.A2_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.B2_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
-<trial C2_A1_A2> 
+<trial C2_B1_B2> 
 / inputdevice = mouse
-/ correctresponse = (A2_sample2)
-/ validresponse = (A1_sample1, A2_sample2)
-/ stimulustimes = [500 = C2_target; 1000 = A1_sample1, A2_sample2]
+/ correctresponse = (B2_sample2)
+/ validresponse = (B1_sample1, B2_sample2)
+/ stimulustimes = [500 = C2_target; 1000 = B1_sample1, B2_sample2]
 / pretrialpause = 500
 
-/ ontrialend = [if (trial.C2_A1_A2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.C2_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
-<trial C2_A2_A1> 
+<trial C2_B2_B1> 
 / inputdevice = mouse
-/ correctresponse = (A2_sample1)
-/ validresponse = (A1_sample2, A2_sample1)
-/ stimulustimes = [500 = C2_target; 1000 = A1_sample2, A2_sample1]
+/ correctresponse = (B2_sample1)
+/ validresponse = (B1_sample2, B2_sample1)
+/ stimulustimes = [500 = C2_target; 1000 = B1_sample2, B2_sample1]
 / pretrialpause = 500
 
-/ ontrialend = [if (trial.C2_A2_A1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.C2_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
@@ -337,11 +337,15 @@
 
 **********  block  **********
 
-<block Derivation_Opportunities>
-/ preinstructions = (RTP_instructions)
-/ trials = [1-64 = noreplace(A1_C1_C2, A1_C2_C1, C1_A1_A2, C1_A2_A1, A2_C2_C1, A2_C1_C2, C2_A1_A2, C2_A2_A1)]
+<block Derivation_Opportunities_1>
+/ preinstructions = (RTP_instructions_1)
+/ trials = [1-36 = noreplace(B1_C1_C2, B1_C2_C1, C1_B1_B2, C1_B2_B1, B2_C2_C1, B2_C1_C2, C2_B1_B2, C2_B2_B1)]
 </block>
 
+<block Derivation_Opportunities_2>
+/ preinstructions = (RTP_instructions_2)
+/ trials = [1-36 = noreplace(B1_C1_C2, B1_C2_C1, C1_B1_B2, C1_B2_B1, B2_C2_C1, B2_C1_C2, C2_B1_B2, C2_B2_B1)]
+</block>
 
 **********  Instructions  *************
 
@@ -354,13 +358,13 @@
 / prevkey = ("t")
 </instruct>
 
-<page RTP_instructions>
+<page RTP_instructions_1>
 ^^ In the next part of the task you will do something similar to before. ^^
 
 However this is now a TEST phase. We will no longer tell you if you are correct or incorrect. As such, please respond as ***ACCURATELY AS POSSIBLE***. 
 </page>
 
-<page RTP_post_instructions>
+<page RTP_instructions_2>
 ^^  Thank you. You will be given another opportunity to practice this part of the task. Please take your time and try to be as ACCURATE as possible. When you are ready press the spacebar to continue.
 </page>
 

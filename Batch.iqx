@@ -28,8 +28,8 @@ HIGHER DERIVATION OPPORTUNITIES CONDITION
 / groupassignment = subjectnumber
 / file="Consent_form.iqx"
 / file="Baseline_IAT.iqx"
-/ file="Relational_Training.iqx"
-/ file="Relational_Testing.iqx"
+/ file="Relational_Training (OTM).iqx"
+/ file="Relational_Testing (OTM).iqx"
 / file="Derivation_Opportunities.iqx"
 / file="Test_IAT.iqx"
 </batch>

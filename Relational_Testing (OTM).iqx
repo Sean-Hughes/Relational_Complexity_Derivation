@@ -235,91 +235,91 @@
 
 ********** Relational Testing Phase ***********
 
-<trial A1_C1_C2> 
+<trial B1_C1_C2> 
 / inputdevice = mouse
 / correctresponse = (C1_sample1)
 / validresponse = (C1_sample1, C2_sample2)
-/ stimulustimes = [500 = A1_target; 1000 = C1_sample1, C2_sample2]
+/ stimulustimes = [500 = B1_target; 1000 = C1_sample1, C2_sample2]
 / pretrialpause = 1000
 
-/ ontrialend = [if (trial.A1_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.B1_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
-<trial A1_C2_C1> 
+<trial B1_C2_C1> 
 / inputdevice = mouse
 / correctresponse = (C1_sample2)
 / validresponse = (C1_sample2, C2_sample1)
-/ stimulustimes = [500 = A1_target; 1000 = C1_sample2, C2_sample1]
+/ stimulustimes = [500 = B1_target; 1000 = C1_sample2, C2_sample1]
 / pretrialpause = 500
 
-/ ontrialend = [if (trial.A1_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.B1_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
-<trial C1_A1_A2> 
+<trial C1_B1_B2> 
 / inputdevice = mouse
-/ correctresponse = (A1_sample1)
-/ validresponse = (A1_sample1, A2_sample2)
-/ stimulustimes = [500 = C1_target; 1000 = A1_sample1, A2_sample2]
+/ correctresponse = (B1_sample1)
+/ validresponse = (B1_sample1, B2_sample2)
+/ stimulustimes = [500 = C1_target; 1000 = B1_sample1, B2_sample2]
 / pretrialpause = 500
 
-/ ontrialend = [if (trial.C1_A1_A2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.C1_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
-<trial C1_A2_A1> 
+<trial C1_B2_B1> 
 / inputdevice = mouse
-/ correctresponse = (A1_sample2)
-/ validresponse = (A1_sample2, A2_sample1)
-/ stimulustimes = [500 = C1_target; 1000 = A1_sample2, A2_sample1]
+/ correctresponse = (B1_sample2)
+/ validresponse = (B1_sample2, B2_sample1)
+/ stimulustimes = [500 = C1_target; 1000 = B1_sample2, B2_sample1]
 / pretrialpause = 500
 
-/ ontrialend = [if (trial.C1_A2_A1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.C1_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
-<trial A2_C2_C1> 
+<trial B2_C2_C1> 
 / inputdevice = mouse
 / correctresponse = (C2_sample1)
 / validresponse = (C2_sample1, C1_sample2)
-/ stimulustimes = [500 = A2_target; 1000= C2_sample1, C1_sample2]
+/ stimulustimes = [500 = B2_target; 1000= C2_sample1, C1_sample2]
 / pretrialpause = 500
 
-/ ontrialend = [if (trial.A2_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.B2_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
-<trial A2_C1_C2> 
+<trial B2_C1_C2> 
 / inputdevice = mouse
 / correctresponse = (C2_sample2)
 / validresponse = (C2_sample2, C1_sample1)
-/ stimulustimes = [500 = A2_target; 1000 = C2_sample2, C1_sample1]
+/ stimulustimes = [500 = B2_target; 1000 = C2_sample2, C1_sample1]
 / pretrialpause = 500
 
-/ ontrialend = [if (trial.A2_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.B2_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
-<trial C2_A1_A2> 
+<trial C2_B1_B2> 
 / inputdevice = mouse
-/ correctresponse = (A2_sample2)
-/ validresponse = (A1_sample1, A2_sample2)
-/ stimulustimes = [500 = C2_target; 1000 = A1_sample1, A2_sample2]
+/ correctresponse = (B2_sample2)
+/ validresponse = (B1_sample1, B2_sample2)
+/ stimulustimes = [500 = C2_target; 1000 = B1_sample1, B2_sample2]
 / pretrialpause = 500
 
-/ ontrialend = [if (trial.C2_A1_A2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.C2_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
-<trial C2_A2_A1> 
+<trial C2_B2_B1> 
 / inputdevice = mouse
-/ correctresponse = (A2_sample1)
-/ validresponse = (A1_sample2, A2_sample1)
-/ stimulustimes = [500 = C2_target; 1000 = A1_sample2, A2_sample1]
+/ correctresponse = (B2_sample1)
+/ validresponse = (B1_sample2, B2_sample1)
+/ stimulustimes = [500 = C2_target; 1000 = B1_sample2, B2_sample1]
 / pretrialpause = 500
 
-/ ontrialend = [if (trial.C2_A2_A1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.C2_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 
 </trial>
 
@@ -339,7 +339,7 @@
 
 <block Relational_Testing_Phase>
 / preinstructions = (RTP_instructions)
-/ trials = [1-8 = noreplace(A1_C1_C2, A1_C2_C1, C1_A1_A2, C1_A2_A1, A2_C2_C1, A2_C1_C2, C2_A1_A2, C2_A2_A1)]
+/ trials = [1-8 = noreplace(B1_C1_C2, B1_C2_C1, C1_B1_B2, C1_B2_B1, B2_C2_C1, B2_C1_C2, C2_B1_B2, C2_B2_B1)]
 </block>
 
 

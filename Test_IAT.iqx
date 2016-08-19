@@ -278,33 +278,35 @@ Task instruction stimuli
 </text>
 
 <item instructions>
-/ 1 = "Please put your index fingers on the E and I keys of your keyboard. 
+/ 1 = "This is a timed task where you have to sort words. Put your fingers on the E and the I key. Sort the words in the middle of the screen based on the categories on the left (E) or right (I).
+ 
+Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.
 
-Words from the categories at the top will appear one-by-one in the middle of the screen. If an item belongs to a category on the left press the E key. If an item belongs to a category on the right press the I key. If you make a mistake an X will appear. To continue press the correct key.
+When you make a mistake there will be a red cross. This cross will remain onscreen until you press the correct key."
 
-GO AS FAST AS YOU CAN while making as few mistakes as possible."
-/ 2 = "Look above. The categories have changed. So have the items. However, the rules are the same.
 
-When the item belongs to a category on the left press the E key. When the item belongs to a category on the right press the I key. An X appears after an error - to continue press the correct key. GO AS FAST AS YOU CAN."
+/ 2 = "Look above. The categories have changed. So have the items. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes."
 / 3 = "
 
-Look above. The four words you saw separately now appear together. 
+Look above. The four categories you saw separately now appear together. 
 
-Use the E and I keys to categorize items into each of the four groups. Correct any mistakes you make by pressing the correct key."
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes"
 
 / 4 = "
 
-Please sort the same four words again. Once again go as fast as you can while making as few mistakes as possible.
+Please sort the same four categories again. Once again go as fast as you can while making as few mistakes as possible.
 
 "
-/ 5 = "Look above. There are only two words now and they have switched locations. The word that was previously on the left is now on the right (and vice-versa). 
+/ 5 = "Look above. There are only two cateogries now and they have switched locations. The category that was previously on the left is now on the right (and vice-versa). 
 
-Use the E and I keys to catgorize items left and right. Once again correct any mistakes you make by pressing the correct key."
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes"
 / 6 = "
 
-Look above. The four words now appear together in a new way. 
+Look above. The four categories now appear together. 
 
-Use the E and I keys to categorize items into the four groups."
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes"
 / 7 = "
 
 Sort the same four categories once again. Remember to go as fast as you can while making as few mistakes as possible.
@@ -321,13 +323,13 @@ Sort the same four categories once again. Remember to go as fast as you can whil
 <text attribute_C1>
 / items = attribute_C1
 / fontstyle = ("Arial", 5%)
-/ txcolor = (0, 255, 0)
+ 
 </text>
 
 <text attribute_C2>
 / items = attribute_C2
 / fontstyle = ("Arial", 5%)
-/ txcolor = (0, 255, 0)
+ 
 </text>
 
 <text target_A2>
@@ -589,25 +591,26 @@ Blocks
 ***********************************************************************
 Experiment
 ***********************************************************************
-Groupassignment is done by groupnumber
+Groupassignment is done by subject number
 
 <expt>
 /subjects = (1 of 2)
-/groupassignment = groupnumber
-/ blocks = [1=targetcompatiblepractice; 2=attributepractice; 3=compatibletest1; 4=compatibletestinstructions;
-				5=compatibletest2; 6=targetincompatiblepractice; 7=incompatibletest1; 8=incompatibletestinstructions;
-				9=incompatibletest2; 10=summary]
+/groupassignment = subjectnumber
+/ blocks = [1=targetcompatiblepractice; 2=attributepractice; 3= compatibletestinstructions;
+				4=compatibletest2; 5=targetincompatiblepractice; 6= incompatibletestinstructions;
+				7=incompatibletest2; 8=summary]
 /onexptend = [values.completed = 1]
 </expt>
 
 <expt>
 /subjects = (2 of 2)
-/groupassignment = groupnumber
-/ blocks = [1=targetincompatiblepractice; 2=attributepractice; 3=incompatibletest1; 4=incompatibletestinstructions;
-				5=incompatibletest2; 6=targetcompatiblepractice; 7=compatibletest1; 8=compatibletestinstructions; 
-				9=compatibletest2; 10=summary]
+/groupassignment = subjectnumber
+/ blocks = [1=targetincompatiblepractice; 2=attributepractice; 3=incompatibletestinstructions;
+				4=incompatibletest2; 5=targetcompatiblepractice; 6=compatibletestinstructions; 
+				7=compatibletest2; 8 =summary]
 /onexptend = [values.completed = 1]
 </expt>
+
 
 ***********************************************************************
 Test Monkey
