@@ -29,64 +29,36 @@ and attributes. To change the categories, you need only change the
 stimulus items and labels immediately below this line.
 
 ***********************************************************************
-<item attribute_C1_label>
+<item attributeAlabel>
+/1 = "B1"
+</item>
+
+<item attributeA>
+/1 = "B1"
+</item>
+
+<item attributeBlabel>
 /1 = "C1"
 </item>
 
-<item attribute_C1>
+<item attributeB>
 /1 = "C1"
-/2 = "C1"
-/3 = "C1"
-/4 = "C1"
-/5 = "C1"
-/6 = "C1"
-/7 = "C1"
-/8 = "C1"
 </item>
 
-<item attribute_C2_label>
+<item targetAlabel>
+/1 = "B2"
+</item>
+
+<item targetA>
+/1 = "B2"
+</item>
+
+<item targetBlabel>
 /1 = "C2"
 </item>
 
-<item attribute_C2>
+<item targetB>
 /1 = "C2"
-/2 = "C2"
-/3 = "C2"
-/4 = "C2"
-/5 = "C2"
-/6 = "C2"
-/7 = "C2"
-/8 = "C2"
-</item>
-
-<item target_A1_label>
-/1 = "A1"
-</item>
-
-<item target_A1>
-/1 = "A1"
-/2 = "A1"
-/3 = "A1"
-/4 = "A1"
-/5 = "A1"
-/6 = "A1"
-/7 = "A1"
-/8 = "A1"
-</item>
-
-<item target_A2_label>
-/1 = "A2"
-</item>
-
-<item target_A2>
-/1 = "A2"
-/2 = "A2"
-/3 = "A2"
-/4 = "A2"
-/5 = "A2"
-/6 = "A2"
-/7 = "A2"
-/8 = "A2"
 </item>
 
 ***********************************************************************
@@ -272,10 +244,10 @@ Performance summary
 / ontrialbegin = [if( abs(expressions.d) > 0.15 ) values.magnitude = "a slight"]
 / ontrialbegin = [if( abs(expressions.d) > 0.35 ) values.magnitude = "a moderate"]
 / ontrialbegin = [if( abs(expressions.d) >= 0.65 ) values.magnitude = "a strong"]
-/ ontrialbegin = [if (expressions.d >= 0.0) expressions.preferred = item.target_A1_label.1]
-/ ontrialbegin = [if (expressions.d < 0.0) expressions.preferred = item.target_A2_label.1]
-/ ontrialbegin = [if (expressions.d < 0.0) expressions.notpreferred= item.target_A1_label.1]
-/ ontrialbegin = [if (expressions.d >= 0.0) expressions.notpreferred= item.target_A2_label.1]
+/ ontrialbegin = [if (expressions.d >= 0.0) expressions.preferred = item.targetALabel.1]
+/ ontrialbegin = [if (expressions.d < 0.0) expressions.preferred = item.targetBLabel.1]
+/ ontrialbegin = [if (expressions.d < 0.0) expressions.notpreferred= item.targetALabel.1]
+/ ontrialbegin = [if (expressions.d >= 0.0) expressions.notpreferred= item.targetBLabel.1]
 </trial>
 
 <text summary>
@@ -348,25 +320,25 @@ Sort the same four categories once again. Remember to go as fast as you can whil
 / valign = bottom
 </text>
 
-<text attribute_C1>
-/ items = attribute_C1
+<text attributeA>
+/ items = attributeA
 / fontstyle = ("Arial", 5%)
- 
+/ txcolor = (0, 255, 0)
 </text>
 
-<text attribute_C2>
-/ items = attribute_C2
+<text attributeB>
+/ items = attributeB
 / fontstyle = ("Arial", 5%)
- 
+/ txcolor = (0, 255, 0)
 </text>
 
-<text target_A2>
-/ items = target_A2
+<text targetB>
+/ items = targetB
 / fontstyle = ("Arial", 5%)
 </text>
 
-<text target_A1>
-/ items = target_A1
+<text targetA>
+/ items = targetA
 / fontstyle = ("Arial", 5%)
 </text>
 
@@ -377,64 +349,68 @@ Sort the same four categories once again. Remember to go as fast as you can whil
 / fontstyle = ("Arial", 10%, true)
 </text>
 
-<text attribute_C1left>
-/ items = attribute_C1_label
+<text attributeAleft>
+/ items = attributeAlabel
 / valign = top
 / halign = left
 / position = (5%, 5%)
+/ txcolor = (0, 255, 0)
 / fontstyle = ("Arial", 5%)
 </text>
 
-<text attribute_C2right>
-/ items = attribute_C2_label
+<text attributeBright>
+/ items = attributeBlabel
 / valign = top
 / halign = right
 / position = (95%, 5%)
+/ txcolor = (0, 255, 0)
 / fontstyle = ("Arial", 5%)
 </text>
 
-<text attribute_C1leftmixed>
-/ items = attribute_C1_label
+<text attributeAleftmixed>
+/ items = attributeAlabel
 / valign = top
 / halign = left
 / position = (5%, 19%)
+/ txcolor = (0, 255, 0)
 / fontstyle = ("Arial", 5%)
 </text>
 
-<text attribute_C2rightmixed>
-/ items = attribute_C2_label
+<text attributeBrightmixed>
+/ items = attributeBlabel
 / valign = top
 / halign = right
 / position = (95%, 19%)
+/ txcolor = (0, 255, 0)
 / fontstyle = ("Arial", 5%)
 </text>
 
-<text target_A2left>
-/ items = target_A2_label
+<text targetBleft>
+/ items = targetBlabel
 / valign = top
 / halign = left	
 / position = (5%, 5%)
 / fontstyle = ("Arial", 5%)
 </text>
 
-<text target_A2right>
-/ items = target_A2_label
+<text targetBright>
+/ items = targetBlabel
 / valign = top
 / halign = right
 / position = (95%, 5%)
 / fontstyle = ("Arial", 5%)
 </text>
 
-<text target_A1left>
-/ items = target_A1_label
+<text targetAleft>
+/ items = targetAlabel
 / valign = top
 / halign = left
 / position = (5%, 5%)
 / fontstyle = ("Arial", 5%)
 </text>
 
-<text target_A1right>
-/ items = target_A1_label
+<text targetAright>
+/ items = targetAlabel
 / valign = top
 / halign = right
 / position = (95%, 5%)
@@ -446,7 +422,6 @@ Sort the same four categories once again. Remember to go as fast as you can whil
 / valign = top
 / halign = left
 / position = (5%, 12%)
-/ txcolor = (0, 255, 0)
 / fontstyle = ("Arial", 5%)
 </text>
 
@@ -454,7 +429,6 @@ Sort the same four categories once again. Remember to go as fast as you can whil
 / items = ("or")
 / valign = top
 / halign = right
-/ txcolor = (0, 255, 0)
 / position = (95%, 12%)
 / fontstyle = ("Arial", 5%)
 </text>
@@ -463,46 +437,46 @@ Sort the same four categories once again. Remember to go as fast as you can whil
 Trials
 ***********************************************************************
 
-<trial attribute_C1>
+<trial attributeA>
 / validresponse = ("E", "I")
 / correctresponse = ("E")
-/ stimulusframes = [1 = attribute_C1]
+/ stimulusframes = [1 = attributeA]
 / posttrialpause = 250
 </trial>
 
-<trial attribute_C2>
+<trial attributeB>
 / validresponse = ("E", "I")
 / correctresponse = ("I")
-/ stimulusframes = [1 = attribute_C2]
+/ stimulusframes = [1 = attributeB]
 / posttrialpause = 250
 </trial>
 
 
-<trial target_A2left>
+<trial targetBleft>
 / validresponse = ("E", "I")
 / correctresponse = ("E")
-/ stimulusframes = [1 = target_A2]
+/ stimulusframes = [1 = targetB]
 / posttrialpause = 250
 </trial>
 
-<trial target_A2right>
+<trial targetBright>
 / validresponse = ("E", "I")
 / correctresponse = ("I")
-/ stimulusframes = [1 = target_A2]
+/ stimulusframes = [1 = targetB]
 / posttrialpause = 250
 </trial>
 
-<trial target_A1left>
+<trial targetAleft>
 / validresponse = ("E", "I")
 / correctresponse = ("E")
-/ stimulusframes = [1 = target_A1]
+/ stimulusframes = [1 = targetA]
 / posttrialpause = 250
 </trial>
 
-<trial target_A1right>
+<trial targetAright>
 / validresponse = ("E", "I")
 / correctresponse = ("I")
-/ stimulusframes = [1 = target_A1]
+/ stimulusframes = [1 = targetA]
 / posttrialpause = 250
 </trial>
 
@@ -511,45 +485,45 @@ Blocks
 ***********************************************************************
 
 <block attributepractice>
-/ bgstim = (attribute_C1left, attribute_C2right)
-/ trials = [1=instructions;2-8 = random(attribute_C1, attribute_C2)]
+/ bgstim = (attributeAleft, attributeBright)
+/ trials = [1=instructions;2-8 = random(attributeA, attributeB)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
 
 <block targetcompatiblepractice>
-/ bgstim = (target_A1left, target_A2right)
-/ trials = [1=instructions;2-8 = random(target_A1left, target_A2right)]
+/ bgstim = (targetAleft, targetBright)
+/ trials = [1=instructions;2-8 = random(targetAleft, targetBright)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
 
 <block targetincompatiblepractice>
-/ bgstim = (target_A1right, target_A2left)
-/ trials = [1=instructions;2-8 = random(target_A1right, target_A2left)]
+/ bgstim = (targetAright, targetBleft)
+/ trials = [1=instructions;2-8 = random(targetAright, targetBleft)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
 
 <block targetcompatiblepracticeswitch>
-/ bgstim = (target_A1left, target_A2right)
-/ trials = [1=instructions;2-8 = random(target_A1left, target_A2right)]
+/ bgstim = (targetAleft, targetBright)
+/ trials = [1=instructions;2-8 = random(targetAleft, targetBright)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
 
 <block targetincompatiblepracticeswitch>
-/ bgstim = (target_A1right, target_A2left)
-/ trials = [1=instructions;2-8 = random(target_A1right, target_A2left)]
+/ bgstim = (targetAright, targetBleft)
+/ trials = [1=instructions;2-8 = random(targetAright, targetBleft)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
 
 <block compatibletest1>
-/ bgstim = (target_A1left, orleft, attribute_C1leftmixed, target_A2right, orright, attribute_C2rightmixed)
+/ bgstim = (targetAleft, orleft, attributeAleftmixed, targetBright, orright, attributeBrightmixed)
 / trials = [1=instructions;
-  3,5,7,9,11,13,15,17,19,21= random(target_A1left, target_A2right);
-  2,4,6,8,10,12,14,16,18,20 = random(attribute_C1, attribute_C2)]
+  3,5,7,9,11,13,15,17,19,21= random(targetAleft, targetBright);
+  2,4,6,8,10,12,14,16,18,20 = random(attributeA, attributeB)]
 / errormessage = true(error,200)
 / responsemode = correct
 / ontrialend = [if(block.compatibletest1.latency  <= 10000 && block.compatibletest1.currenttrialnumber != 1 ) values.sum1a =  values.sum1a + block.compatibletest1.latency]
@@ -559,10 +533,10 @@ Blocks
 </block>
 
 <block compatibletest2>
-/ bgstim = (target_A1left, orleft, attribute_C1leftmixed, target_A2right, orright, attribute_C2rightmixed)
+/ bgstim = (targetAleft, orleft, attributeAleftmixed, targetBright, orright, attributeBrightmixed)
 / trials = [
-  2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40 = random(target_A1left, target_A2right);
-  1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39 = random(attribute_C1, attribute_C2)]
+  2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40 = random(targetAleft, targetBright);
+  1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39 = random(attributeA, attributeB)]
 / errormessage = true(error,200)
 / responsemode = correct
 / ontrialend = [if(block.compatibletest2.latency  <= 10000) values.sum1b =  values.sum1b + block.compatibletest2.latency]
@@ -572,10 +546,10 @@ Blocks
 </block>
 
 <block incompatibletest1>
-/ bgstim = (target_A2left, orleft, attribute_C1leftmixed, target_A1right, orright, attribute_C2rightmixed)
+/ bgstim = (targetBleft, orleft, attributeAleftmixed, targetAright, orright, attributeBrightmixed)
 / trials = [1=instructions;
-  3,5,7,9,11,13,15,17,19,21 = random(target_A2left, target_A1right);
-  2,4,6,8,10,12,14,16,18,20 = random(attribute_C1, attribute_C2)]
+  3,5,7,9,11,13,15,17,19,21 = random(targetBleft, targetAright);
+  2,4,6,8,10,12,14,16,18,20 = random(attributeA, attributeB)]
 / errormessage = true(error,200)
 / responsemode = correct
 / ontrialend = [if(block.incompatibletest1.latency  <= 10000 && block.incompatibletest1.currenttrialnumber != 1) values.sum2a =  values.sum2a + block.incompatibletest1.latency]
@@ -585,10 +559,10 @@ Blocks
 </block>
 
 <block incompatibletest2>
-/ bgstim = (target_A2left, orleft, attribute_C1leftmixed, target_A1right, orright, attribute_C2rightmixed)
+/ bgstim = (targetBleft, orleft, attributeAleftmixed, targetAright, orright, attributeBrightmixed)
 / trials = [
-  2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40 = random(target_A2left, target_A1right);
-  1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39 = random(attribute_C1, attribute_C2)]
+  2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40 = random(targetBleft, targetAright);
+  1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39 = random(attributeA, attributeB)]
 / errormessage = true(error,200)
 / responsemode = correct
 / ontrialend = [if(block.incompatibletest2.latency  <= 10000) values.sum2b =  values.sum2b + block.incompatibletest2.latency]
@@ -599,13 +573,13 @@ Blocks
 
 
 <block compatibletestinstructions>
-/ bgstim = (target_A1left, orleft, attribute_C1leftmixed, target_A2right, orright, attribute_C2rightmixed)
+/ bgstim = (targetAleft, orleft, attributeAleftmixed, targetBright, orright, attributeBrightmixed)
 / trials = [1=instructions]
 / recorddata = false
 </block>
 
 <block incompatibletestinstructions>
-/ bgstim = (target_A2left, orleft, attribute_C1leftmixed, target_A1right, orright, attribute_C2rightmixed)
+/ bgstim = (targetBleft, orleft, attributeAleftmixed, targetAright, orright, attributeBrightmixed)
 / trials = [1=instructions]
 / recorddata = false
 </block>
@@ -619,26 +593,13 @@ Blocks
 ***********************************************************************
 Experiment
 ***********************************************************************
-Groupassignment is done by subject number
 
 <expt>
-/subjects = (1 of 2)
-/groupassignment = subjectnumber
 / blocks = [1=targetcompatiblepractice; 2=attributepractice; 3= compatibletestinstructions;
 				4=compatibletest2; 5=targetincompatiblepractice; 6= incompatibletestinstructions;
 				7=incompatibletest2; 8=summary]
 /onexptend = [values.completed = 1]
 </expt>
-
-<expt>
-/subjects = (2 of 2)
-/groupassignment = subjectnumber
-/ blocks = [1=targetincompatiblepractice; 2=attributepractice; 3=incompatibletestinstructions;
-				4=incompatibletest2; 5=targetcompatiblepractice; 6=compatibletestinstructions; 
-				7=compatibletest2; 8 =summary]
-/onexptend = [values.completed = 1]
-</expt>
-
 
 ***********************************************************************
 Test Monkey

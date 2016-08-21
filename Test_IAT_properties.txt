@@ -1,0 +1,3498 @@
+parenttype	parentname	name	value	index	id
+block	attributepractice	correct	0	-1	20
+block	attributepractice	correctcount	4	-1	21
+block	attributepractice	correctstreak	0	-1	22
+block	attributepractice	count	1	-1	23
+block	attributepractice	currentblocknumber	2	-1	27
+block	attributepractice	currenttrialnumber	8	-1	37
+block	attributepractice	elapsedtime	16142	-1	41
+block	attributepractice	error	1	-1	50
+block	attributepractice	errorcount	4	-1	51
+block	attributepractice	errorstreak	2	-1	52
+block	attributepractice	inwindow	0	-1	70
+block	attributepractice	inwindowcount	0	-1	71
+block	attributepractice	inwindowstreak	0	-1	72
+block	attributepractice	latency	1075	-1	92
+block	attributepractice	maxlatency	3808	-1	99
+block	attributepractice	meanlatency	1248.375	-1	104
+block	attributepractice	medianlatency	1043	-1	107
+block	attributepractice	minlatency	363	-1	110
+block	attributepractice	name	attributepractice	-1	116
+block	attributepractice	next		-1	119
+block	attributepractice	notinwindow	1	-1	123
+block	attributepractice	notinwindowcount	8	-1	124
+block	attributepractice	notinwindowstreak	8	-1	125
+block	attributepractice	numcorrect	4	-1	126
+block	attributepractice	numinwindow	0	-1	127
+block	attributepractice	percentcorrect	50	-1	137
+block	attributepractice	percentinwindow	0	-1	138
+block	attributepractice	recorddata	1	-1	147
+block	attributepractice	response	18	-1	154
+block	attributepractice	responsex	-1	-1	156
+block	attributepractice	responsey	-1	-1	157
+block	attributepractice	screencapture	0	-1	160
+block	attributepractice	screencolor	4278190080	-1	161
+block	attributepractice	screencolorblue	0	-1	162
+block	attributepractice	screencolorgreen	0	-1	163
+block	attributepractice	screencolorred	0	-1	164
+block	attributepractice	sdlatency	1085.8712022413812974264	-1	165
+block	attributepractice	selectedcount	8	-1	168
+block	attributepractice	showmousecursor	0	-1	174
+block	attributepractice	sumlatency	9987	-1	188
+block	attributepractice	timeout	0	-1	199
+block	attributepractice	totalcorrectcount	4	-1	202
+block	attributepractice	totalcount	1	-1	203
+block	attributepractice	totalerrorcount	4	-1	204
+block	attributepractice	totalinwindowcount	0	-1	205
+block	attributepractice	totalmaxlatency	3808	-1	206
+block	attributepractice	totalmeanlatency	1248.375	-1	207
+block	attributepractice	totalmedianlatency	1043	-1	208
+block	attributepractice	totalminlatency	363	-1	209
+block	attributepractice	totalnumcorrect	4	-1	211
+block	attributepractice	totalnuminwindow	0	-1	212
+block	attributepractice	totalpercentcorrect	50	-1	213
+block	attributepractice	totalpercentinwindow	0	-1	214
+block	attributepractice	totalsdlatency	1085.8712022413812974264	-1	215
+block	attributepractice	totalsumlatency	9987	-1	216
+block	attributepractice	totaltrialcount	8	-1	217
+block	attributepractice	totalvarlatency	1179116.2678571429569274187	-1	218
+block	attributepractice	trialcount	8	-1	220
+block	attributepractice	trialscount	8	-1	222
+block	attributepractice	typename	block	-1	223
+block	attributepractice	unselectedcount	4	-1	224
+block	attributepractice	varlatency	1179116.2678571429569274187	-1	226
+block	attributepractice	windowcenter	0	-1	232
+block	attributepractice	windowdecthreshold	0	-1	233
+block	attributepractice	windowdecunit	33	-1	234
+block	attributepractice	windowhitduration	0	-1	235
+block	attributepractice	windowincthreshold	0	-1	236
+block	attributepractice	windowincunit	33	-1	237
+block	attributepractice	windowmaxcenter	0	-1	238
+block	attributepractice	windowmincenter	0	-1	239
+block	attributepractice	windowonset	0	-1	241
+block	attributepractice	windowwidth	0	-1	242
+block	compatibletest1	correct	0	-1	20
+block	compatibletest1	correctcount	0	-1	21
+block	compatibletest1	correctstreak	0	-1	22
+block	compatibletest1	count	0	-1	23
+block	compatibletest1	currentblocknumber	0	-1	27
+block	compatibletest1	currenttrialnumber	0	-1	37
+block	compatibletest1	elapsedtime	204497402	-1	41
+block	compatibletest1	error	0	-1	50
+block	compatibletest1	errorcount	0	-1	51
+block	compatibletest1	errorstreak	0	-1	52
+block	compatibletest1	inwindow	0	-1	70
+block	compatibletest1	inwindowcount	0	-1	71
+block	compatibletest1	inwindowstreak	0	-1	72
+block	compatibletest1	latency	0	-1	92
+block	compatibletest1	maxlatency	0	-1	99
+block	compatibletest1	meanlatency	0	-1	104
+block	compatibletest1	medianlatency	0	-1	107
+block	compatibletest1	minlatency	0	-1	110
+block	compatibletest1	name	compatibletest1	-1	116
+block	compatibletest1	next		-1	119
+block	compatibletest1	notinwindow	1	-1	123
+block	compatibletest1	notinwindowcount	0	-1	124
+block	compatibletest1	notinwindowstreak	0	-1	125
+block	compatibletest1	numcorrect	0	-1	126
+block	compatibletest1	numinwindow	0	-1	127
+block	compatibletest1	percentcorrect	0	-1	137
+block	compatibletest1	percentinwindow	0	-1	138
+block	compatibletest1	recorddata	1	-1	147
+block	compatibletest1	response		-1	154
+block	compatibletest1	responsex	-1	-1	156
+block	compatibletest1	responsey	-1	-1	157
+block	compatibletest1	screencapture	0	-1	160
+block	compatibletest1	screencolor	4278190080	-1	161
+block	compatibletest1	screencolorblue	0	-1	162
+block	compatibletest1	screencolorgreen	0	-1	163
+block	compatibletest1	screencolorred	0	-1	164
+block	compatibletest1	sdlatency	0	-1	165
+block	compatibletest1	selectedcount	0	-1	168
+block	compatibletest1	showmousecursor	0	-1	174
+block	compatibletest1	sumlatency	0	-1	188
+block	compatibletest1	timeout	0	-1	199
+block	compatibletest1	totalcorrectcount	0	-1	202
+block	compatibletest1	totalcount	0	-1	203
+block	compatibletest1	totalerrorcount	0	-1	204
+block	compatibletest1	totalinwindowcount	0	-1	205
+block	compatibletest1	totalmaxlatency	0	-1	206
+block	compatibletest1	totalmeanlatency	0	-1	207
+block	compatibletest1	totalmedianlatency	0	-1	208
+block	compatibletest1	totalminlatency	0	-1	209
+block	compatibletest1	totalnumcorrect	0	-1	211
+block	compatibletest1	totalnuminwindow	0	-1	212
+block	compatibletest1	totalpercentcorrect	0	-1	213
+block	compatibletest1	totalpercentinwindow	0	-1	214
+block	compatibletest1	totalsdlatency	0	-1	215
+block	compatibletest1	totalsumlatency	0	-1	216
+block	compatibletest1	totaltrialcount	0	-1	217
+block	compatibletest1	totalvarlatency	0	-1	218
+block	compatibletest1	trialcount	0	-1	220
+block	compatibletest1	trialscount	21	-1	222
+block	compatibletest1	typename	block	-1	223
+block	compatibletest1	unselectedcount	0	-1	224
+block	compatibletest1	varlatency	0	-1	226
+block	compatibletest1	windowcenter	0	-1	232
+block	compatibletest1	windowdecthreshold	0	-1	233
+block	compatibletest1	windowdecunit	33	-1	234
+block	compatibletest1	windowhitduration	0	-1	235
+block	compatibletest1	windowincthreshold	0	-1	236
+block	compatibletest1	windowincunit	33	-1	237
+block	compatibletest1	windowmaxcenter	0	-1	238
+block	compatibletest1	windowmincenter	0	-1	239
+block	compatibletest1	windowonset	0	-1	241
+block	compatibletest1	windowwidth	0	-1	242
+block	compatibletest2	correct	0	-1	20
+block	compatibletest2	correctcount	0	-1	21
+block	compatibletest2	correctstreak	0	-1	22
+block	compatibletest2	count	0	-1	23
+block	compatibletest2	currentblocknumber	0	-1	27
+block	compatibletest2	currenttrialnumber	0	-1	37
+block	compatibletest2	elapsedtime	204497403	-1	41
+block	compatibletest2	error	0	-1	50
+block	compatibletest2	errorcount	0	-1	51
+block	compatibletest2	errorstreak	0	-1	52
+block	compatibletest2	inwindow	0	-1	70
+block	compatibletest2	inwindowcount	0	-1	71
+block	compatibletest2	inwindowstreak	0	-1	72
+block	compatibletest2	latency	0	-1	92
+block	compatibletest2	maxlatency	0	-1	99
+block	compatibletest2	meanlatency	0	-1	104
+block	compatibletest2	medianlatency	0	-1	107
+block	compatibletest2	minlatency	0	-1	110
+block	compatibletest2	name	compatibletest2	-1	116
+block	compatibletest2	next		-1	119
+block	compatibletest2	notinwindow	1	-1	123
+block	compatibletest2	notinwindowcount	0	-1	124
+block	compatibletest2	notinwindowstreak	0	-1	125
+block	compatibletest2	numcorrect	0	-1	126
+block	compatibletest2	numinwindow	0	-1	127
+block	compatibletest2	percentcorrect	0	-1	137
+block	compatibletest2	percentinwindow	0	-1	138
+block	compatibletest2	recorddata	1	-1	147
+block	compatibletest2	response		-1	154
+block	compatibletest2	responsex	-1	-1	156
+block	compatibletest2	responsey	-1	-1	157
+block	compatibletest2	screencapture	0	-1	160
+block	compatibletest2	screencolor	4278190080	-1	161
+block	compatibletest2	screencolorblue	0	-1	162
+block	compatibletest2	screencolorgreen	0	-1	163
+block	compatibletest2	screencolorred	0	-1	164
+block	compatibletest2	sdlatency	0	-1	165
+block	compatibletest2	selectedcount	10	-1	168
+block	compatibletest2	showmousecursor	0	-1	174
+block	compatibletest2	sumlatency	0	-1	188
+block	compatibletest2	timeout	0	-1	199
+block	compatibletest2	totalcorrectcount	0	-1	202
+block	compatibletest2	totalcount	0	-1	203
+block	compatibletest2	totalerrorcount	0	-1	204
+block	compatibletest2	totalinwindowcount	0	-1	205
+block	compatibletest2	totalmaxlatency	0	-1	206
+block	compatibletest2	totalmeanlatency	0	-1	207
+block	compatibletest2	totalmedianlatency	0	-1	208
+block	compatibletest2	totalminlatency	0	-1	209
+block	compatibletest2	totalnumcorrect	0	-1	211
+block	compatibletest2	totalnuminwindow	0	-1	212
+block	compatibletest2	totalpercentcorrect	0	-1	213
+block	compatibletest2	totalpercentinwindow	0	-1	214
+block	compatibletest2	totalsdlatency	0	-1	215
+block	compatibletest2	totalsumlatency	0	-1	216
+block	compatibletest2	totaltrialcount	0	-1	217
+block	compatibletest2	totalvarlatency	0	-1	218
+block	compatibletest2	trialcount	0	-1	220
+block	compatibletest2	trialscount	40	-1	222
+block	compatibletest2	typename	block	-1	223
+block	compatibletest2	unselectedcount	0	-1	224
+block	compatibletest2	varlatency	0	-1	226
+block	compatibletest2	windowcenter	0	-1	232
+block	compatibletest2	windowdecthreshold	0	-1	233
+block	compatibletest2	windowdecunit	33	-1	234
+block	compatibletest2	windowhitduration	0	-1	235
+block	compatibletest2	windowincthreshold	0	-1	236
+block	compatibletest2	windowincunit	33	-1	237
+block	compatibletest2	windowmaxcenter	0	-1	238
+block	compatibletest2	windowmincenter	0	-1	239
+block	compatibletest2	windowonset	0	-1	241
+block	compatibletest2	windowwidth	0	-1	242
+block	compatibletestinstructions	correct	1	-1	20
+block	compatibletestinstructions	correctcount	1	-1	21
+block	compatibletestinstructions	correctstreak	1	-1	22
+block	compatibletestinstructions	count	1	-1	23
+block	compatibletestinstructions	currentblocknumber	3	-1	27
+block	compatibletestinstructions	currenttrialnumber	1	-1	37
+block	compatibletestinstructions	elapsedtime	4326	-1	41
+block	compatibletestinstructions	error	0	-1	50
+block	compatibletestinstructions	errorcount	0	-1	51
+block	compatibletestinstructions	errorstreak	0	-1	52
+block	compatibletestinstructions	inwindow	0	-1	70
+block	compatibletestinstructions	inwindowcount	0	-1	71
+block	compatibletestinstructions	inwindowstreak	0	-1	72
+block	compatibletestinstructions	latency	4261	-1	92
+block	compatibletestinstructions	maxlatency	4261	-1	99
+block	compatibletestinstructions	meanlatency	4261	-1	104
+block	compatibletestinstructions	medianlatency	4261	-1	107
+block	compatibletestinstructions	minlatency	4261	-1	110
+block	compatibletestinstructions	name	compatibletestinstructions	-1	116
+block	compatibletestinstructions	next		-1	119
+block	compatibletestinstructions	notinwindow	1	-1	123
+block	compatibletestinstructions	notinwindowcount	1	-1	124
+block	compatibletestinstructions	notinwindowstreak	1	-1	125
+block	compatibletestinstructions	numcorrect	1	-1	126
+block	compatibletestinstructions	numinwindow	0	-1	127
+block	compatibletestinstructions	percentcorrect	100	-1	137
+block	compatibletestinstructions	percentinwindow	0	-1	138
+block	compatibletestinstructions	recorddata	0	-1	147
+block	compatibletestinstructions	response	29	-1	154
+block	compatibletestinstructions	responsex	-1	-1	156
+block	compatibletestinstructions	responsey	-1	-1	157
+block	compatibletestinstructions	screencapture	0	-1	160
+block	compatibletestinstructions	screencolor	4278190080	-1	161
+block	compatibletestinstructions	screencolorblue	0	-1	162
+block	compatibletestinstructions	screencolorgreen	0	-1	163
+block	compatibletestinstructions	screencolorred	0	-1	164
+block	compatibletestinstructions	sdlatency	0	-1	165
+block	compatibletestinstructions	selectedcount	10	-1	168
+block	compatibletestinstructions	showmousecursor	0	-1	174
+block	compatibletestinstructions	sumlatency	4261	-1	188
+block	compatibletestinstructions	timeout	0	-1	199
+block	compatibletestinstructions	totalcorrectcount	1	-1	202
+block	compatibletestinstructions	totalcount	1	-1	203
+block	compatibletestinstructions	totalerrorcount	0	-1	204
+block	compatibletestinstructions	totalinwindowcount	0	-1	205
+block	compatibletestinstructions	totalmaxlatency	4261	-1	206
+block	compatibletestinstructions	totalmeanlatency	4261	-1	207
+block	compatibletestinstructions	totalmedianlatency	4261	-1	208
+block	compatibletestinstructions	totalminlatency	4261	-1	209
+block	compatibletestinstructions	totalnumcorrect	1	-1	211
+block	compatibletestinstructions	totalnuminwindow	0	-1	212
+block	compatibletestinstructions	totalpercentcorrect	100	-1	213
+block	compatibletestinstructions	totalpercentinwindow	0	-1	214
+block	compatibletestinstructions	totalsdlatency	0	-1	215
+block	compatibletestinstructions	totalsumlatency	4261	-1	216
+block	compatibletestinstructions	totaltrialcount	1	-1	217
+block	compatibletestinstructions	totalvarlatency	0	-1	218
+block	compatibletestinstructions	trialcount	1	-1	220
+block	compatibletestinstructions	trialscount	1	-1	222
+block	compatibletestinstructions	typename	block	-1	223
+block	compatibletestinstructions	unselectedcount	4	-1	224
+block	compatibletestinstructions	varlatency	0	-1	226
+block	compatibletestinstructions	windowcenter	0	-1	232
+block	compatibletestinstructions	windowdecthreshold	0	-1	233
+block	compatibletestinstructions	windowdecunit	33	-1	234
+block	compatibletestinstructions	windowhitduration	0	-1	235
+block	compatibletestinstructions	windowincthreshold	0	-1	236
+block	compatibletestinstructions	windowincunit	33	-1	237
+block	compatibletestinstructions	windowmaxcenter	0	-1	238
+block	compatibletestinstructions	windowmincenter	0	-1	239
+block	compatibletestinstructions	windowonset	0	-1	241
+block	compatibletestinstructions	windowwidth	0	-1	242
+block	incompatibletest1	correct	0	-1	20
+block	incompatibletest1	correctcount	0	-1	21
+block	incompatibletest1	correctstreak	0	-1	22
+block	incompatibletest1	count	0	-1	23
+block	incompatibletest1	currentblocknumber	0	-1	27
+block	incompatibletest1	currenttrialnumber	0	-1	37
+block	incompatibletest1	elapsedtime	204497404	-1	41
+block	incompatibletest1	error	0	-1	50
+block	incompatibletest1	errorcount	0	-1	51
+block	incompatibletest1	errorstreak	0	-1	52
+block	incompatibletest1	inwindow	0	-1	70
+block	incompatibletest1	inwindowcount	0	-1	71
+block	incompatibletest1	inwindowstreak	0	-1	72
+block	incompatibletest1	latency	0	-1	92
+block	incompatibletest1	maxlatency	0	-1	99
+block	incompatibletest1	meanlatency	0	-1	104
+block	incompatibletest1	medianlatency	0	-1	107
+block	incompatibletest1	minlatency	0	-1	110
+block	incompatibletest1	name	incompatibletest1	-1	116
+block	incompatibletest1	next		-1	119
+block	incompatibletest1	notinwindow	1	-1	123
+block	incompatibletest1	notinwindowcount	0	-1	124
+block	incompatibletest1	notinwindowstreak	0	-1	125
+block	incompatibletest1	numcorrect	0	-1	126
+block	incompatibletest1	numinwindow	0	-1	127
+block	incompatibletest1	percentcorrect	0	-1	137
+block	incompatibletest1	percentinwindow	0	-1	138
+block	incompatibletest1	recorddata	1	-1	147
+block	incompatibletest1	response		-1	154
+block	incompatibletest1	responsex	-1	-1	156
+block	incompatibletest1	responsey	-1	-1	157
+block	incompatibletest1	screencapture	0	-1	160
+block	incompatibletest1	screencolor	4278190080	-1	161
+block	incompatibletest1	screencolorblue	0	-1	162
+block	incompatibletest1	screencolorgreen	0	-1	163
+block	incompatibletest1	screencolorred	0	-1	164
+block	incompatibletest1	sdlatency	0	-1	165
+block	incompatibletest1	selectedcount	0	-1	168
+block	incompatibletest1	showmousecursor	0	-1	174
+block	incompatibletest1	sumlatency	0	-1	188
+block	incompatibletest1	timeout	0	-1	199
+block	incompatibletest1	totalcorrectcount	0	-1	202
+block	incompatibletest1	totalcount	0	-1	203
+block	incompatibletest1	totalerrorcount	0	-1	204
+block	incompatibletest1	totalinwindowcount	0	-1	205
+block	incompatibletest1	totalmaxlatency	0	-1	206
+block	incompatibletest1	totalmeanlatency	0	-1	207
+block	incompatibletest1	totalmedianlatency	0	-1	208
+block	incompatibletest1	totalminlatency	0	-1	209
+block	incompatibletest1	totalnumcorrect	0	-1	211
+block	incompatibletest1	totalnuminwindow	0	-1	212
+block	incompatibletest1	totalpercentcorrect	0	-1	213
+block	incompatibletest1	totalpercentinwindow	0	-1	214
+block	incompatibletest1	totalsdlatency	0	-1	215
+block	incompatibletest1	totalsumlatency	0	-1	216
+block	incompatibletest1	totaltrialcount	0	-1	217
+block	incompatibletest1	totalvarlatency	0	-1	218
+block	incompatibletest1	trialcount	0	-1	220
+block	incompatibletest1	trialscount	21	-1	222
+block	incompatibletest1	typename	block	-1	223
+block	incompatibletest1	unselectedcount	0	-1	224
+block	incompatibletest1	varlatency	0	-1	226
+block	incompatibletest1	windowcenter	0	-1	232
+block	incompatibletest1	windowdecthreshold	0	-1	233
+block	incompatibletest1	windowdecunit	33	-1	234
+block	incompatibletest1	windowhitduration	0	-1	235
+block	incompatibletest1	windowincthreshold	0	-1	236
+block	incompatibletest1	windowincunit	33	-1	237
+block	incompatibletest1	windowmaxcenter	0	-1	238
+block	incompatibletest1	windowmincenter	0	-1	239
+block	incompatibletest1	windowonset	0	-1	241
+block	incompatibletest1	windowwidth	0	-1	242
+block	incompatibletest2	correct	0	-1	20
+block	incompatibletest2	correctcount	0	-1	21
+block	incompatibletest2	correctstreak	0	-1	22
+block	incompatibletest2	count	0	-1	23
+block	incompatibletest2	currentblocknumber	0	-1	27
+block	incompatibletest2	currenttrialnumber	0	-1	37
+block	incompatibletest2	elapsedtime	204497404	-1	41
+block	incompatibletest2	error	0	-1	50
+block	incompatibletest2	errorcount	0	-1	51
+block	incompatibletest2	errorstreak	0	-1	52
+block	incompatibletest2	inwindow	0	-1	70
+block	incompatibletest2	inwindowcount	0	-1	71
+block	incompatibletest2	inwindowstreak	0	-1	72
+block	incompatibletest2	latency	0	-1	92
+block	incompatibletest2	maxlatency	0	-1	99
+block	incompatibletest2	meanlatency	0	-1	104
+block	incompatibletest2	medianlatency	0	-1	107
+block	incompatibletest2	minlatency	0	-1	110
+block	incompatibletest2	name	incompatibletest2	-1	116
+block	incompatibletest2	next		-1	119
+block	incompatibletest2	notinwindow	1	-1	123
+block	incompatibletest2	notinwindowcount	0	-1	124
+block	incompatibletest2	notinwindowstreak	0	-1	125
+block	incompatibletest2	numcorrect	0	-1	126
+block	incompatibletest2	numinwindow	0	-1	127
+block	incompatibletest2	percentcorrect	0	-1	137
+block	incompatibletest2	percentinwindow	0	-1	138
+block	incompatibletest2	recorddata	1	-1	147
+block	incompatibletest2	response		-1	154
+block	incompatibletest2	responsex	-1	-1	156
+block	incompatibletest2	responsey	-1	-1	157
+block	incompatibletest2	screencapture	0	-1	160
+block	incompatibletest2	screencolor	4278190080	-1	161
+block	incompatibletest2	screencolorblue	0	-1	162
+block	incompatibletest2	screencolorgreen	0	-1	163
+block	incompatibletest2	screencolorred	0	-1	164
+block	incompatibletest2	sdlatency	0	-1	165
+block	incompatibletest2	selectedcount	8	-1	168
+block	incompatibletest2	showmousecursor	0	-1	174
+block	incompatibletest2	sumlatency	0	-1	188
+block	incompatibletest2	timeout	0	-1	199
+block	incompatibletest2	totalcorrectcount	0	-1	202
+block	incompatibletest2	totalcount	0	-1	203
+block	incompatibletest2	totalerrorcount	0	-1	204
+block	incompatibletest2	totalinwindowcount	0	-1	205
+block	incompatibletest2	totalmaxlatency	0	-1	206
+block	incompatibletest2	totalmeanlatency	0	-1	207
+block	incompatibletest2	totalmedianlatency	0	-1	208
+block	incompatibletest2	totalminlatency	0	-1	209
+block	incompatibletest2	totalnumcorrect	0	-1	211
+block	incompatibletest2	totalnuminwindow	0	-1	212
+block	incompatibletest2	totalpercentcorrect	0	-1	213
+block	incompatibletest2	totalpercentinwindow	0	-1	214
+block	incompatibletest2	totalsdlatency	0	-1	215
+block	incompatibletest2	totalsumlatency	0	-1	216
+block	incompatibletest2	totaltrialcount	0	-1	217
+block	incompatibletest2	totalvarlatency	0	-1	218
+block	incompatibletest2	trialcount	0	-1	220
+block	incompatibletest2	trialscount	40	-1	222
+block	incompatibletest2	typename	block	-1	223
+block	incompatibletest2	unselectedcount	2	-1	224
+block	incompatibletest2	varlatency	0	-1	226
+block	incompatibletest2	windowcenter	0	-1	232
+block	incompatibletest2	windowdecthreshold	0	-1	233
+block	incompatibletest2	windowdecunit	33	-1	234
+block	incompatibletest2	windowhitduration	0	-1	235
+block	incompatibletest2	windowincthreshold	0	-1	236
+block	incompatibletest2	windowincunit	33	-1	237
+block	incompatibletest2	windowmaxcenter	0	-1	238
+block	incompatibletest2	windowmincenter	0	-1	239
+block	incompatibletest2	windowonset	0	-1	241
+block	incompatibletest2	windowwidth	0	-1	242
+block	incompatibletestinstructions	correct	0	-1	20
+block	incompatibletestinstructions	correctcount	0	-1	21
+block	incompatibletestinstructions	correctstreak	0	-1	22
+block	incompatibletestinstructions	count	0	-1	23
+block	incompatibletestinstructions	currentblocknumber	0	-1	27
+block	incompatibletestinstructions	currenttrialnumber	0	-1	37
+block	incompatibletestinstructions	elapsedtime	204497405	-1	41
+block	incompatibletestinstructions	error	0	-1	50
+block	incompatibletestinstructions	errorcount	0	-1	51
+block	incompatibletestinstructions	errorstreak	0	-1	52
+block	incompatibletestinstructions	inwindow	0	-1	70
+block	incompatibletestinstructions	inwindowcount	0	-1	71
+block	incompatibletestinstructions	inwindowstreak	0	-1	72
+block	incompatibletestinstructions	latency	0	-1	92
+block	incompatibletestinstructions	maxlatency	0	-1	99
+block	incompatibletestinstructions	meanlatency	0	-1	104
+block	incompatibletestinstructions	medianlatency	0	-1	107
+block	incompatibletestinstructions	minlatency	0	-1	110
+block	incompatibletestinstructions	name	incompatibletestinstructions	-1	116
+block	incompatibletestinstructions	next		-1	119
+block	incompatibletestinstructions	notinwindow	1	-1	123
+block	incompatibletestinstructions	notinwindowcount	0	-1	124
+block	incompatibletestinstructions	notinwindowstreak	0	-1	125
+block	incompatibletestinstructions	numcorrect	0	-1	126
+block	incompatibletestinstructions	numinwindow	0	-1	127
+block	incompatibletestinstructions	percentcorrect	0	-1	137
+block	incompatibletestinstructions	percentinwindow	0	-1	138
+block	incompatibletestinstructions	recorddata	0	-1	147
+block	incompatibletestinstructions	response		-1	154
+block	incompatibletestinstructions	responsex	-1	-1	156
+block	incompatibletestinstructions	responsey	-1	-1	157
+block	incompatibletestinstructions	screencapture	0	-1	160
+block	incompatibletestinstructions	screencolor	4278190080	-1	161
+block	incompatibletestinstructions	screencolorblue	0	-1	162
+block	incompatibletestinstructions	screencolorgreen	0	-1	163
+block	incompatibletestinstructions	screencolorred	0	-1	164
+block	incompatibletestinstructions	sdlatency	0	-1	165
+block	incompatibletestinstructions	selectedcount	8	-1	168
+block	incompatibletestinstructions	showmousecursor	0	-1	174
+block	incompatibletestinstructions	sumlatency	0	-1	188
+block	incompatibletestinstructions	timeout	0	-1	199
+block	incompatibletestinstructions	totalcorrectcount	0	-1	202
+block	incompatibletestinstructions	totalcount	0	-1	203
+block	incompatibletestinstructions	totalerrorcount	0	-1	204
+block	incompatibletestinstructions	totalinwindowcount	0	-1	205
+block	incompatibletestinstructions	totalmaxlatency	0	-1	206
+block	incompatibletestinstructions	totalmeanlatency	0	-1	207
+block	incompatibletestinstructions	totalmedianlatency	0	-1	208
+block	incompatibletestinstructions	totalminlatency	0	-1	209
+block	incompatibletestinstructions	totalnumcorrect	0	-1	211
+block	incompatibletestinstructions	totalnuminwindow	0	-1	212
+block	incompatibletestinstructions	totalpercentcorrect	0	-1	213
+block	incompatibletestinstructions	totalpercentinwindow	0	-1	214
+block	incompatibletestinstructions	totalsdlatency	0	-1	215
+block	incompatibletestinstructions	totalsumlatency	0	-1	216
+block	incompatibletestinstructions	totaltrialcount	0	-1	217
+block	incompatibletestinstructions	totalvarlatency	0	-1	218
+block	incompatibletestinstructions	trialcount	0	-1	220
+block	incompatibletestinstructions	trialscount	1	-1	222
+block	incompatibletestinstructions	typename	block	-1	223
+block	incompatibletestinstructions	unselectedcount	6	-1	224
+block	incompatibletestinstructions	varlatency	0	-1	226
+block	incompatibletestinstructions	windowcenter	0	-1	232
+block	incompatibletestinstructions	windowdecthreshold	0	-1	233
+block	incompatibletestinstructions	windowdecunit	33	-1	234
+block	incompatibletestinstructions	windowhitduration	0	-1	235
+block	incompatibletestinstructions	windowincthreshold	0	-1	236
+block	incompatibletestinstructions	windowincunit	33	-1	237
+block	incompatibletestinstructions	windowmaxcenter	0	-1	238
+block	incompatibletestinstructions	windowmincenter	0	-1	239
+block	incompatibletestinstructions	windowonset	0	-1	241
+block	incompatibletestinstructions	windowwidth	0	-1	242
+block	summary	correct	0	-1	20
+block	summary	correctcount	0	-1	21
+block	summary	correctstreak	0	-1	22
+block	summary	count	0	-1	23
+block	summary	currentblocknumber	0	-1	27
+block	summary	currenttrialnumber	0	-1	37
+block	summary	elapsedtime	204497405	-1	41
+block	summary	error	0	-1	50
+block	summary	errorcount	0	-1	51
+block	summary	errorstreak	0	-1	52
+block	summary	inwindow	0	-1	70
+block	summary	inwindowcount	0	-1	71
+block	summary	inwindowstreak	0	-1	72
+block	summary	latency	0	-1	92
+block	summary	maxlatency	0	-1	99
+block	summary	meanlatency	0	-1	104
+block	summary	medianlatency	0	-1	107
+block	summary	minlatency	0	-1	110
+block	summary	name	summary	-1	116
+block	summary	next		-1	119
+block	summary	notinwindow	1	-1	123
+block	summary	notinwindowcount	0	-1	124
+block	summary	notinwindowstreak	0	-1	125
+block	summary	numcorrect	0	-1	126
+block	summary	numinwindow	0	-1	127
+block	summary	percentcorrect	0	-1	137
+block	summary	percentinwindow	0	-1	138
+block	summary	recorddata	0	-1	147
+block	summary	response		-1	154
+block	summary	responsex	-1	-1	156
+block	summary	responsey	-1	-1	157
+block	summary	screencapture	0	-1	160
+block	summary	screencolor	4278190080	-1	161
+block	summary	screencolorblue	0	-1	162
+block	summary	screencolorgreen	0	-1	163
+block	summary	screencolorred	0	-1	164
+block	summary	sdlatency	0	-1	165
+block	summary	selectedcount	0	-1	168
+block	summary	showmousecursor	0	-1	174
+block	summary	sumlatency	0	-1	188
+block	summary	timeout	0	-1	199
+block	summary	totalcorrectcount	0	-1	202
+block	summary	totalcount	0	-1	203
+block	summary	totalerrorcount	0	-1	204
+block	summary	totalinwindowcount	0	-1	205
+block	summary	totalmaxlatency	0	-1	206
+block	summary	totalmeanlatency	0	-1	207
+block	summary	totalmedianlatency	0	-1	208
+block	summary	totalminlatency	0	-1	209
+block	summary	totalnumcorrect	0	-1	211
+block	summary	totalnuminwindow	0	-1	212
+block	summary	totalpercentcorrect	0	-1	213
+block	summary	totalpercentinwindow	0	-1	214
+block	summary	totalsdlatency	0	-1	215
+block	summary	totalsumlatency	0	-1	216
+block	summary	totaltrialcount	0	-1	217
+block	summary	totalvarlatency	0	-1	218
+block	summary	trialcount	0	-1	220
+block	summary	trialscount	1	-1	222
+block	summary	typename	block	-1	223
+block	summary	unselectedcount	1	-1	224
+block	summary	varlatency	0	-1	226
+block	summary	windowcenter	0	-1	232
+block	summary	windowdecthreshold	0	-1	233
+block	summary	windowdecunit	33	-1	234
+block	summary	windowhitduration	0	-1	235
+block	summary	windowincthreshold	0	-1	236
+block	summary	windowincunit	33	-1	237
+block	summary	windowmaxcenter	0	-1	238
+block	summary	windowmincenter	0	-1	239
+block	summary	windowonset	0	-1	241
+block	summary	windowwidth	0	-1	242
+block	targetcompatiblepractice	correct	1	-1	20
+block	targetcompatiblepractice	correctcount	4	-1	21
+block	targetcompatiblepractice	correctstreak	1	-1	22
+block	targetcompatiblepractice	count	1	-1	23
+block	targetcompatiblepractice	currentblocknumber	1	-1	27
+block	targetcompatiblepractice	currenttrialnumber	8	-1	37
+block	targetcompatiblepractice	elapsedtime	23814	-1	41
+block	targetcompatiblepractice	error	0	-1	50
+block	targetcompatiblepractice	errorcount	4	-1	51
+block	targetcompatiblepractice	errorstreak	0	-1	52
+block	targetcompatiblepractice	inwindow	0	-1	70
+block	targetcompatiblepractice	inwindowcount	0	-1	71
+block	targetcompatiblepractice	inwindowstreak	0	-1	72
+block	targetcompatiblepractice	latency	339	-1	92
+block	targetcompatiblepractice	maxlatency	1453	-1	99
+block	targetcompatiblepractice	meanlatency	731.375	-1	104
+block	targetcompatiblepractice	medianlatency	819	-1	107
+block	targetcompatiblepractice	minlatency	243	-1	110
+block	targetcompatiblepractice	name	targetcompatiblepractice	-1	116
+block	targetcompatiblepractice	next		-1	119
+block	targetcompatiblepractice	notinwindow	1	-1	123
+block	targetcompatiblepractice	notinwindowcount	8	-1	124
+block	targetcompatiblepractice	notinwindowstreak	8	-1	125
+block	targetcompatiblepractice	numcorrect	4	-1	126
+block	targetcompatiblepractice	numinwindow	0	-1	127
+block	targetcompatiblepractice	percentcorrect	50	-1	137
+block	targetcompatiblepractice	percentinwindow	0	-1	138
+block	targetcompatiblepractice	recorddata	1	-1	147
+block	targetcompatiblepractice	response	23	-1	154
+block	targetcompatiblepractice	responsex	-1	-1	156
+block	targetcompatiblepractice	responsey	-1	-1	157
+block	targetcompatiblepractice	screencapture	0	-1	160
+block	targetcompatiblepractice	screencolor	4278190080	-1	161
+block	targetcompatiblepractice	screencolorblue	0	-1	162
+block	targetcompatiblepractice	screencolorgreen	0	-1	163
+block	targetcompatiblepractice	screencolorred	0	-1	164
+block	targetcompatiblepractice	sdlatency	423.9143907846084289304	-1	165
+block	targetcompatiblepractice	selectedcount	8	-1	168
+block	targetcompatiblepractice	showmousecursor	0	-1	174
+block	targetcompatiblepractice	sumlatency	5851	-1	188
+block	targetcompatiblepractice	timeout	0	-1	199
+block	targetcompatiblepractice	totalcorrectcount	4	-1	202
+block	targetcompatiblepractice	totalcount	1	-1	203
+block	targetcompatiblepractice	totalerrorcount	4	-1	204
+block	targetcompatiblepractice	totalinwindowcount	0	-1	205
+block	targetcompatiblepractice	totalmaxlatency	1453	-1	206
+block	targetcompatiblepractice	totalmeanlatency	731.375	-1	207
+block	targetcompatiblepractice	totalmedianlatency	819	-1	208
+block	targetcompatiblepractice	totalminlatency	243	-1	209
+block	targetcompatiblepractice	totalnumcorrect	4	-1	211
+block	targetcompatiblepractice	totalnuminwindow	0	-1	212
+block	targetcompatiblepractice	totalpercentcorrect	50	-1	213
+block	targetcompatiblepractice	totalpercentinwindow	0	-1	214
+block	targetcompatiblepractice	totalsdlatency	423.9143907846084289304	-1	215
+block	targetcompatiblepractice	totalsumlatency	5851	-1	216
+block	targetcompatiblepractice	totaltrialcount	8	-1	217
+block	targetcompatiblepractice	totalvarlatency	179703.4107142857101280242	-1	218
+block	targetcompatiblepractice	trialcount	8	-1	220
+block	targetcompatiblepractice	trialscount	8	-1	222
+block	targetcompatiblepractice	typename	block	-1	223
+block	targetcompatiblepractice	unselectedcount	4	-1	224
+block	targetcompatiblepractice	varlatency	179703.4107142857101280242	-1	226
+block	targetcompatiblepractice	windowcenter	0	-1	232
+block	targetcompatiblepractice	windowdecthreshold	0	-1	233
+block	targetcompatiblepractice	windowdecunit	33	-1	234
+block	targetcompatiblepractice	windowhitduration	0	-1	235
+block	targetcompatiblepractice	windowincthreshold	0	-1	236
+block	targetcompatiblepractice	windowincunit	33	-1	237
+block	targetcompatiblepractice	windowmaxcenter	0	-1	238
+block	targetcompatiblepractice	windowmincenter	0	-1	239
+block	targetcompatiblepractice	windowonset	0	-1	241
+block	targetcompatiblepractice	windowwidth	0	-1	242
+block	targetcompatiblepracticeswitch	correct	0	-1	20
+block	targetcompatiblepracticeswitch	correctcount	0	-1	21
+block	targetcompatiblepracticeswitch	correctstreak	0	-1	22
+block	targetcompatiblepracticeswitch	count	0	-1	23
+block	targetcompatiblepracticeswitch	currentblocknumber	0	-1	27
+block	targetcompatiblepracticeswitch	currenttrialnumber	0	-1	37
+block	targetcompatiblepracticeswitch	elapsedtime	204497406	-1	41
+block	targetcompatiblepracticeswitch	error	0	-1	50
+block	targetcompatiblepracticeswitch	errorcount	0	-1	51
+block	targetcompatiblepracticeswitch	errorstreak	0	-1	52
+block	targetcompatiblepracticeswitch	inwindow	0	-1	70
+block	targetcompatiblepracticeswitch	inwindowcount	0	-1	71
+block	targetcompatiblepracticeswitch	inwindowstreak	0	-1	72
+block	targetcompatiblepracticeswitch	latency	0	-1	92
+block	targetcompatiblepracticeswitch	maxlatency	0	-1	99
+block	targetcompatiblepracticeswitch	meanlatency	0	-1	104
+block	targetcompatiblepracticeswitch	medianlatency	0	-1	107
+block	targetcompatiblepracticeswitch	minlatency	0	-1	110
+block	targetcompatiblepracticeswitch	name	targetcompatiblepracticeswitch	-1	116
+block	targetcompatiblepracticeswitch	next		-1	119
+block	targetcompatiblepracticeswitch	notinwindow	1	-1	123
+block	targetcompatiblepracticeswitch	notinwindowcount	0	-1	124
+block	targetcompatiblepracticeswitch	notinwindowstreak	0	-1	125
+block	targetcompatiblepracticeswitch	numcorrect	0	-1	126
+block	targetcompatiblepracticeswitch	numinwindow	0	-1	127
+block	targetcompatiblepracticeswitch	percentcorrect	0	-1	137
+block	targetcompatiblepracticeswitch	percentinwindow	0	-1	138
+block	targetcompatiblepracticeswitch	recorddata	1	-1	147
+block	targetcompatiblepracticeswitch	response		-1	154
+block	targetcompatiblepracticeswitch	responsex	-1	-1	156
+block	targetcompatiblepracticeswitch	responsey	-1	-1	157
+block	targetcompatiblepracticeswitch	screencapture	0	-1	160
+block	targetcompatiblepracticeswitch	screencolor	4278190080	-1	161
+block	targetcompatiblepracticeswitch	screencolorblue	0	-1	162
+block	targetcompatiblepracticeswitch	screencolorgreen	0	-1	163
+block	targetcompatiblepracticeswitch	screencolorred	0	-1	164
+block	targetcompatiblepracticeswitch	sdlatency	0	-1	165
+block	targetcompatiblepracticeswitch	selectedcount	0	-1	168
+block	targetcompatiblepracticeswitch	showmousecursor	0	-1	174
+block	targetcompatiblepracticeswitch	sumlatency	0	-1	188
+block	targetcompatiblepracticeswitch	timeout	0	-1	199
+block	targetcompatiblepracticeswitch	totalcorrectcount	0	-1	202
+block	targetcompatiblepracticeswitch	totalcount	0	-1	203
+block	targetcompatiblepracticeswitch	totalerrorcount	0	-1	204
+block	targetcompatiblepracticeswitch	totalinwindowcount	0	-1	205
+block	targetcompatiblepracticeswitch	totalmaxlatency	0	-1	206
+block	targetcompatiblepracticeswitch	totalmeanlatency	0	-1	207
+block	targetcompatiblepracticeswitch	totalmedianlatency	0	-1	208
+block	targetcompatiblepracticeswitch	totalminlatency	0	-1	209
+block	targetcompatiblepracticeswitch	totalnumcorrect	0	-1	211
+block	targetcompatiblepracticeswitch	totalnuminwindow	0	-1	212
+block	targetcompatiblepracticeswitch	totalpercentcorrect	0	-1	213
+block	targetcompatiblepracticeswitch	totalpercentinwindow	0	-1	214
+block	targetcompatiblepracticeswitch	totalsdlatency	0	-1	215
+block	targetcompatiblepracticeswitch	totalsumlatency	0	-1	216
+block	targetcompatiblepracticeswitch	totaltrialcount	0	-1	217
+block	targetcompatiblepracticeswitch	totalvarlatency	0	-1	218
+block	targetcompatiblepracticeswitch	trialcount	0	-1	220
+block	targetcompatiblepracticeswitch	trialscount	8	-1	222
+block	targetcompatiblepracticeswitch	typename	block	-1	223
+block	targetcompatiblepracticeswitch	unselectedcount	0	-1	224
+block	targetcompatiblepracticeswitch	varlatency	0	-1	226
+block	targetcompatiblepracticeswitch	windowcenter	0	-1	232
+block	targetcompatiblepracticeswitch	windowdecthreshold	0	-1	233
+block	targetcompatiblepracticeswitch	windowdecunit	33	-1	234
+block	targetcompatiblepracticeswitch	windowhitduration	0	-1	235
+block	targetcompatiblepracticeswitch	windowincthreshold	0	-1	236
+block	targetcompatiblepracticeswitch	windowincunit	33	-1	237
+block	targetcompatiblepracticeswitch	windowmaxcenter	0	-1	238
+block	targetcompatiblepracticeswitch	windowmincenter	0	-1	239
+block	targetcompatiblepracticeswitch	windowonset	0	-1	241
+block	targetcompatiblepracticeswitch	windowwidth	0	-1	242
+block	targetincompatiblepractice	correct	0	-1	20
+block	targetincompatiblepractice	correctcount	0	-1	21
+block	targetincompatiblepractice	correctstreak	0	-1	22
+block	targetincompatiblepractice	count	0	-1	23
+block	targetincompatiblepractice	currentblocknumber	0	-1	27
+block	targetincompatiblepractice	currenttrialnumber	0	-1	37
+block	targetincompatiblepractice	elapsedtime	204497406	-1	41
+block	targetincompatiblepractice	error	0	-1	50
+block	targetincompatiblepractice	errorcount	0	-1	51
+block	targetincompatiblepractice	errorstreak	0	-1	52
+block	targetincompatiblepractice	inwindow	0	-1	70
+block	targetincompatiblepractice	inwindowcount	0	-1	71
+block	targetincompatiblepractice	inwindowstreak	0	-1	72
+block	targetincompatiblepractice	latency	0	-1	92
+block	targetincompatiblepractice	maxlatency	0	-1	99
+block	targetincompatiblepractice	meanlatency	0	-1	104
+block	targetincompatiblepractice	medianlatency	0	-1	107
+block	targetincompatiblepractice	minlatency	0	-1	110
+block	targetincompatiblepractice	name	targetincompatiblepractice	-1	116
+block	targetincompatiblepractice	next		-1	119
+block	targetincompatiblepractice	notinwindow	1	-1	123
+block	targetincompatiblepractice	notinwindowcount	0	-1	124
+block	targetincompatiblepractice	notinwindowstreak	0	-1	125
+block	targetincompatiblepractice	numcorrect	0	-1	126
+block	targetincompatiblepractice	numinwindow	0	-1	127
+block	targetincompatiblepractice	percentcorrect	0	-1	137
+block	targetincompatiblepractice	percentinwindow	0	-1	138
+block	targetincompatiblepractice	recorddata	1	-1	147
+block	targetincompatiblepractice	response		-1	154
+block	targetincompatiblepractice	responsex	-1	-1	156
+block	targetincompatiblepractice	responsey	-1	-1	157
+block	targetincompatiblepractice	screencapture	0	-1	160
+block	targetincompatiblepractice	screencolor	4278190080	-1	161
+block	targetincompatiblepractice	screencolorblue	0	-1	162
+block	targetincompatiblepractice	screencolorgreen	0	-1	163
+block	targetincompatiblepractice	screencolorred	0	-1	164
+block	targetincompatiblepractice	sdlatency	0	-1	165
+block	targetincompatiblepractice	selectedcount	6	-1	168
+block	targetincompatiblepractice	showmousecursor	0	-1	174
+block	targetincompatiblepractice	sumlatency	0	-1	188
+block	targetincompatiblepractice	timeout	0	-1	199
+block	targetincompatiblepractice	totalcorrectcount	0	-1	202
+block	targetincompatiblepractice	totalcount	0	-1	203
+block	targetincompatiblepractice	totalerrorcount	0	-1	204
+block	targetincompatiblepractice	totalinwindowcount	0	-1	205
+block	targetincompatiblepractice	totalmaxlatency	0	-1	206
+block	targetincompatiblepractice	totalmeanlatency	0	-1	207
+block	targetincompatiblepractice	totalmedianlatency	0	-1	208
+block	targetincompatiblepractice	totalminlatency	0	-1	209
+block	targetincompatiblepractice	totalnumcorrect	0	-1	211
+block	targetincompatiblepractice	totalnuminwindow	0	-1	212
+block	targetincompatiblepractice	totalpercentcorrect	0	-1	213
+block	targetincompatiblepractice	totalpercentinwindow	0	-1	214
+block	targetincompatiblepractice	totalsdlatency	0	-1	215
+block	targetincompatiblepractice	totalsumlatency	0	-1	216
+block	targetincompatiblepractice	totaltrialcount	0	-1	217
+block	targetincompatiblepractice	totalvarlatency	0	-1	218
+block	targetincompatiblepractice	trialcount	0	-1	220
+block	targetincompatiblepractice	trialscount	8	-1	222
+block	targetincompatiblepractice	typename	block	-1	223
+block	targetincompatiblepractice	unselectedcount	6	-1	224
+block	targetincompatiblepractice	varlatency	0	-1	226
+block	targetincompatiblepractice	windowcenter	0	-1	232
+block	targetincompatiblepractice	windowdecthreshold	0	-1	233
+block	targetincompatiblepractice	windowdecunit	33	-1	234
+block	targetincompatiblepractice	windowhitduration	0	-1	235
+block	targetincompatiblepractice	windowincthreshold	0	-1	236
+block	targetincompatiblepractice	windowincunit	33	-1	237
+block	targetincompatiblepractice	windowmaxcenter	0	-1	238
+block	targetincompatiblepractice	windowmincenter	0	-1	239
+block	targetincompatiblepractice	windowonset	0	-1	241
+block	targetincompatiblepractice	windowwidth	0	-1	242
+block	targetincompatiblepracticeswitch	correct	0	-1	20
+block	targetincompatiblepracticeswitch	correctcount	0	-1	21
+block	targetincompatiblepracticeswitch	correctstreak	0	-1	22
+block	targetincompatiblepracticeswitch	count	0	-1	23
+block	targetincompatiblepracticeswitch	currentblocknumber	0	-1	27
+block	targetincompatiblepracticeswitch	currenttrialnumber	0	-1	37
+block	targetincompatiblepracticeswitch	elapsedtime	204497407	-1	41
+block	targetincompatiblepracticeswitch	error	0	-1	50
+block	targetincompatiblepracticeswitch	errorcount	0	-1	51
+block	targetincompatiblepracticeswitch	errorstreak	0	-1	52
+block	targetincompatiblepracticeswitch	inwindow	0	-1	70
+block	targetincompatiblepracticeswitch	inwindowcount	0	-1	71
+block	targetincompatiblepracticeswitch	inwindowstreak	0	-1	72
+block	targetincompatiblepracticeswitch	latency	0	-1	92
+block	targetincompatiblepracticeswitch	maxlatency	0	-1	99
+block	targetincompatiblepracticeswitch	meanlatency	0	-1	104
+block	targetincompatiblepracticeswitch	medianlatency	0	-1	107
+block	targetincompatiblepracticeswitch	minlatency	0	-1	110
+block	targetincompatiblepracticeswitch	name	targetincompatiblepracticeswitch	-1	116
+block	targetincompatiblepracticeswitch	next		-1	119
+block	targetincompatiblepracticeswitch	notinwindow	1	-1	123
+block	targetincompatiblepracticeswitch	notinwindowcount	0	-1	124
+block	targetincompatiblepracticeswitch	notinwindowstreak	0	-1	125
+block	targetincompatiblepracticeswitch	numcorrect	0	-1	126
+block	targetincompatiblepracticeswitch	numinwindow	0	-1	127
+block	targetincompatiblepracticeswitch	percentcorrect	0	-1	137
+block	targetincompatiblepracticeswitch	percentinwindow	0	-1	138
+block	targetincompatiblepracticeswitch	recorddata	1	-1	147
+block	targetincompatiblepracticeswitch	response		-1	154
+block	targetincompatiblepracticeswitch	responsex	-1	-1	156
+block	targetincompatiblepracticeswitch	responsey	-1	-1	157
+block	targetincompatiblepracticeswitch	screencapture	0	-1	160
+block	targetincompatiblepracticeswitch	screencolor	4278190080	-1	161
+block	targetincompatiblepracticeswitch	screencolorblue	0	-1	162
+block	targetincompatiblepracticeswitch	screencolorgreen	0	-1	163
+block	targetincompatiblepracticeswitch	screencolorred	0	-1	164
+block	targetincompatiblepracticeswitch	sdlatency	0	-1	165
+block	targetincompatiblepracticeswitch	selectedcount	0	-1	168
+block	targetincompatiblepracticeswitch	showmousecursor	0	-1	174
+block	targetincompatiblepracticeswitch	sumlatency	0	-1	188
+block	targetincompatiblepracticeswitch	timeout	0	-1	199
+block	targetincompatiblepracticeswitch	totalcorrectcount	0	-1	202
+block	targetincompatiblepracticeswitch	totalcount	0	-1	203
+block	targetincompatiblepracticeswitch	totalerrorcount	0	-1	204
+block	targetincompatiblepracticeswitch	totalinwindowcount	0	-1	205
+block	targetincompatiblepracticeswitch	totalmaxlatency	0	-1	206
+block	targetincompatiblepracticeswitch	totalmeanlatency	0	-1	207
+block	targetincompatiblepracticeswitch	totalmedianlatency	0	-1	208
+block	targetincompatiblepracticeswitch	totalminlatency	0	-1	209
+block	targetincompatiblepracticeswitch	totalnumcorrect	0	-1	211
+block	targetincompatiblepracticeswitch	totalnuminwindow	0	-1	212
+block	targetincompatiblepracticeswitch	totalpercentcorrect	0	-1	213
+block	targetincompatiblepracticeswitch	totalpercentinwindow	0	-1	214
+block	targetincompatiblepracticeswitch	totalsdlatency	0	-1	215
+block	targetincompatiblepracticeswitch	totalsumlatency	0	-1	216
+block	targetincompatiblepracticeswitch	totaltrialcount	0	-1	217
+block	targetincompatiblepracticeswitch	totalvarlatency	0	-1	218
+block	targetincompatiblepracticeswitch	trialcount	0	-1	220
+block	targetincompatiblepracticeswitch	trialscount	8	-1	222
+block	targetincompatiblepracticeswitch	typename	block	-1	223
+block	targetincompatiblepracticeswitch	unselectedcount	0	-1	224
+block	targetincompatiblepracticeswitch	varlatency	0	-1	226
+block	targetincompatiblepracticeswitch	windowcenter	0	-1	232
+block	targetincompatiblepracticeswitch	windowdecthreshold	0	-1	233
+block	targetincompatiblepracticeswitch	windowdecunit	33	-1	234
+block	targetincompatiblepracticeswitch	windowhitduration	0	-1	235
+block	targetincompatiblepracticeswitch	windowincthreshold	0	-1	236
+block	targetincompatiblepracticeswitch	windowincunit	33	-1	237
+block	targetincompatiblepracticeswitch	windowmaxcenter	0	-1	238
+block	targetincompatiblepracticeswitch	windowmincenter	0	-1	239
+block	targetincompatiblepracticeswitch	windowonset	0	-1	241
+block	targetincompatiblepracticeswitch	windowwidth	0	-1	242
+block	temp	correct	0	-1	20
+block	temp	correctcount	0	-1	21
+block	temp	correctstreak	0	-1	22
+block	temp	count	0	-1	23
+block	temp	currentblocknumber	0	-1	27
+block	temp	currenttrialnumber	0	-1	37
+block	temp	elapsedtime	204497407	-1	41
+block	temp	error	0	-1	50
+block	temp	errorcount	0	-1	51
+block	temp	errorstreak	0	-1	52
+block	temp	inwindow	0	-1	70
+block	temp	inwindowcount	0	-1	71
+block	temp	inwindowstreak	0	-1	72
+block	temp	latency	0	-1	92
+block	temp	maxlatency	0	-1	99
+block	temp	meanlatency	0	-1	104
+block	temp	medianlatency	0	-1	107
+block	temp	minlatency	0	-1	110
+block	temp	name	temp.9	-1	116
+block	temp	next		-1	119
+block	temp	notinwindow	1	-1	123
+block	temp	notinwindowcount	0	-1	124
+block	temp	notinwindowstreak	0	-1	125
+block	temp	numcorrect	0	-1	126
+block	temp	numinwindow	0	-1	127
+block	temp	percentcorrect	0	-1	137
+block	temp	percentinwindow	0	-1	138
+block	temp	recorddata	1	-1	147
+block	temp	response		-1	154
+block	temp	responsex	-1	-1	156
+block	temp	responsey	-1	-1	157
+block	temp	screencapture	0	-1	160
+block	temp	screencolor	4278190080	-1	161
+block	temp	screencolorblue	0	-1	162
+block	temp	screencolorgreen	0	-1	163
+block	temp	screencolorred	0	-1	164
+block	temp	sdlatency	0	-1	165
+block	temp	selectedcount	0	-1	168
+block	temp	showmousecursor	0	-1	174
+block	temp	sumlatency	0	-1	188
+block	temp	timeout	0	-1	199
+block	temp	totalcorrectcount	0	-1	202
+block	temp	totalcount	0	-1	203
+block	temp	totalerrorcount	0	-1	204
+block	temp	totalinwindowcount	0	-1	205
+block	temp	totalmaxlatency	0	-1	206
+block	temp	totalmeanlatency	0	-1	207
+block	temp	totalmedianlatency	0	-1	208
+block	temp	totalminlatency	0	-1	209
+block	temp	totalnumcorrect	0	-1	211
+block	temp	totalnuminwindow	0	-1	212
+block	temp	totalpercentcorrect	0	-1	213
+block	temp	totalpercentinwindow	0	-1	214
+block	temp	totalsdlatency	0	-1	215
+block	temp	totalsumlatency	0	-1	216
+block	temp	totaltrialcount	0	-1	217
+block	temp	totalvarlatency	0	-1	218
+block	temp	trialcount	0	-1	220
+block	temp	trialscount	0	-1	222
+block	temp	typename	block	-1	223
+block	temp	unselectedcount	0	-1	224
+block	temp	varlatency	0	-1	226
+block	temp	windowcenter	0	-1	232
+block	temp	windowdecthreshold	0	-1	233
+block	temp	windowdecunit	33	-1	234
+block	temp	windowhitduration	0	-1	235
+block	temp	windowincthreshold	0	-1	236
+block	temp	windowincunit	33	-1	237
+block	temp	windowmaxcenter	0	-1	238
+block	temp	windowmincenter	0	-1	239
+block	temp	windowonset	0	-1	241
+block	temp	windowwidth	0	-1	242
+computer	computer	availablememory	15412	-1	4
+computer	computer	countrycode	IE	-1	24
+computer	computer	cpuspeed	1700	-1	25
+computer	computer	language	English	-1	81
+computer	computer	languagecode	en	-1	82
+computer	computer	languageid	0	-1	83
+computer	computer	memory	3232124	-1	108
+computer	computer	os		-1	131
+computer	computer	osmajorversion	10	-1	132
+computer	computer	osminorversion	11	-1	133
+computer	computer	platform	mac	-1	139
+computer	computer	timerresolution	0.000001	-1	200
+counter	IQSet::setRandomArray	item	2	-1	74
+counter	IQSet::setRandomArray	item.1	1	1	74
+counter	IQSet::setRandomArray	item.2	2	2	74
+counter	IQSet::setRandomArray	item.3	1	3	74
+counter	IQSet::setRandomArray	item.4	2	4	74
+counter	IQSet::setRandomArray	item.5	1	5	74
+counter	IQSet::setRandomArray	item.6	2	6	74
+counter	IQSet::setRandomArray	item.7	1	7	74
+counter	IQSet::setRandomArray	item.8	2	8	74
+counter	IQSet::setRandomArray	currentitem	2	-1	31
+counter	IQSet::setRandomArray	currentitemnumber	6	-1	32
+counter	IQSet::setRandomArray	item	2	-1	74
+counter	IQSet::setRandomArray	item.1	1	1	74
+counter	IQSet::setRandomArray	item.2	2	2	74
+counter	IQSet::setRandomArray	item.3	1	3	74
+counter	IQSet::setRandomArray	item.4	2	4	74
+counter	IQSet::setRandomArray	item.5	1	5	74
+counter	IQSet::setRandomArray	item.6	2	6	74
+counter	IQSet::setRandomArray	item.7	1	7	74
+counter	IQSet::setRandomArray	item.8	2	8	74
+counter	IQSet::setRandomArray	itemcount	8	-1	75
+counter	IQSet::setRandomArray	name	IQSet::setRandomArray.10	-1	116
+counter	IQSet::setRandomArray	selectedcount	7	-1	168
+counter	IQSet::setRandomArray	selectedindex	6	-1	169
+counter	IQSet::setRandomArray	selectedvalue	2	-1	170
+counter	IQSet::setRandomArray	selectionmode	5	-1	171
+counter	IQSet::setRandomArray	selectionrate	0	-1	172
+counter	IQSet::setRandomArray	typename	counter	-1	223
+counter	IQSet::setRandomArray	unselectedcount	0	-1	224
+counter	IQSet::setRandomArray	item	1	-1	74
+counter	IQSet::setRandomArray	item.1	1	1	74
+counter	IQSet::setRandomArray	item.2	2	2	74
+counter	IQSet::setRandomArray	item.3	1	3	74
+counter	IQSet::setRandomArray	item.4	2	4	74
+counter	IQSet::setRandomArray	item.5	1	5	74
+counter	IQSet::setRandomArray	item.6	2	6	74
+counter	IQSet::setRandomArray	item.7	1	7	74
+counter	IQSet::setRandomArray	item.8	2	8	74
+counter	IQSet::setRandomArray	currentitem	1	-1	31
+counter	IQSet::setRandomArray	currentitemnumber	7	-1	32
+counter	IQSet::setRandomArray	item	1	-1	74
+counter	IQSet::setRandomArray	item.1	1	1	74
+counter	IQSet::setRandomArray	item.2	2	2	74
+counter	IQSet::setRandomArray	item.3	1	3	74
+counter	IQSet::setRandomArray	item.4	2	4	74
+counter	IQSet::setRandomArray	item.5	1	5	74
+counter	IQSet::setRandomArray	item.6	2	6	74
+counter	IQSet::setRandomArray	item.7	1	7	74
+counter	IQSet::setRandomArray	item.8	2	8	74
+counter	IQSet::setRandomArray	itemcount	8	-1	75
+counter	IQSet::setRandomArray	name	IQSet::setRandomArray.11	-1	116
+counter	IQSet::setRandomArray	selectedcount	7	-1	168
+counter	IQSet::setRandomArray	selectedindex	7	-1	169
+counter	IQSet::setRandomArray	selectedvalue	2	-1	170
+counter	IQSet::setRandomArray	selectionmode	5	-1	171
+counter	IQSet::setRandomArray	selectionrate	0	-1	172
+counter	IQSet::setRandomArray	typename	counter	-1	223
+counter	IQSet::setRandomArray	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	itemcount	0	-1	75
+counter	counter	name	systembeep_systembeep_counter	-1	116
+counter	counter	selectedcount	0	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_attributeA_counter	-1	116
+counter	counter	selectedcount	1	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_attributeAleft_counter	-1	116
+counter	counter	selectedcount	1	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_attributeAleftmixed_counter	-1	116
+counter	counter	selectedcount	1	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_attributeB_counter	-1	116
+counter	counter	selectedcount	1	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_attributeBright_counter	-1	116
+counter	counter	selectedcount	1	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_attributeBrightmixed_counter	-1	116
+counter	counter	selectedcount	1	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_error_counter	-1	116
+counter	counter	selectedcount	1	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	3	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	item.2	2	2	74
+counter	counter	item.3	3	3	74
+counter	counter	item.4	4	4	74
+counter	counter	item.5	5	5	74
+counter	counter	item.6	6	6	74
+counter	counter	item.7	7	7	74
+counter	counter	currentitem	3	-1	31
+counter	counter	currentitemnumber	3	-1	32
+counter	counter	item	3	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	item.2	2	2	74
+counter	counter	item.3	3	3	74
+counter	counter	item.4	4	4	74
+counter	counter	item.5	5	5	74
+counter	counter	item.6	6	6	74
+counter	counter	item.7	7	7	74
+counter	counter	itemcount	7	-1	75
+counter	counter	name	text_instructions_counter	-1	116
+counter	counter	selectedcount	3	-1	168
+counter	counter	selectedindex	3	-1	169
+counter	counter	selectedvalue	3	-1	170
+counter	counter	selectionmode	15	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	4	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_orleft_counter	-1	116
+counter	counter	selectedcount	1	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_orright_counter	-1	116
+counter	counter	selectedcount	1	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_spacebar_counter	-1	116
+counter	counter	selectedcount	1	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_summary_counter	-1	116
+counter	counter	selectedcount	0	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_targetA_counter	-1	116
+counter	counter	selectedcount	1	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_targetAleft_counter	-1	116
+counter	counter	selectedcount	1	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_targetAright_counter	-1	116
+counter	counter	selectedcount	0	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_targetB_counter	-1	116
+counter	counter	selectedcount	1	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_targetBleft_counter	-1	116
+counter	counter	selectedcount	0	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	currentitem	1	-1	31
+counter	counter	currentitemnumber	1	-1	32
+counter	counter	item	1	-1	74
+counter	counter	item.1	1	1	74
+counter	counter	itemcount	1	-1	75
+counter	counter	name	text_targetBright_counter	-1	116
+counter	counter	selectedcount	1	-1	168
+counter	counter	selectedindex	1	-1	169
+counter	counter	selectedvalue	1	-1	170
+counter	counter	selectionmode	5	-1	171
+counter	counter	selectionrate	-1	-1	172
+counter	counter	typename	counter	-1	223
+counter	counter	unselectedcount	0	-1	224
+data	data	encrypt	0	-1	42
+data	data	encryptionkey		-1	43
+data	data	file	IAT_rawdata.iqdat	-1	53
+data	data	filename	IAT_rawdata	-1	54
+data	data	fullpath	/Users/Ian/git/Relational_Complexity_Derivation/IAT_rawdata_1_2016-08-21-18-34-21-174.iqdat	-1	60
+data	data	name	data	-1	116
+data	data	password		-1	136
+data	data	recorddata	1	-1	147
+data	data	typename	data	-1	223
+data	data	userid		-1	225
+defaults	defaults	finishpage		-1	56
+defaults	defaults	fontheight	0	-1	58
+defaults	defaults	hposition	50pct	-1	65
+defaults	defaults	name	defaults	-1	116
+defaults	defaults	posttrialpause	0	-1	145
+defaults	defaults	pretrialpause	0	-1	146
+defaults	defaults	typename	defaults	-1	223
+defaults	defaults	vposition	50pct	-1	229
+defaults	defaults	windowcenter	0	-1	232
+defaults	defaults	windowdecthreshold	0	-1	233
+defaults	defaults	windowdecunit	33	-1	234
+defaults	defaults	windowhitduration	0	-1	235
+defaults	defaults	windowincthreshold	0	-1	236
+defaults	defaults	windowincunit	33	-1	237
+defaults	defaults	windowmaxcenter	0	-1	238
+defaults	defaults	windowmincenter	0	-1	239
+defaults	defaults	windowoffset	0	-1	240
+defaults	defaults	windowonset	0	-1	241
+defaults	defaults	windowwidth	0	-1	242
+display	display	colordepth	32	-1	16
+display	display	height	768	-1	64
+display	display	refreshinterval	16	-1	148
+display	display	refreshrate	60	-1	149
+display	display	width	1366	-1	231
+expressions	expressions	d	0	-1	243
+expressions	expressions	da		-1	243
+expressions	expressions	db		-1	243
+expressions	expressions	m1a		-1	243
+expressions	expressions	m1b		-1	243
+expressions	expressions	m2a		-1	243
+expressions	expressions	m2b		-1	243
+expressions	expressions	name	expressions	-1	116
+expressions	expressions	notpreferred	unknown	-1	243
+expressions	expressions	percentcorrect	0	-1	243
+expressions	expressions	preferred	unknown	-1	243
+expressions	expressions	sd1a	0	-1	243
+expressions	expressions	sd1b	0	-1	243
+expressions	expressions	sd2a	0	-1	243
+expressions	expressions	sd2b	0	-1	243
+expressions	expressions	sda	0	-1	243
+expressions	expressions	sdb	0	-1	243
+expressions	expressions	typename	expressions	-1	223
+expt	1	blockcount	8	-1	8
+expt	1	blockscount	8	-1	9
+expt	1	correct	1	-1	20
+expt	1	correctcount	9	-1	21
+expt	1	correctstreak	1	-1	22
+expt	1	count	0	-1	23
+expt	1	currentblocknumber	3	-1	27
+expt	1	currentgroupnumber	0	-1	29
+expt	1	currenttrialnumber	17	-1	37
+expt	1	elapsedtime	23821	-1	41
+expt	1	error	0	-1	50
+expt	1	errorcount	8	-1	51
+expt	1	errorstreak	0	-1	52
+expt	1	groupcount	0	-1	62
+expt	1	inwindow	0	-1	70
+expt	1	inwindowcount	0	-1	71
+expt	1	inwindowstreak	0	-1	72
+expt	1	latency	4261	-1	92
+expt	1	maxlatency	4261	-1	99
+expt	1	meanlatency	1182.2941176470587834046	-1	104
+expt	1	medianlatency	931	-1	107
+expt	1	minlatency	243	-1	110
+expt	1	name	1	-1	116
+expt	1	next		-1	119
+expt	1	notinwindow	1	-1	123
+expt	1	notinwindowcount	17	-1	124
+expt	1	notinwindowstreak	17	-1	125
+expt	1	numcorrect	9	-1	126
+expt	1	numinwindow	0	-1	127
+expt	1	percentcorrect	52	-1	137
+expt	1	percentinwindow	0	-1	138
+expt	1	recorddata	1	-1	147
+expt	1	response	29	-1	154
+expt	1	responsex	-1	-1	156
+expt	1	responsey	-1	-1	157
+expt	1	screencapture	0	-1	160
+expt	1	sdlatency	1136.1042406347382893728	-1	165
+expt	1	selectedcount	19	-1	168
+expt	1	showmousecursor	0	-1	174
+expt	1	sumlatency	20099	-1	188
+expt	1	timeout	0	-1	199
+expt	1	totalcorrectcount	9	-1	202
+expt	1	totalcount	0	-1	203
+expt	1	totalerrorcount	8	-1	204
+expt	1	totalinwindowcount	0	-1	205
+expt	1	totalmaxlatency	4261	-1	206
+expt	1	totalmeanlatency	1182.2941176470587834046	-1	207
+expt	1	totalmedianlatency	931	-1	208
+expt	1	totalminlatency	243	-1	209
+expt	1	totalnumcorrect	9	-1	211
+expt	1	totalnuminwindow	0	-1	212
+expt	1	totalpercentcorrect	52	-1	213
+expt	1	totalpercentinwindow	0	-1	214
+expt	1	totalsdlatency	1136.1042406347382893728	-1	215
+expt	1	totalsumlatency	20099	-1	216
+expt	1	totaltrialcount	17	-1	217
+expt	1	totalvarlatency	1290732.8455882351845502853	-1	218
+expt	1	trialcount	17	-1	220
+expt	1	typename	expt	-1	223
+expt	1	unselectedcount	4	-1	224
+expt	1	varlatency	1290732.8455882351845502853	-1	226
+expt	1	windowcenter	0	-1	232
+expt	1	windowdecthreshold	0	-1	233
+expt	1	windowdecunit	33	-1	234
+expt	1	windowhitduration	0	-1	235
+expt	1	windowincthreshold	0	-1	236
+expt	1	windowincunit	33	-1	237
+expt	1	windowmaxcenter	0	-1	238
+expt	1	windowmincenter	0	-1	239
+expt	1	windowonset	0	-1	241
+expt	1	windowwidth	0	-1	242
+inquisit	inquisit	applicationmode	desktop	-1	3
+inquisit	inquisit	releasedate	Sep  5 2012	-1	150
+inquisit	inquisit	version	4.0.0.1	-1	227
+instruct	instruct	backlabel		-1	5
+instruct	instruct	finishlabel		-1	55
+instruct	instruct	fontheight	3.5pct	-1	58
+instruct	instruct	height	480px	-1	64
+instruct	instruct	name	instruct	-1	116
+instruct	instruct	nextlabel		-1	121
+instruct	instruct	screencolor	4294967295	-1	161
+instruct	instruct	screencolorblue	255	-1	162
+instruct	instruct	screencolorgreen	255	-1	163
+instruct	instruct	screencolorred	255	-1	164
+instruct	instruct	textcolor	4278190080	-1	195
+instruct	instruct	textcolorblue	0	-1	196
+instruct	instruct	textcolorgreen	0	-1	197
+instruct	instruct	textcolorred	0	-1	198
+instruct	instruct	timeout	0	-1	199
+instruct	instruct	typename	instruct	-1	223
+instruct	instruct	wait	300	-1	230
+instruct	instruct	width	640px	-1	231
+item	attributeA	item		-1	74
+item	attributeA	item.1	B1	1	74
+item	attributeA	item		-1	74
+item	attributeA	item.1	B1	1	74
+item	attributeA	itemcount	1	-1	75
+item	attributeA	items		-1	78
+item	attributeA	items.1	B1	1	78
+item	attributeA	name	attributeA	-1	116
+item	attributeA	typename	item	-1	223
+item	attributeAlabel	item		-1	74
+item	attributeAlabel	item.1	B1	1	74
+item	attributeAlabel	item		-1	74
+item	attributeAlabel	item.1	B1	1	74
+item	attributeAlabel	itemcount	1	-1	75
+item	attributeAlabel	items		-1	78
+item	attributeAlabel	items.1	B1	1	78
+item	attributeAlabel	name	attributeAlabel	-1	116
+item	attributeAlabel	typename	item	-1	223
+item	attributeB	item		-1	74
+item	attributeB	item.1	C1	1	74
+item	attributeB	item		-1	74
+item	attributeB	item.1	C1	1	74
+item	attributeB	itemcount	1	-1	75
+item	attributeB	items		-1	78
+item	attributeB	items.1	C1	1	78
+item	attributeB	name	attributeB	-1	116
+item	attributeB	typename	item	-1	223
+item	attributeBlabel	item		-1	74
+item	attributeBlabel	item.1	C1	1	74
+item	attributeBlabel	item		-1	74
+item	attributeBlabel	item.1	C1	1	74
+item	attributeBlabel	itemcount	1	-1	75
+item	attributeBlabel	items		-1	78
+item	attributeBlabel	items.1	C1	1	78
+item	attributeBlabel	name	attributeBlabel	-1	116
+item	attributeBlabel	typename	item	-1	223
+item	instructions	item		-1	74
+item	instructions	item.1	This is a timed task where you have to sort words. Put your fingers on the E and the I key. Sort the words in the middle of the screen based on the categories on the left (E) or right (I).
+ 
+Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.
+
+When you make a mistake there will be a red cross. This cross will remain onscreen until you press the correct key.	1	74
+item	instructions	item.2	Look above. The categories have changed. So have the items. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.	2	74
+item	instructions	item.3	
+
+Look above. The four categories you saw separately now appear together. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	3	74
+item	instructions	item.4	
+
+Please sort the same four categories again. Once again go as fast as you can while making as few mistakes as possible.
+
+	4	74
+item	instructions	item.5	Look above. There are only two cateogries now and they have switched locations. The category that was previously on the left is now on the right (and vice-versa). 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	5	74
+item	instructions	item.6	
+
+Look above. The four categories now appear together. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	6	74
+item	instructions	item.7	
+
+Sort the same four categories once again. Remember to go as fast as you can while making as few mistakes as possible.
+
+	7	74
+item	instructions	item		-1	74
+item	instructions	item.1	This is a timed task where you have to sort words. Put your fingers on the E and the I key. Sort the words in the middle of the screen based on the categories on the left (E) or right (I).
+ 
+Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.
+
+When you make a mistake there will be a red cross. This cross will remain onscreen until you press the correct key.	1	74
+item	instructions	item.2	Look above. The categories have changed. So have the items. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.	2	74
+item	instructions	item.3	
+
+Look above. The four categories you saw separately now appear together. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	3	74
+item	instructions	item.4	
+
+Please sort the same four categories again. Once again go as fast as you can while making as few mistakes as possible.
+
+	4	74
+item	instructions	item.5	Look above. There are only two cateogries now and they have switched locations. The category that was previously on the left is now on the right (and vice-versa). 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	5	74
+item	instructions	item.6	
+
+Look above. The four categories now appear together. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	6	74
+item	instructions	item.7	
+
+Sort the same four categories once again. Remember to go as fast as you can while making as few mistakes as possible.
+
+	7	74
+item	instructions	itemcount	7	-1	75
+item	instructions	items		-1	78
+item	instructions	items.1	This is a timed task where you have to sort words. Put your fingers on the E and the I key. Sort the words in the middle of the screen based on the categories on the left (E) or right (I).
+ 
+Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.
+
+When you make a mistake there will be a red cross. This cross will remain onscreen until you press the correct key.	1	78
+item	instructions	items.2	Look above. The categories have changed. So have the items. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.	2	78
+item	instructions	items.3	
+
+Look above. The four categories you saw separately now appear together. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	3	78
+item	instructions	items.4	
+
+Please sort the same four categories again. Once again go as fast as you can while making as few mistakes as possible.
+
+	4	78
+item	instructions	items.5	Look above. There are only two cateogries now and they have switched locations. The category that was previously on the left is now on the right (and vice-versa). 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	5	78
+item	instructions	items.6	
+
+Look above. The four categories now appear together. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	6	78
+item	instructions	items.7	
+
+Sort the same four categories once again. Remember to go as fast as you can while making as few mistakes as possible.
+
+	7	78
+item	instructions	name	instructions	-1	116
+item	instructions	typename	item	-1	223
+item	targetA	item		-1	74
+item	targetA	item.1	B2	1	74
+item	targetA	item		-1	74
+item	targetA	item.1	B2	1	74
+item	targetA	itemcount	1	-1	75
+item	targetA	items		-1	78
+item	targetA	items.1	B2	1	78
+item	targetA	name	targetA	-1	116
+item	targetA	typename	item	-1	223
+item	targetAlabel	item		-1	74
+item	targetAlabel	item.1	B2	1	74
+item	targetAlabel	item		-1	74
+item	targetAlabel	item.1	B2	1	74
+item	targetAlabel	itemcount	1	-1	75
+item	targetAlabel	items		-1	78
+item	targetAlabel	items.1	B2	1	78
+item	targetAlabel	name	targetAlabel	-1	116
+item	targetAlabel	typename	item	-1	223
+item	targetB	item		-1	74
+item	targetB	item.1	C2	1	74
+item	targetB	item		-1	74
+item	targetB	item.1	C2	1	74
+item	targetB	itemcount	1	-1	75
+item	targetB	items		-1	78
+item	targetB	items.1	C2	1	78
+item	targetB	name	targetB	-1	116
+item	targetB	typename	item	-1	223
+item	targetBlabel	item		-1	74
+item	targetBlabel	item.1	C2	1	74
+item	targetBlabel	item		-1	74
+item	targetBlabel	item.1	C2	1	74
+item	targetBlabel	itemcount	1	-1	75
+item	targetBlabel	items		-1	78
+item	targetBlabel	items.1	C2	1	78
+item	targetBlabel	name	targetBlabel	-1	116
+item	targetBlabel	typename	item	-1	223
+item	items	item		-1	74
+item	items	item		-1	74
+item	items	itemcount	1	-1	75
+item	items	items		-1	78
+item	items	name	text_error_items	-1	116
+item	items	typename	item	-1	223
+item	items	item		-1	74
+item	items	item		-1	74
+item	items	itemcount	1	-1	75
+item	items	items		-1	78
+item	items	name	text_orleft_items	-1	116
+item	items	typename	item	-1	223
+item	items	item		-1	74
+item	items	item		-1	74
+item	items	itemcount	1	-1	75
+item	items	items		-1	78
+item	items	name	text_orright_items	-1	116
+item	items	typename	item	-1	223
+item	items	item		-1	74
+item	items	item		-1	74
+item	items	itemcount	1	-1	75
+item	items	items		-1	78
+item	items	name	text_spacebar_items	-1	116
+item	items	typename	item	-1	223
+item	items	item		-1	74
+item	items	item		-1	74
+item	items	itemcount	1	-1	75
+item	items	items		-1	78
+item	items	name	text_summary_items	-1	116
+item	items	typename	item	-1	223
+monkey	monkey	maxlatency	0	-1	99
+monkey	monkey	meanlatency	500	-1	104
+monkey	monkey	minlatency	0	-1	110
+monkey	monkey	monkeymode	0	-1	114
+monkey	monkey	name	monkey	-1	116
+monkey	monkey	percentcorrect	90	-1	137
+monkey	monkey	sdlatency	100	-1	165
+monkey	monkey	typename	monkey	-1	223
+response	response	name	block_774b20cfb65944ab9584b2746da09439_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	block_attributepractice_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	block_compatibletest1_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	block_compatibletest2_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	block_compatibletestinstructions_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	block_incompatibletest1_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	block_incompatibletest2_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	block_incompatibletestinstructions_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	block_summary_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	block_targetcompatiblepractice_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	block_targetcompatiblepracticeswitch_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	block_targetincompatiblepractice_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	block_targetincompatiblepracticeswitch_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	block_temp.9_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	defaults_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	expt_1_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	expt_774b20cfb65944ab9584b2746da09439_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	trial_774b20cfb65944ab9584b2746da09439_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	trial_attributeA_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	trial_attributeB_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	trial_instructions_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	trial_summary_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	trial_targetAleft_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	trial_targetAright_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	trial_targetBleft_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+response	response	name	trial_targetBright_response	-1	116
+response	response	timeout	-1	-1	199
+response	response	typename	response	-1	223
+response	response	windowcenter	0	-1	232
+response	response	windowdecthreshold	0	-1	233
+response	response	windowdecunit	33	-1	234
+response	response	windowhitduration	0	-1	235
+response	response	windowincthreshold	0	-1	236
+response	response	windowincunit	33	-1	237
+response	response	windowmaxcenter	0	-1	238
+response	response	windowmincenter	0	-1	239
+response	response	windowoffset	0	-1	240
+response	response	windowonset	0	-1	241
+response	response	windowwidth	0	-1	242
+script	script	applicationmode	0	-1	3
+script	script	currentblock	compatibletestinstructions	-1	26
+script	script	currentblocknumber	3	-1	27
+script	script	currentexpt	1	-1	28
+script	script	currenttime	20:34:45	-1	35
+script	script	currenttrial	instructions	-1	36
+script	script	currenttrialnumber	17	-1	37
+script	script	elapsedtime	23824	-1	41
+script	script	filename	Test_IAT.iqx	-1	54
+script	script	fullpath	/Users/Ian/git/Relational_Complexity_Derivation/Test_IAT.iqx	-1	60
+script	script	groupassignmentcode	1643712035	-1	61
+script	script	groupid	1	-1	63
+script	script	startdate	082116	-1	182
+script	script	starttime	20:34:21	-1	183
+script	script	subjectid	1	-1	187
+script	script	trialcount	17	-1	220
+summarydata	summarydata	encrypt	0	-1	42
+summarydata	summarydata	encryptionkey		-1	43
+summarydata	summarydata	file	IAT_summary.iqdat	-1	53
+summarydata	summarydata	filename	IAT_summary	-1	54
+summarydata	summarydata	fullpath	/Users/Ian/git/Relational_Complexity_Derivation/IAT_summary.iqdat	-1	60
+summarydata	summarydata	name	summarydata	-1	116
+summarydata	summarydata	password		-1	136
+summarydata	summarydata	recorddata	1	-1	147
+summarydata	summarydata	typename	summarydata	-1	223
+summarydata	summarydata	userid		-1	225
+systembeep	systembeep	item		-1	74
+systembeep	systembeep	currentindex	1	-1	30
+systembeep	systembeep	currentitem		-1	31
+systembeep	systembeep	currentitemnumber	0	-1	32
+systembeep	systembeep	currentvalue	1	-1	38
+systembeep	systembeep	duration	250	-1	40
+systembeep	systembeep	erase	-1	-1	44
+systembeep	systembeep	frequency	750	-1	59
+systembeep	systembeep	item		-1	74
+systembeep	systembeep	itemcount	0	-1	75
+systembeep	systembeep	items		-1	78
+systembeep	systembeep	name	systembeep	-1	116
+systembeep	systembeep	nextindex	1	-1	120
+systembeep	systembeep	nextvalue	1	-1	122
+systembeep	systembeep	playthrough	0	-1	140
+systembeep	systembeep	selectedcount	0	-1	168
+systembeep	systembeep	selectedindex	1	-1	169
+systembeep	systembeep	selectedvalue	1	-1	170
+systembeep	systembeep	skip	0	-1	179
+systembeep	systembeep	stimulusonset	-1	-1	184
+systembeep	systembeep	typename	systembeep	-1	223
+systembeep	systembeep	unselectedcount	0	-1	224
+text	attributeA	item		-1	74
+text	attributeA	item.1	B1	1	74
+text	attributeA	currentindex	1	-1	30
+text	attributeA	currentitem	B1	-1	31
+text	attributeA	currentitemnumber	1	-1	32
+text	attributeA	currentvalue	1	-1	38
+text	attributeA	erase	-1	-1	44
+text	attributeA	erasecolor	4294967295	-1	45
+text	attributeA	erasecolorblue	255	-1	46
+text	attributeA	erasecolorgreen	255	-1	47
+text	attributeA	erasecolorred	255	-1	48
+text	attributeA	fontheight	5pct	-1	58
+text	attributeA	height	0	-1	64
+text	attributeA	hposition	50pct	-1	65
+text	attributeA	item		-1	74
+text	attributeA	item.1	B1	1	74
+text	attributeA	itemcount	1	-1	75
+text	attributeA	items		-1	78
+text	attributeA	items.1	B1	1	78
+text	attributeA	name	attributeA	-1	116
+text	attributeA	nextindex	1	-1	120
+text	attributeA	nextvalue	1	-1	122
+text	attributeA	playthrough	0	-1	140
+text	attributeA	selectedcount	1	-1	168
+text	attributeA	selectedindex	1	-1	169
+text	attributeA	selectedvalue	1	-1	170
+text	attributeA	skip	0	-1	179
+text	attributeA	stimulusonset	0	-1	184
+text	attributeA	stimulusonset.1	0	1	184
+text	attributeA	textbgcolor	4278190080	-1	189
+text	attributeA	textbgcolorblue	0	-1	190
+text	attributeA	textbgcolorgreen	0	-1	191
+text	attributeA	textbgcolorred	0	-1	192
+text	attributeA	textcolor	4278255360	-1	195
+text	attributeA	textcolorblue	0	-1	196
+text	attributeA	textcolorgreen	255	-1	197
+text	attributeA	textcolorred	0	-1	198
+text	attributeA	typename	text	-1	223
+text	attributeA	unselectedcount	0	-1	224
+text	attributeA	vposition	50pct	-1	229
+text	attributeA	width	0	-1	231
+text	attributeAleft	item		-1	74
+text	attributeAleft	item.1	B1	1	74
+text	attributeAleft	currentindex	1	-1	30
+text	attributeAleft	currentitem	B1	-1	31
+text	attributeAleft	currentitemnumber	1	-1	32
+text	attributeAleft	currentvalue	1	-1	38
+text	attributeAleft	erase	-1	-1	44
+text	attributeAleft	erasecolor	4294967295	-1	45
+text	attributeAleft	erasecolorblue	255	-1	46
+text	attributeAleft	erasecolorgreen	255	-1	47
+text	attributeAleft	erasecolorred	255	-1	48
+text	attributeAleft	fontheight	5pct	-1	58
+text	attributeAleft	height	0	-1	64
+text	attributeAleft	hposition	5pct	-1	65
+text	attributeAleft	item		-1	74
+text	attributeAleft	item.1	B1	1	74
+text	attributeAleft	itemcount	1	-1	75
+text	attributeAleft	items		-1	78
+text	attributeAleft	items.1	B1	1	78
+text	attributeAleft	name	attributeAleft	-1	116
+text	attributeAleft	nextindex	1	-1	120
+text	attributeAleft	nextvalue	1	-1	122
+text	attributeAleft	playthrough	0	-1	140
+text	attributeAleft	selectedcount	1	-1	168
+text	attributeAleft	selectedindex	1	-1	169
+text	attributeAleft	selectedvalue	1	-1	170
+text	attributeAleft	skip	0	-1	179
+text	attributeAleft	stimulusonset	-1	-1	184
+text	attributeAleft	textbgcolor	4278190080	-1	189
+text	attributeAleft	textbgcolorblue	0	-1	190
+text	attributeAleft	textbgcolorgreen	0	-1	191
+text	attributeAleft	textbgcolorred	0	-1	192
+text	attributeAleft	textcolor	4278255360	-1	195
+text	attributeAleft	textcolorblue	0	-1	196
+text	attributeAleft	textcolorgreen	255	-1	197
+text	attributeAleft	textcolorred	0	-1	198
+text	attributeAleft	typename	text	-1	223
+text	attributeAleft	unselectedcount	0	-1	224
+text	attributeAleft	vposition	5pct	-1	229
+text	attributeAleft	width	0	-1	231
+text	attributeAleftmixed	item		-1	74
+text	attributeAleftmixed	item.1	B1	1	74
+text	attributeAleftmixed	currentindex	1	-1	30
+text	attributeAleftmixed	currentitem	B1	-1	31
+text	attributeAleftmixed	currentitemnumber	1	-1	32
+text	attributeAleftmixed	currentvalue	1	-1	38
+text	attributeAleftmixed	erase	-1	-1	44
+text	attributeAleftmixed	erasecolor	4294967295	-1	45
+text	attributeAleftmixed	erasecolorblue	255	-1	46
+text	attributeAleftmixed	erasecolorgreen	255	-1	47
+text	attributeAleftmixed	erasecolorred	255	-1	48
+text	attributeAleftmixed	fontheight	5pct	-1	58
+text	attributeAleftmixed	height	0	-1	64
+text	attributeAleftmixed	hposition	5pct	-1	65
+text	attributeAleftmixed	item		-1	74
+text	attributeAleftmixed	item.1	B1	1	74
+text	attributeAleftmixed	itemcount	1	-1	75
+text	attributeAleftmixed	items		-1	78
+text	attributeAleftmixed	items.1	B1	1	78
+text	attributeAleftmixed	name	attributeAleftmixed	-1	116
+text	attributeAleftmixed	nextindex	1	-1	120
+text	attributeAleftmixed	nextvalue	1	-1	122
+text	attributeAleftmixed	playthrough	0	-1	140
+text	attributeAleftmixed	selectedcount	1	-1	168
+text	attributeAleftmixed	selectedindex	1	-1	169
+text	attributeAleftmixed	selectedvalue	1	-1	170
+text	attributeAleftmixed	skip	0	-1	179
+text	attributeAleftmixed	stimulusonset	-1	-1	184
+text	attributeAleftmixed	textbgcolor	4278190080	-1	189
+text	attributeAleftmixed	textbgcolorblue	0	-1	190
+text	attributeAleftmixed	textbgcolorgreen	0	-1	191
+text	attributeAleftmixed	textbgcolorred	0	-1	192
+text	attributeAleftmixed	textcolor	4278255360	-1	195
+text	attributeAleftmixed	textcolorblue	0	-1	196
+text	attributeAleftmixed	textcolorgreen	255	-1	197
+text	attributeAleftmixed	textcolorred	0	-1	198
+text	attributeAleftmixed	typename	text	-1	223
+text	attributeAleftmixed	unselectedcount	0	-1	224
+text	attributeAleftmixed	vposition	19pct	-1	229
+text	attributeAleftmixed	width	0	-1	231
+text	attributeB	item		-1	74
+text	attributeB	item.1	C1	1	74
+text	attributeB	currentindex	1	-1	30
+text	attributeB	currentitem	C1	-1	31
+text	attributeB	currentitemnumber	1	-1	32
+text	attributeB	currentvalue	1	-1	38
+text	attributeB	erase	-1	-1	44
+text	attributeB	erasecolor	4294967295	-1	45
+text	attributeB	erasecolorblue	255	-1	46
+text	attributeB	erasecolorgreen	255	-1	47
+text	attributeB	erasecolorred	255	-1	48
+text	attributeB	fontheight	5pct	-1	58
+text	attributeB	height	0	-1	64
+text	attributeB	hposition	50pct	-1	65
+text	attributeB	item		-1	74
+text	attributeB	item.1	C1	1	74
+text	attributeB	itemcount	1	-1	75
+text	attributeB	items		-1	78
+text	attributeB	items.1	C1	1	78
+text	attributeB	name	attributeB	-1	116
+text	attributeB	nextindex	1	-1	120
+text	attributeB	nextvalue	1	-1	122
+text	attributeB	playthrough	0	-1	140
+text	attributeB	selectedcount	1	-1	168
+text	attributeB	selectedindex	1	-1	169
+text	attributeB	selectedvalue	1	-1	170
+text	attributeB	skip	0	-1	179
+text	attributeB	stimulusonset	0	-1	184
+text	attributeB	stimulusonset.1	0	1	184
+text	attributeB	textbgcolor	4278190080	-1	189
+text	attributeB	textbgcolorblue	0	-1	190
+text	attributeB	textbgcolorgreen	0	-1	191
+text	attributeB	textbgcolorred	0	-1	192
+text	attributeB	textcolor	4278255360	-1	195
+text	attributeB	textcolorblue	0	-1	196
+text	attributeB	textcolorgreen	255	-1	197
+text	attributeB	textcolorred	0	-1	198
+text	attributeB	typename	text	-1	223
+text	attributeB	unselectedcount	0	-1	224
+text	attributeB	vposition	50pct	-1	229
+text	attributeB	width	0	-1	231
+text	attributeBright	item		-1	74
+text	attributeBright	item.1	C1	1	74
+text	attributeBright	currentindex	1	-1	30
+text	attributeBright	currentitem	C1	-1	31
+text	attributeBright	currentitemnumber	1	-1	32
+text	attributeBright	currentvalue	1	-1	38
+text	attributeBright	erase	-1	-1	44
+text	attributeBright	erasecolor	4294967295	-1	45
+text	attributeBright	erasecolorblue	255	-1	46
+text	attributeBright	erasecolorgreen	255	-1	47
+text	attributeBright	erasecolorred	255	-1	48
+text	attributeBright	fontheight	5pct	-1	58
+text	attributeBright	height	0	-1	64
+text	attributeBright	hposition	95pct	-1	65
+text	attributeBright	item		-1	74
+text	attributeBright	item.1	C1	1	74
+text	attributeBright	itemcount	1	-1	75
+text	attributeBright	items		-1	78
+text	attributeBright	items.1	C1	1	78
+text	attributeBright	name	attributeBright	-1	116
+text	attributeBright	nextindex	1	-1	120
+text	attributeBright	nextvalue	1	-1	122
+text	attributeBright	playthrough	0	-1	140
+text	attributeBright	selectedcount	1	-1	168
+text	attributeBright	selectedindex	1	-1	169
+text	attributeBright	selectedvalue	1	-1	170
+text	attributeBright	skip	0	-1	179
+text	attributeBright	stimulusonset	-1	-1	184
+text	attributeBright	textbgcolor	4278190080	-1	189
+text	attributeBright	textbgcolorblue	0	-1	190
+text	attributeBright	textbgcolorgreen	0	-1	191
+text	attributeBright	textbgcolorred	0	-1	192
+text	attributeBright	textcolor	4278255360	-1	195
+text	attributeBright	textcolorblue	0	-1	196
+text	attributeBright	textcolorgreen	255	-1	197
+text	attributeBright	textcolorred	0	-1	198
+text	attributeBright	typename	text	-1	223
+text	attributeBright	unselectedcount	0	-1	224
+text	attributeBright	vposition	5pct	-1	229
+text	attributeBright	width	0	-1	231
+text	attributeBrightmixed	item		-1	74
+text	attributeBrightmixed	item.1	C1	1	74
+text	attributeBrightmixed	currentindex	1	-1	30
+text	attributeBrightmixed	currentitem	C1	-1	31
+text	attributeBrightmixed	currentitemnumber	1	-1	32
+text	attributeBrightmixed	currentvalue	1	-1	38
+text	attributeBrightmixed	erase	-1	-1	44
+text	attributeBrightmixed	erasecolor	4294967295	-1	45
+text	attributeBrightmixed	erasecolorblue	255	-1	46
+text	attributeBrightmixed	erasecolorgreen	255	-1	47
+text	attributeBrightmixed	erasecolorred	255	-1	48
+text	attributeBrightmixed	fontheight	5pct	-1	58
+text	attributeBrightmixed	height	0	-1	64
+text	attributeBrightmixed	hposition	95pct	-1	65
+text	attributeBrightmixed	item		-1	74
+text	attributeBrightmixed	item.1	C1	1	74
+text	attributeBrightmixed	itemcount	1	-1	75
+text	attributeBrightmixed	items		-1	78
+text	attributeBrightmixed	items.1	C1	1	78
+text	attributeBrightmixed	name	attributeBrightmixed	-1	116
+text	attributeBrightmixed	nextindex	1	-1	120
+text	attributeBrightmixed	nextvalue	1	-1	122
+text	attributeBrightmixed	playthrough	0	-1	140
+text	attributeBrightmixed	selectedcount	1	-1	168
+text	attributeBrightmixed	selectedindex	1	-1	169
+text	attributeBrightmixed	selectedvalue	1	-1	170
+text	attributeBrightmixed	skip	0	-1	179
+text	attributeBrightmixed	stimulusonset	-1	-1	184
+text	attributeBrightmixed	textbgcolor	4278190080	-1	189
+text	attributeBrightmixed	textbgcolorblue	0	-1	190
+text	attributeBrightmixed	textbgcolorgreen	0	-1	191
+text	attributeBrightmixed	textbgcolorred	0	-1	192
+text	attributeBrightmixed	textcolor	4278255360	-1	195
+text	attributeBrightmixed	textcolorblue	0	-1	196
+text	attributeBrightmixed	textcolorgreen	255	-1	197
+text	attributeBrightmixed	textcolorred	0	-1	198
+text	attributeBrightmixed	typename	text	-1	223
+text	attributeBrightmixed	unselectedcount	0	-1	224
+text	attributeBrightmixed	vposition	19pct	-1	229
+text	attributeBrightmixed	width	0	-1	231
+text	error	item		-1	74
+text	error	item.1	X	1	74
+text	error	currentindex	1	-1	30
+text	error	currentitem	X	-1	31
+text	error	currentitemnumber	1	-1	32
+text	error	currentvalue	1	-1	38
+text	error	erase	-1	-1	44
+text	error	erasecolor	4294967295	-1	45
+text	error	erasecolorblue	255	-1	46
+text	error	erasecolorgreen	255	-1	47
+text	error	erasecolorred	255	-1	48
+text	error	fontheight	10pct	-1	58
+text	error	height	0	-1	64
+text	error	hposition	50pct	-1	65
+text	error	item		-1	74
+text	error	item.1	X	1	74
+text	error	itemcount	1	-1	75
+text	error	items		-1	78
+text	error	items.1	X	1	78
+text	error	name	error	-1	116
+text	error	nextindex	1	-1	120
+text	error	nextvalue	1	-1	122
+text	error	playthrough	0	-1	140
+text	error	selectedcount	1	-1	168
+text	error	selectedindex	1	-1	169
+text	error	selectedvalue	1	-1	170
+text	error	skip	0	-1	179
+text	error	stimulusonset	483	-1	184
+text	error	stimulusonset.1	483	1	184
+text	error	textbgcolor	4278190080	-1	189
+text	error	textbgcolorblue	0	-1	190
+text	error	textbgcolorgreen	0	-1	191
+text	error	textbgcolorred	0	-1	192
+text	error	textcolor	4278190335	-1	195
+text	error	textcolorblue	0	-1	196
+text	error	textcolorgreen	0	-1	197
+text	error	textcolorred	255	-1	198
+text	error	typename	text	-1	223
+text	error	unselectedcount	0	-1	224
+text	error	vposition	75pct	-1	229
+text	error	width	0	-1	231
+text	instructions	item		-1	74
+text	instructions	item.1	This is a timed task where you have to sort words. Put your fingers on the E and the I key. Sort the words in the middle of the screen based on the categories on the left (E) or right (I).
+ 
+Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.
+
+When you make a mistake there will be a red cross. This cross will remain onscreen until you press the correct key.	1	74
+text	instructions	item.2	Look above. The categories have changed. So have the items. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.	2	74
+text	instructions	item.3	
+
+Look above. The four categories you saw separately now appear together. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	3	74
+text	instructions	item.4	
+
+Please sort the same four categories again. Once again go as fast as you can while making as few mistakes as possible.
+
+	4	74
+text	instructions	item.5	Look above. There are only two cateogries now and they have switched locations. The category that was previously on the left is now on the right (and vice-versa). 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	5	74
+text	instructions	item.6	
+
+Look above. The four categories now appear together. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	6	74
+text	instructions	item.7	
+
+Sort the same four categories once again. Remember to go as fast as you can while making as few mistakes as possible.
+
+	7	74
+text	instructions	currentindex	3	-1	30
+text	instructions	currentitem	
+
+Look above. The four categories you saw separately now appear together. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	-1	31
+text	instructions	currentitemnumber	3	-1	32
+text	instructions	currentvalue	3	-1	38
+text	instructions	erase	-1	-1	44
+text	instructions	erasecolor	4294967295	-1	45
+text	instructions	erasecolorblue	255	-1	46
+text	instructions	erasecolorgreen	255	-1	47
+text	instructions	erasecolorred	255	-1	48
+text	instructions	fontheight	3.5pct	-1	58
+text	instructions	height	60pct	-1	64
+text	instructions	hposition	50pct	-1	65
+text	instructions	item		-1	74
+text	instructions	item.1	This is a timed task where you have to sort words. Put your fingers on the E and the I key. Sort the words in the middle of the screen based on the categories on the left (E) or right (I).
+ 
+Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.
+
+When you make a mistake there will be a red cross. This cross will remain onscreen until you press the correct key.	1	74
+text	instructions	item.2	Look above. The categories have changed. So have the items. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.	2	74
+text	instructions	item.3	
+
+Look above. The four categories you saw separately now appear together. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	3	74
+text	instructions	item.4	
+
+Please sort the same four categories again. Once again go as fast as you can while making as few mistakes as possible.
+
+	4	74
+text	instructions	item.5	Look above. There are only two cateogries now and they have switched locations. The category that was previously on the left is now on the right (and vice-versa). 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	5	74
+text	instructions	item.6	
+
+Look above. The four categories now appear together. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	6	74
+text	instructions	item.7	
+
+Sort the same four categories once again. Remember to go as fast as you can while making as few mistakes as possible.
+
+	7	74
+text	instructions	itemcount	7	-1	75
+text	instructions	items		-1	78
+text	instructions	items.1	This is a timed task where you have to sort words. Put your fingers on the E and the I key. Sort the words in the middle of the screen based on the categories on the left (E) or right (I).
+ 
+Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.
+
+When you make a mistake there will be a red cross. This cross will remain onscreen until you press the correct key.	1	78
+text	instructions	items.2	Look above. The categories have changed. So have the items. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.	2	78
+text	instructions	items.3	
+
+Look above. The four categories you saw separately now appear together. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	3	78
+text	instructions	items.4	
+
+Please sort the same four categories again. Once again go as fast as you can while making as few mistakes as possible.
+
+	4	78
+text	instructions	items.5	Look above. There are only two cateogries now and they have switched locations. The category that was previously on the left is now on the right (and vice-versa). 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	5	78
+text	instructions	items.6	
+
+Look above. The four categories now appear together. 
+
+Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes	6	78
+text	instructions	items.7	
+
+Sort the same four categories once again. Remember to go as fast as you can while making as few mistakes as possible.
+
+	7	78
+text	instructions	name	instructions	-1	116
+text	instructions	nextindex	3	-1	120
+text	instructions	nextvalue	3	-1	122
+text	instructions	playthrough	0	-1	140
+text	instructions	selectedcount	3	-1	168
+text	instructions	selectedindex	3	-1	169
+text	instructions	selectedvalue	3	-1	170
+text	instructions	skip	0	-1	179
+text	instructions	stimulusonset	0	-1	184
+text	instructions	stimulusonset.1	0	1	184
+text	instructions	textbgcolor	4278190080	-1	189
+text	instructions	textbgcolorblue	0	-1	190
+text	instructions	textbgcolorgreen	0	-1	191
+text	instructions	textbgcolorred	0	-1	192
+text	instructions	textcolor	4294967295	-1	195
+text	instructions	textcolorblue	255	-1	196
+text	instructions	textcolorgreen	255	-1	197
+text	instructions	textcolorred	255	-1	198
+text	instructions	typename	text	-1	223
+text	instructions	unselectedcount	4	-1	224
+text	instructions	vposition	85pct	-1	229
+text	instructions	width	90pct	-1	231
+text	orleft	item		-1	74
+text	orleft	item.1	or	1	74
+text	orleft	currentindex	1	-1	30
+text	orleft	currentitem	or	-1	31
+text	orleft	currentitemnumber	1	-1	32
+text	orleft	currentvalue	1	-1	38
+text	orleft	erase	-1	-1	44
+text	orleft	erasecolor	4294967295	-1	45
+text	orleft	erasecolorblue	255	-1	46
+text	orleft	erasecolorgreen	255	-1	47
+text	orleft	erasecolorred	255	-1	48
+text	orleft	fontheight	5pct	-1	58
+text	orleft	height	0	-1	64
+text	orleft	hposition	5pct	-1	65
+text	orleft	item		-1	74
+text	orleft	item.1	or	1	74
+text	orleft	itemcount	1	-1	75
+text	orleft	items		-1	78
+text	orleft	items.1	or	1	78
+text	orleft	name	orleft	-1	116
+text	orleft	nextindex	1	-1	120
+text	orleft	nextvalue	1	-1	122
+text	orleft	playthrough	0	-1	140
+text	orleft	selectedcount	1	-1	168
+text	orleft	selectedindex	1	-1	169
+text	orleft	selectedvalue	1	-1	170
+text	orleft	skip	0	-1	179
+text	orleft	stimulusonset	-1	-1	184
+text	orleft	textbgcolor	4278190080	-1	189
+text	orleft	textbgcolorblue	0	-1	190
+text	orleft	textbgcolorgreen	0	-1	191
+text	orleft	textbgcolorred	0	-1	192
+text	orleft	textcolor	4294967295	-1	195
+text	orleft	textcolorblue	255	-1	196
+text	orleft	textcolorgreen	255	-1	197
+text	orleft	textcolorred	255	-1	198
+text	orleft	typename	text	-1	223
+text	orleft	unselectedcount	0	-1	224
+text	orleft	vposition	12pct	-1	229
+text	orleft	width	0	-1	231
+text	orright	item		-1	74
+text	orright	item.1	or	1	74
+text	orright	currentindex	1	-1	30
+text	orright	currentitem	or	-1	31
+text	orright	currentitemnumber	1	-1	32
+text	orright	currentvalue	1	-1	38
+text	orright	erase	-1	-1	44
+text	orright	erasecolor	4294967295	-1	45
+text	orright	erasecolorblue	255	-1	46
+text	orright	erasecolorgreen	255	-1	47
+text	orright	erasecolorred	255	-1	48
+text	orright	fontheight	5pct	-1	58
+text	orright	height	0	-1	64
+text	orright	hposition	95pct	-1	65
+text	orright	item		-1	74
+text	orright	item.1	or	1	74
+text	orright	itemcount	1	-1	75
+text	orright	items		-1	78
+text	orright	items.1	or	1	78
+text	orright	name	orright	-1	116
+text	orright	nextindex	1	-1	120
+text	orright	nextvalue	1	-1	122
+text	orright	playthrough	0	-1	140
+text	orright	selectedcount	1	-1	168
+text	orright	selectedindex	1	-1	169
+text	orright	selectedvalue	1	-1	170
+text	orright	skip	0	-1	179
+text	orright	stimulusonset	-1	-1	184
+text	orright	textbgcolor	4278190080	-1	189
+text	orright	textbgcolorblue	0	-1	190
+text	orright	textbgcolorgreen	0	-1	191
+text	orright	textbgcolorred	0	-1	192
+text	orright	textcolor	4294967295	-1	195
+text	orright	textcolorblue	255	-1	196
+text	orright	textcolorgreen	255	-1	197
+text	orright	textcolorred	255	-1	198
+text	orright	typename	text	-1	223
+text	orright	unselectedcount	0	-1	224
+text	orright	vposition	12pct	-1	229
+text	orright	width	0	-1	231
+text	spacebar	item		-1	74
+text	spacebar	item.1	Press the SPACE BAR to begin.	1	74
+text	spacebar	currentindex	1	-1	30
+text	spacebar	currentitem	Press the SPACE BAR to begin.	-1	31
+text	spacebar	currentitemnumber	1	-1	32
+text	spacebar	currentvalue	1	-1	38
+text	spacebar	erase	-1	-1	44
+text	spacebar	erasecolor	4294967295	-1	45
+text	spacebar	erasecolorblue	255	-1	46
+text	spacebar	erasecolorgreen	255	-1	47
+text	spacebar	erasecolorred	255	-1	48
+text	spacebar	fontheight	3.5pct	-1	58
+text	spacebar	height	0	-1	64
+text	spacebar	hposition	50pct	-1	65
+text	spacebar	item		-1	74
+text	spacebar	item.1	Press the SPACE BAR to begin.	1	74
+text	spacebar	itemcount	1	-1	75
+text	spacebar	items		-1	78
+text	spacebar	items.1	Press the SPACE BAR to begin.	1	78
+text	spacebar	name	spacebar	-1	116
+text	spacebar	nextindex	1	-1	120
+text	spacebar	nextvalue	1	-1	122
+text	spacebar	playthrough	0	-1	140
+text	spacebar	selectedcount	1	-1	168
+text	spacebar	selectedindex	1	-1	169
+text	spacebar	selectedvalue	1	-1	170
+text	spacebar	skip	0	-1	179
+text	spacebar	stimulusonset	0	-1	184
+text	spacebar	stimulusonset.1	0	1	184
+text	spacebar	textbgcolor	4278190080	-1	189
+text	spacebar	textbgcolorblue	0	-1	190
+text	spacebar	textbgcolorgreen	0	-1	191
+text	spacebar	textbgcolorred	0	-1	192
+text	spacebar	textcolor	4294967295	-1	195
+text	spacebar	textcolorblue	255	-1	196
+text	spacebar	textcolorgreen	255	-1	197
+text	spacebar	textcolorred	255	-1	198
+text	spacebar	typename	text	-1	223
+text	spacebar	unselectedcount	0	-1	224
+text	spacebar	vposition	95pct	-1	229
+text	spacebar	width	0	-1	231
+text	summary	item		-1	74
+text	summary	item.1	Your IAT score (D) was 0, which suggests unknown automatic preference for unknown compared to unknown.
+
+
+Press the spacebar to complete this session.	1	74
+text	summary	currentindex	1	-1	30
+text	summary	currentitem	Your IAT score (D) was 0, which suggests unknown automatic preference for unknown compared to unknown.
+
+
+Press the spacebar to complete this session.	-1	31
+text	summary	currentitemnumber	0	-1	32
+text	summary	currentvalue	1	-1	38
+text	summary	erase	-1	-1	44
+text	summary	erasecolor	4294967295	-1	45
+text	summary	erasecolorblue	255	-1	46
+text	summary	erasecolorgreen	255	-1	47
+text	summary	erasecolorred	255	-1	48
+text	summary	fontheight	3.5pct	-1	58
+text	summary	height	60pct	-1	64
+text	summary	hposition	50pct	-1	65
+text	summary	item		-1	74
+text	summary	item.1	Your IAT score (D) was 0, which suggests unknown automatic preference for unknown compared to unknown.
+
+
+Press the spacebar to complete this session.	1	74
+text	summary	itemcount	1	-1	75
+text	summary	items		-1	78
+text	summary	items.1	Your IAT score (D) was 0, which suggests unknown automatic preference for unknown compared to unknown.
+
+
+Press the spacebar to complete this session.	1	78
+text	summary	name	summary	-1	116
+text	summary	nextindex	1	-1	120
+text	summary	nextvalue	1	-1	122
+text	summary	playthrough	0	-1	140
+text	summary	selectedcount	1	-1	168
+text	summary	selectedindex	1	-1	169
+text	summary	selectedvalue	1	-1	170
+text	summary	skip	0	-1	179
+text	summary	stimulusonset	-1	-1	184
+text	summary	textbgcolor	4278190080	-1	189
+text	summary	textbgcolorblue	0	-1	190
+text	summary	textbgcolorgreen	0	-1	191
+text	summary	textbgcolorred	0	-1	192
+text	summary	textcolor	4294967295	-1	195
+text	summary	textcolorblue	255	-1	196
+text	summary	textcolorgreen	255	-1	197
+text	summary	textcolorred	255	-1	198
+text	summary	typename	text	-1	223
+text	summary	unselectedcount	0	-1	224
+text	summary	vposition	50pct	-1	229
+text	summary	width	60pct	-1	231
+text	targetA	item		-1	74
+text	targetA	item.1	B2	1	74
+text	targetA	currentindex	1	-1	30
+text	targetA	currentitem	B2	-1	31
+text	targetA	currentitemnumber	1	-1	32
+text	targetA	currentvalue	1	-1	38
+text	targetA	erase	-1	-1	44
+text	targetA	erasecolor	4294967295	-1	45
+text	targetA	erasecolorblue	255	-1	46
+text	targetA	erasecolorgreen	255	-1	47
+text	targetA	erasecolorred	255	-1	48
+text	targetA	fontheight	5pct	-1	58
+text	targetA	height	0	-1	64
+text	targetA	hposition	50pct	-1	65
+text	targetA	item		-1	74
+text	targetA	item.1	B2	1	74
+text	targetA	itemcount	1	-1	75
+text	targetA	items		-1	78
+text	targetA	items.1	B2	1	78
+text	targetA	name	targetA	-1	116
+text	targetA	nextindex	1	-1	120
+text	targetA	nextvalue	1	-1	122
+text	targetA	playthrough	0	-1	140
+text	targetA	selectedcount	1	-1	168
+text	targetA	selectedindex	1	-1	169
+text	targetA	selectedvalue	1	-1	170
+text	targetA	skip	0	-1	179
+text	targetA	stimulusonset	0	-1	184
+text	targetA	stimulusonset.1	0	1	184
+text	targetA	textbgcolor	4278190080	-1	189
+text	targetA	textbgcolorblue	0	-1	190
+text	targetA	textbgcolorgreen	0	-1	191
+text	targetA	textbgcolorred	0	-1	192
+text	targetA	textcolor	4294967295	-1	195
+text	targetA	textcolorblue	255	-1	196
+text	targetA	textcolorgreen	255	-1	197
+text	targetA	textcolorred	255	-1	198
+text	targetA	typename	text	-1	223
+text	targetA	unselectedcount	0	-1	224
+text	targetA	vposition	50pct	-1	229
+text	targetA	width	0	-1	231
+text	targetAleft	item		-1	74
+text	targetAleft	item.1	B2	1	74
+text	targetAleft	currentindex	1	-1	30
+text	targetAleft	currentitem	B2	-1	31
+text	targetAleft	currentitemnumber	1	-1	32
+text	targetAleft	currentvalue	1	-1	38
+text	targetAleft	erase	-1	-1	44
+text	targetAleft	erasecolor	4294967295	-1	45
+text	targetAleft	erasecolorblue	255	-1	46
+text	targetAleft	erasecolorgreen	255	-1	47
+text	targetAleft	erasecolorred	255	-1	48
+text	targetAleft	fontheight	5pct	-1	58
+text	targetAleft	height	0	-1	64
+text	targetAleft	hposition	5pct	-1	65
+text	targetAleft	item		-1	74
+text	targetAleft	item.1	B2	1	74
+text	targetAleft	itemcount	1	-1	75
+text	targetAleft	items		-1	78
+text	targetAleft	items.1	B2	1	78
+text	targetAleft	name	targetAleft	-1	116
+text	targetAleft	nextindex	1	-1	120
+text	targetAleft	nextvalue	1	-1	122
+text	targetAleft	playthrough	0	-1	140
+text	targetAleft	selectedcount	1	-1	168
+text	targetAleft	selectedindex	1	-1	169
+text	targetAleft	selectedvalue	1	-1	170
+text	targetAleft	skip	0	-1	179
+text	targetAleft	stimulusonset	-1	-1	184
+text	targetAleft	textbgcolor	4278190080	-1	189
+text	targetAleft	textbgcolorblue	0	-1	190
+text	targetAleft	textbgcolorgreen	0	-1	191
+text	targetAleft	textbgcolorred	0	-1	192
+text	targetAleft	textcolor	4294967295	-1	195
+text	targetAleft	textcolorblue	255	-1	196
+text	targetAleft	textcolorgreen	255	-1	197
+text	targetAleft	textcolorred	255	-1	198
+text	targetAleft	typename	text	-1	223
+text	targetAleft	unselectedcount	0	-1	224
+text	targetAleft	vposition	5pct	-1	229
+text	targetAleft	width	0	-1	231
+text	targetAright	item		-1	74
+text	targetAright	item.1	B2	1	74
+text	targetAright	currentindex	1	-1	30
+text	targetAright	currentitem	B2	-1	31
+text	targetAright	currentitemnumber	0	-1	32
+text	targetAright	currentvalue	1	-1	38
+text	targetAright	erase	-1	-1	44
+text	targetAright	erasecolor	4294967295	-1	45
+text	targetAright	erasecolorblue	255	-1	46
+text	targetAright	erasecolorgreen	255	-1	47
+text	targetAright	erasecolorred	255	-1	48
+text	targetAright	fontheight	5pct	-1	58
+text	targetAright	height	0	-1	64
+text	targetAright	hposition	95pct	-1	65
+text	targetAright	item		-1	74
+text	targetAright	item.1	B2	1	74
+text	targetAright	itemcount	1	-1	75
+text	targetAright	items		-1	78
+text	targetAright	items.1	B2	1	78
+text	targetAright	name	targetAright	-1	116
+text	targetAright	nextindex	1	-1	120
+text	targetAright	nextvalue	1	-1	122
+text	targetAright	playthrough	0	-1	140
+text	targetAright	selectedcount	1	-1	168
+text	targetAright	selectedindex	1	-1	169
+text	targetAright	selectedvalue	1	-1	170
+text	targetAright	skip	0	-1	179
+text	targetAright	stimulusonset	-1	-1	184
+text	targetAright	textbgcolor	4278190080	-1	189
+text	targetAright	textbgcolorblue	0	-1	190
+text	targetAright	textbgcolorgreen	0	-1	191
+text	targetAright	textbgcolorred	0	-1	192
+text	targetAright	textcolor	4294967295	-1	195
+text	targetAright	textcolorblue	255	-1	196
+text	targetAright	textcolorgreen	255	-1	197
+text	targetAright	textcolorred	255	-1	198
+text	targetAright	typename	text	-1	223
+text	targetAright	unselectedcount	0	-1	224
+text	targetAright	vposition	5pct	-1	229
+text	targetAright	width	0	-1	231
+text	targetB	item		-1	74
+text	targetB	item.1	C2	1	74
+text	targetB	currentindex	1	-1	30
+text	targetB	currentitem	C2	-1	31
+text	targetB	currentitemnumber	1	-1	32
+text	targetB	currentvalue	1	-1	38
+text	targetB	erase	-1	-1	44
+text	targetB	erasecolor	4294967295	-1	45
+text	targetB	erasecolorblue	255	-1	46
+text	targetB	erasecolorgreen	255	-1	47
+text	targetB	erasecolorred	255	-1	48
+text	targetB	fontheight	5pct	-1	58
+text	targetB	height	0	-1	64
+text	targetB	hposition	50pct	-1	65
+text	targetB	item		-1	74
+text	targetB	item.1	C2	1	74
+text	targetB	itemcount	1	-1	75
+text	targetB	items		-1	78
+text	targetB	items.1	C2	1	78
+text	targetB	name	targetB	-1	116
+text	targetB	nextindex	1	-1	120
+text	targetB	nextvalue	1	-1	122
+text	targetB	playthrough	0	-1	140
+text	targetB	selectedcount	1	-1	168
+text	targetB	selectedindex	1	-1	169
+text	targetB	selectedvalue	1	-1	170
+text	targetB	skip	0	-1	179
+text	targetB	stimulusonset	0	-1	184
+text	targetB	stimulusonset.1	0	1	184
+text	targetB	textbgcolor	4278190080	-1	189
+text	targetB	textbgcolorblue	0	-1	190
+text	targetB	textbgcolorgreen	0	-1	191
+text	targetB	textbgcolorred	0	-1	192
+text	targetB	textcolor	4294967295	-1	195
+text	targetB	textcolorblue	255	-1	196
+text	targetB	textcolorgreen	255	-1	197
+text	targetB	textcolorred	255	-1	198
+text	targetB	typename	text	-1	223
+text	targetB	unselectedcount	0	-1	224
+text	targetB	vposition	50pct	-1	229
+text	targetB	width	0	-1	231
+text	targetBleft	item		-1	74
+text	targetBleft	item.1	C2	1	74
+text	targetBleft	currentindex	1	-1	30
+text	targetBleft	currentitem	C2	-1	31
+text	targetBleft	currentitemnumber	0	-1	32
+text	targetBleft	currentvalue	1	-1	38
+text	targetBleft	erase	-1	-1	44
+text	targetBleft	erasecolor	4294967295	-1	45
+text	targetBleft	erasecolorblue	255	-1	46
+text	targetBleft	erasecolorgreen	255	-1	47
+text	targetBleft	erasecolorred	255	-1	48
+text	targetBleft	fontheight	5pct	-1	58
+text	targetBleft	height	0	-1	64
+text	targetBleft	hposition	5pct	-1	65
+text	targetBleft	item		-1	74
+text	targetBleft	item.1	C2	1	74
+text	targetBleft	itemcount	1	-1	75
+text	targetBleft	items		-1	78
+text	targetBleft	items.1	C2	1	78
+text	targetBleft	name	targetBleft	-1	116
+text	targetBleft	nextindex	1	-1	120
+text	targetBleft	nextvalue	1	-1	122
+text	targetBleft	playthrough	0	-1	140
+text	targetBleft	selectedcount	1	-1	168
+text	targetBleft	selectedindex	1	-1	169
+text	targetBleft	selectedvalue	1	-1	170
+text	targetBleft	skip	0	-1	179
+text	targetBleft	stimulusonset	-1	-1	184
+text	targetBleft	textbgcolor	4278190080	-1	189
+text	targetBleft	textbgcolorblue	0	-1	190
+text	targetBleft	textbgcolorgreen	0	-1	191
+text	targetBleft	textbgcolorred	0	-1	192
+text	targetBleft	textcolor	4294967295	-1	195
+text	targetBleft	textcolorblue	255	-1	196
+text	targetBleft	textcolorgreen	255	-1	197
+text	targetBleft	textcolorred	255	-1	198
+text	targetBleft	typename	text	-1	223
+text	targetBleft	unselectedcount	0	-1	224
+text	targetBleft	vposition	5pct	-1	229
+text	targetBleft	width	0	-1	231
+text	targetBright	item		-1	74
+text	targetBright	item.1	C2	1	74
+text	targetBright	currentindex	1	-1	30
+text	targetBright	currentitem	C2	-1	31
+text	targetBright	currentitemnumber	1	-1	32
+text	targetBright	currentvalue	1	-1	38
+text	targetBright	erase	-1	-1	44
+text	targetBright	erasecolor	4294967295	-1	45
+text	targetBright	erasecolorblue	255	-1	46
+text	targetBright	erasecolorgreen	255	-1	47
+text	targetBright	erasecolorred	255	-1	48
+text	targetBright	fontheight	5pct	-1	58
+text	targetBright	height	0	-1	64
+text	targetBright	hposition	95pct	-1	65
+text	targetBright	item		-1	74
+text	targetBright	item.1	C2	1	74
+text	targetBright	itemcount	1	-1	75
+text	targetBright	items		-1	78
+text	targetBright	items.1	C2	1	78
+text	targetBright	name	targetBright	-1	116
+text	targetBright	nextindex	1	-1	120
+text	targetBright	nextvalue	1	-1	122
+text	targetBright	playthrough	0	-1	140
+text	targetBright	selectedcount	1	-1	168
+text	targetBright	selectedindex	1	-1	169
+text	targetBright	selectedvalue	1	-1	170
+text	targetBright	skip	0	-1	179
+text	targetBright	stimulusonset	-1	-1	184
+text	targetBright	textbgcolor	4278190080	-1	189
+text	targetBright	textbgcolorblue	0	-1	190
+text	targetBright	textbgcolorgreen	0	-1	191
+text	targetBright	textbgcolorred	0	-1	192
+text	targetBright	textcolor	4294967295	-1	195
+text	targetBright	textcolorblue	255	-1	196
+text	targetBright	textcolorgreen	255	-1	197
+text	targetBright	textcolorred	255	-1	198
+text	targetBright	typename	text	-1	223
+text	targetBright	unselectedcount	0	-1	224
+text	targetBright	vposition	5pct	-1	229
+text	targetBright	width	0	-1	231
+trial	attributeA	beginresponseframe	0	-1	6
+trial	attributeA	beginresponsetime	0	-1	7
+trial	attributeA	correct	0	-1	20
+trial	attributeA	correctcount	0	-1	21
+trial	attributeA	correctstreak	0	-1	22
+trial	attributeA	count	4	-1	23
+trial	attributeA	elapsedtime	5683	-1	41
+trial	attributeA	error	1	-1	50
+trial	attributeA	errorcount	4	-1	51
+trial	attributeA	errorstreak	4	-1	52
+trial	attributeA	inputmask	0	-1	69
+trial	attributeA	inwindow	0	-1	70
+trial	attributeA	inwindowcount	0	-1	71
+trial	attributeA	inwindowstreak	0	-1	72
+trial	attributeA	latency	1075	-1	92
+trial	attributeA	maxlatency	1339	-1	99
+trial	attributeA	meanlatency	1142.5	-1	104
+trial	attributeA	medianlatency	1110	-1	107
+trial	attributeA	minlatency	1011	-1	110
+trial	attributeA	name	attributeA	-1	116
+trial	attributeA	next		-1	119
+trial	attributeA	notinwindow	1	-1	123
+trial	attributeA	notinwindowcount	4	-1	124
+trial	attributeA	notinwindowstreak	4	-1	125
+trial	attributeA	numcorrect	0	-1	126
+trial	attributeA	numinwindow	0	-1	127
+trial	attributeA	percentcorrect	0	-1	137
+trial	attributeA	percentinwindow	0	-1	138
+trial	attributeA	posttrialpause	250	-1	145
+trial	attributeA	pretrialpause	0	-1	146
+trial	attributeA	recorddata	1	-1	147
+trial	attributeA	response	18	-1	154
+trial	attributeA	responsex	-1	-1	156
+trial	attributeA	responsey	-1	-1	157
+trial	attributeA	screencapture	0	-1	160
+trial	attributeA	sdlatency	141.9706542446947707958	-1	165
+trial	attributeA	selectedcount	0	-1	168
+trial	attributeA	showmousecursor	0	-1	174
+trial	attributeA	sumlatency	4570	-1	188
+trial	attributeA	timeout	0	-1	199
+trial	attributeA	totalcorrectcount	0	-1	202
+trial	attributeA	totalcount	4	-1	203
+trial	attributeA	totalerrorcount	4	-1	204
+trial	attributeA	totalinwindowcount	0	-1	205
+trial	attributeA	totalmaxlatency	1339	-1	206
+trial	attributeA	totalmeanlatency	1142.5	-1	207
+trial	attributeA	totalmedianlatency	1110	-1	208
+trial	attributeA	totalminlatency	1011	-1	209
+trial	attributeA	totalnumcorrect	0	-1	211
+trial	attributeA	totalnuminwindow	0	-1	212
+trial	attributeA	totalpercentcorrect	0	-1	213
+trial	attributeA	totalpercentinwindow	0	-1	214
+trial	attributeA	totalsdlatency	141.9706542446947707958	-1	215
+trial	attributeA	totalsumlatency	4570	-1	216
+trial	attributeA	totaltrialcount	4	-1	217
+trial	attributeA	totalvarlatency	20155.6666666666678793263	-1	218
+trial	attributeA	trialcode		-1	219
+trial	attributeA	trialcount	4	-1	220
+trial	attributeA	trialduration	0	-1	221
+trial	attributeA	typename	trial	-1	223
+trial	attributeA	unselectedcount	0	-1	224
+trial	attributeA	varlatency	20155.6666666666678793263	-1	226
+trial	attributeA	windowcenter	0	-1	232
+trial	attributeA	windowdecthreshold	0	-1	233
+trial	attributeA	windowdecunit	33	-1	234
+trial	attributeA	windowhitduration	0	-1	235
+trial	attributeA	windowincthreshold	0	-1	236
+trial	attributeA	windowincunit	33	-1	237
+trial	attributeA	windowmaxcenter	0	-1	238
+trial	attributeA	windowmincenter	0	-1	239
+trial	attributeA	windowonset	0	-1	241
+trial	attributeA	windowwidth	0	-1	242
+trial	attributeB	beginresponseframe	0	-1	6
+trial	attributeB	beginresponsetime	0	-1	7
+trial	attributeB	correct	1	-1	20
+trial	attributeB	correctcount	3	-1	21
+trial	attributeB	correctstreak	3	-1	22
+trial	attributeB	count	3	-1	23
+trial	attributeB	elapsedtime	8028	-1	41
+trial	attributeB	error	0	-1	50
+trial	attributeB	errorcount	0	-1	51
+trial	attributeB	errorstreak	0	-1	52
+trial	attributeB	inputmask	0	-1	69
+trial	attributeB	inwindow	0	-1	70
+trial	attributeB	inwindowcount	0	-1	71
+trial	attributeB	inwindowstreak	0	-1	72
+trial	attributeB	latency	499	-1	92
+trial	attributeB	maxlatency	747	-1	99
+trial	attributeB	meanlatency	536.3333333333333712289	-1	104
+trial	attributeB	medianlatency	499	-1	107
+trial	attributeB	minlatency	363	-1	110
+trial	attributeB	name	attributeB	-1	116
+trial	attributeB	next		-1	119
+trial	attributeB	notinwindow	1	-1	123
+trial	attributeB	notinwindowcount	3	-1	124
+trial	attributeB	notinwindowstreak	3	-1	125
+trial	attributeB	numcorrect	3	-1	126
+trial	attributeB	numinwindow	0	-1	127
+trial	attributeB	percentcorrect	100	-1	137
+trial	attributeB	percentinwindow	0	-1	138
+trial	attributeB	posttrialpause	250	-1	145
+trial	attributeB	pretrialpause	0	-1	146
+trial	attributeB	recorddata	1	-1	147
+trial	attributeB	response	23	-1	154
+trial	attributeB	responsex	-1	-1	156
+trial	attributeB	responsey	-1	-1	157
+trial	attributeB	screencapture	0	-1	160
+trial	attributeB	sdlatency	194.7031929202326523409	-1	165
+trial	attributeB	selectedcount	0	-1	168
+trial	attributeB	showmousecursor	0	-1	174
+trial	attributeB	sumlatency	1609	-1	188
+trial	attributeB	timeout	0	-1	199
+trial	attributeB	totalcorrectcount	3	-1	202
+trial	attributeB	totalcount	3	-1	203
+trial	attributeB	totalerrorcount	0	-1	204
+trial	attributeB	totalinwindowcount	0	-1	205
+trial	attributeB	totalmaxlatency	747	-1	206
+trial	attributeB	totalmeanlatency	536.3333333333333712289	-1	207
+trial	attributeB	totalmedianlatency	499	-1	208
+trial	attributeB	totalminlatency	363	-1	209
+trial	attributeB	totalnumcorrect	3	-1	211
+trial	attributeB	totalnuminwindow	0	-1	212
+trial	attributeB	totalpercentcorrect	100	-1	213
+trial	attributeB	totalpercentinwindow	0	-1	214
+trial	attributeB	totalsdlatency	194.7031929202326523409	-1	215
+trial	attributeB	totalsumlatency	1609	-1	216
+trial	attributeB	totaltrialcount	3	-1	217
+trial	attributeB	totalvarlatency	37909.3333333333357586525	-1	218
+trial	attributeB	trialcode		-1	219
+trial	attributeB	trialcount	3	-1	220
+trial	attributeB	trialduration	0	-1	221
+trial	attributeB	typename	trial	-1	223
+trial	attributeB	unselectedcount	0	-1	224
+trial	attributeB	varlatency	37909.3333333333357586525	-1	226
+trial	attributeB	windowcenter	0	-1	232
+trial	attributeB	windowdecthreshold	0	-1	233
+trial	attributeB	windowdecunit	33	-1	234
+trial	attributeB	windowhitduration	0	-1	235
+trial	attributeB	windowincthreshold	0	-1	236
+trial	attributeB	windowincunit	33	-1	237
+trial	attributeB	windowmaxcenter	0	-1	238
+trial	attributeB	windowmincenter	0	-1	239
+trial	attributeB	windowonset	0	-1	241
+trial	attributeB	windowwidth	0	-1	242
+trial	instructions	beginresponseframe	0	-1	6
+trial	instructions	beginresponsetime	0	-1	7
+trial	instructions	correct	1	-1	20
+trial	instructions	correctcount	1	-1	21
+trial	instructions	correctstreak	3	-1	22
+trial	instructions	count	1	-1	23
+trial	instructions	elapsedtime	4325	-1	41
+trial	instructions	error	0	-1	50
+trial	instructions	errorcount	0	-1	51
+trial	instructions	errorstreak	0	-1	52
+trial	instructions	inputmask	0	-1	69
+trial	instructions	inwindow	0	-1	70
+trial	instructions	inwindowcount	0	-1	71
+trial	instructions	inwindowstreak	0	-1	72
+trial	instructions	latency	4261	-1	92
+trial	instructions	maxlatency	4261	-1	99
+trial	instructions	meanlatency	4261	-1	104
+trial	instructions	medianlatency	4261	-1	107
+trial	instructions	minlatency	4261	-1	110
+trial	instructions	name	instructions	-1	116
+trial	instructions	next		-1	119
+trial	instructions	notinwindow	1	-1	123
+trial	instructions	notinwindowcount	1	-1	124
+trial	instructions	notinwindowstreak	3	-1	125
+trial	instructions	numcorrect	1	-1	126
+trial	instructions	numinwindow	0	-1	127
+trial	instructions	percentcorrect	100	-1	137
+trial	instructions	percentinwindow	0	-1	138
+trial	instructions	posttrialpause	0	-1	145
+trial	instructions	pretrialpause	0	-1	146
+trial	instructions	recorddata	0	-1	147
+trial	instructions	response	29	-1	154
+trial	instructions	responsex	-1	-1	156
+trial	instructions	responsey	-1	-1	157
+trial	instructions	screencapture	0	-1	160
+trial	instructions	sdlatency	0	-1	165
+trial	instructions	selectedcount	0	-1	168
+trial	instructions	showmousecursor	0	-1	174
+trial	instructions	sumlatency	4261	-1	188
+trial	instructions	timeout	0	-1	199
+trial	instructions	totalcorrectcount	3	-1	202
+trial	instructions	totalcount	3	-1	203
+trial	instructions	totalerrorcount	0	-1	204
+trial	instructions	totalinwindowcount	0	-1	205
+trial	instructions	totalmaxlatency	4261	-1	206
+trial	instructions	totalmeanlatency	3174	-1	207
+trial	instructions	totalmedianlatency	3808	-1	208
+trial	instructions	totalminlatency	1453	-1	209
+trial	instructions	totalnumcorrect	3	-1	211
+trial	instructions	totalnuminwindow	0	-1	212
+trial	instructions	totalpercentcorrect	100	-1	213
+trial	instructions	totalpercentinwindow	0	-1	214
+trial	instructions	totalsdlatency	1507.5420392148273549537	-1	215
+trial	instructions	totalsumlatency	9522	-1	216
+trial	instructions	totaltrialcount	3	-1	217
+trial	instructions	totalvarlatency	2272683	-1	218
+trial	instructions	trialcode		-1	219
+trial	instructions	trialcount	1	-1	220
+trial	instructions	trialduration	0	-1	221
+trial	instructions	typename	trial	-1	223
+trial	instructions	unselectedcount	0	-1	224
+trial	instructions	varlatency	0	-1	226
+trial	instructions	windowcenter	0	-1	232
+trial	instructions	windowdecthreshold	0	-1	233
+trial	instructions	windowdecunit	33	-1	234
+trial	instructions	windowhitduration	0	-1	235
+trial	instructions	windowincthreshold	0	-1	236
+trial	instructions	windowincunit	33	-1	237
+trial	instructions	windowmaxcenter	0	-1	238
+trial	instructions	windowmincenter	0	-1	239
+trial	instructions	windowonset	0	-1	241
+trial	instructions	windowwidth	0	-1	242
+trial	summary	beginresponseframe	0	-1	6
+trial	summary	beginresponsetime	0	-1	7
+trial	summary	correct	0	-1	20
+trial	summary	correctcount	0	-1	21
+trial	summary	correctstreak	0	-1	22
+trial	summary	count	0	-1	23
+trial	summary	elapsedtime	204497419	-1	41
+trial	summary	error	1	-1	50
+trial	summary	errorcount	0	-1	51
+trial	summary	errorstreak	0	-1	52
+trial	summary	inputmask	0	-1	69
+trial	summary	inwindow	0	-1	70
+trial	summary	inwindowcount	0	-1	71
+trial	summary	inwindowstreak	0	-1	72
+trial	summary	latency	0	-1	92
+trial	summary	maxlatency	0	-1	99
+trial	summary	meanlatency	0	-1	104
+trial	summary	medianlatency	0	-1	107
+trial	summary	minlatency	0	-1	110
+trial	summary	name	summary	-1	116
+trial	summary	next		-1	119
+trial	summary	notinwindow	1	-1	123
+trial	summary	notinwindowcount	0	-1	124
+trial	summary	notinwindowstreak	0	-1	125
+trial	summary	numcorrect	0	-1	126
+trial	summary	numinwindow	0	-1	127
+trial	summary	percentcorrect	0	-1	137
+trial	summary	percentinwindow	0	-1	138
+trial	summary	posttrialpause	0	-1	145
+trial	summary	pretrialpause	0	-1	146
+trial	summary	recorddata	0	-1	147
+trial	summary	response		-1	154
+trial	summary	responsex	-1	-1	156
+trial	summary	responsey	-1	-1	157
+trial	summary	screencapture	0	-1	160
+trial	summary	sdlatency	0	-1	165
+trial	summary	selectedcount	0	-1	168
+trial	summary	showmousecursor	0	-1	174
+trial	summary	sumlatency	0	-1	188
+trial	summary	timeout	0	-1	199
+trial	summary	totalcorrectcount	0	-1	202
+trial	summary	totalcount	0	-1	203
+trial	summary	totalerrorcount	0	-1	204
+trial	summary	totalinwindowcount	0	-1	205
+trial	summary	totalmaxlatency	0	-1	206
+trial	summary	totalmeanlatency	0	-1	207
+trial	summary	totalmedianlatency	0	-1	208
+trial	summary	totalminlatency	0	-1	209
+trial	summary	totalnumcorrect	0	-1	211
+trial	summary	totalnuminwindow	0	-1	212
+trial	summary	totalpercentcorrect	0	-1	213
+trial	summary	totalpercentinwindow	0	-1	214
+trial	summary	totalsdlatency	0	-1	215
+trial	summary	totalsumlatency	0	-1	216
+trial	summary	totaltrialcount	0	-1	217
+trial	summary	totalvarlatency	0	-1	218
+trial	summary	trialcode		-1	219
+trial	summary	trialcount	0	-1	220
+trial	summary	trialduration	0	-1	221
+trial	summary	typename	trial	-1	223
+trial	summary	unselectedcount	0	-1	224
+trial	summary	varlatency	0	-1	226
+trial	summary	windowcenter	0	-1	232
+trial	summary	windowdecthreshold	0	-1	233
+trial	summary	windowdecunit	33	-1	234
+trial	summary	windowhitduration	0	-1	235
+trial	summary	windowincthreshold	0	-1	236
+trial	summary	windowincunit	33	-1	237
+trial	summary	windowmaxcenter	0	-1	238
+trial	summary	windowmincenter	0	-1	239
+trial	summary	windowonset	0	-1	241
+trial	summary	windowwidth	0	-1	242
+trial	targetAleft	beginresponseframe	0	-1	6
+trial	targetAleft	beginresponsetime	0	-1	7
+trial	targetAleft	correct	0	-1	20
+trial	targetAleft	correctcount	0	-1	21
+trial	targetAleft	correctstreak	0	-1	22
+trial	targetAleft	count	4	-1	23
+trial	targetAleft	elapsedtime	17851	-1	41
+trial	targetAleft	error	1	-1	50
+trial	targetAleft	errorcount	4	-1	51
+trial	targetAleft	errorstreak	4	-1	52
+trial	targetAleft	inputmask	0	-1	69
+trial	targetAleft	inwindow	0	-1	70
+trial	targetAleft	inwindowcount	0	-1	71
+trial	targetAleft	inwindowstreak	0	-1	72
+trial	targetAleft	latency	835	-1	92
+trial	targetAleft	maxlatency	988	-1	99
+trial	targetAleft	meanlatency	889.25	-1	104
+trial	targetAleft	medianlatency	883	-1	107
+trial	targetAleft	minlatency	803	-1	110
+trial	targetAleft	name	targetAleft	-1	116
+trial	targetAleft	next		-1	119
+trial	targetAleft	notinwindow	1	-1	123
+trial	targetAleft	notinwindowcount	4	-1	124
+trial	targetAleft	notinwindowstreak	4	-1	125
+trial	targetAleft	numcorrect	0	-1	126
+trial	targetAleft	numinwindow	0	-1	127
+trial	targetAleft	percentcorrect	0	-1	137
+trial	targetAleft	percentinwindow	0	-1	138
+trial	targetAleft	posttrialpause	250	-1	145
+trial	targetAleft	pretrialpause	0	-1	146
+trial	targetAleft	recorddata	1	-1	147
+trial	targetAleft	response	18	-1	154
+trial	targetAleft	responsex	-1	-1	156
+trial	targetAleft	responsey	-1	-1	157
+trial	targetAleft	screencapture	0	-1	160
+trial	targetAleft	sdlatency	85.3946719649416934317	-1	165
+trial	targetAleft	selectedcount	0	-1	168
+trial	targetAleft	showmousecursor	0	-1	174
+trial	targetAleft	sumlatency	3557	-1	188
+trial	targetAleft	timeout	0	-1	199
+trial	targetAleft	totalcorrectcount	0	-1	202
+trial	targetAleft	totalcount	4	-1	203
+trial	targetAleft	totalerrorcount	4	-1	204
+trial	targetAleft	totalinwindowcount	0	-1	205
+trial	targetAleft	totalmaxlatency	988	-1	206
+trial	targetAleft	totalmeanlatency	889.25	-1	207
+trial	targetAleft	totalmedianlatency	883	-1	208
+trial	targetAleft	totalminlatency	803	-1	209
+trial	targetAleft	totalnumcorrect	0	-1	211
+trial	targetAleft	totalnuminwindow	0	-1	212
+trial	targetAleft	totalpercentcorrect	0	-1	213
+trial	targetAleft	totalpercentinwindow	0	-1	214
+trial	targetAleft	totalsdlatency	85.3946719649416934317	-1	215
+trial	targetAleft	totalsumlatency	3557	-1	216
+trial	targetAleft	totaltrialcount	4	-1	217
+trial	targetAleft	totalvarlatency	7292.25	-1	218
+trial	targetAleft	trialcode		-1	219
+trial	targetAleft	trialcount	4	-1	220
+trial	targetAleft	trialduration	0	-1	221
+trial	targetAleft	typename	trial	-1	223
+trial	targetAleft	unselectedcount	0	-1	224
+trial	targetAleft	varlatency	7292.25	-1	226
+trial	targetAleft	windowcenter	0	-1	232
+trial	targetAleft	windowdecthreshold	0	-1	233
+trial	targetAleft	windowdecunit	33	-1	234
+trial	targetAleft	windowhitduration	0	-1	235
+trial	targetAleft	windowincthreshold	0	-1	236
+trial	targetAleft	windowincunit	33	-1	237
+trial	targetAleft	windowmaxcenter	0	-1	238
+trial	targetAleft	windowmincenter	0	-1	239
+trial	targetAleft	windowonset	0	-1	241
+trial	targetAleft	windowwidth	0	-1	242
+trial	targetAright	beginresponseframe	0	-1	6
+trial	targetAright	beginresponsetime	0	-1	7
+trial	targetAright	correct	0	-1	20
+trial	targetAright	correctcount	0	-1	21
+trial	targetAright	correctstreak	0	-1	22
+trial	targetAright	count	0	-1	23
+trial	targetAright	elapsedtime	204497420	-1	41
+trial	targetAright	error	1	-1	50
+trial	targetAright	errorcount	0	-1	51
+trial	targetAright	errorstreak	0	-1	52
+trial	targetAright	inputmask	0	-1	69
+trial	targetAright	inwindow	0	-1	70
+trial	targetAright	inwindowcount	0	-1	71
+trial	targetAright	inwindowstreak	0	-1	72
+trial	targetAright	latency	0	-1	92
+trial	targetAright	maxlatency	0	-1	99
+trial	targetAright	meanlatency	0	-1	104
+trial	targetAright	medianlatency	0	-1	107
+trial	targetAright	minlatency	0	-1	110
+trial	targetAright	name	targetAright	-1	116
+trial	targetAright	next		-1	119
+trial	targetAright	notinwindow	1	-1	123
+trial	targetAright	notinwindowcount	0	-1	124
+trial	targetAright	notinwindowstreak	0	-1	125
+trial	targetAright	numcorrect	0	-1	126
+trial	targetAright	numinwindow	0	-1	127
+trial	targetAright	percentcorrect	0	-1	137
+trial	targetAright	percentinwindow	0	-1	138
+trial	targetAright	posttrialpause	250	-1	145
+trial	targetAright	pretrialpause	0	-1	146
+trial	targetAright	recorddata	1	-1	147
+trial	targetAright	response		-1	154
+trial	targetAright	responsex	-1	-1	156
+trial	targetAright	responsey	-1	-1	157
+trial	targetAright	screencapture	0	-1	160
+trial	targetAright	sdlatency	0	-1	165
+trial	targetAright	selectedcount	0	-1	168
+trial	targetAright	showmousecursor	0	-1	174
+trial	targetAright	sumlatency	0	-1	188
+trial	targetAright	timeout	0	-1	199
+trial	targetAright	totalcorrectcount	0	-1	202
+trial	targetAright	totalcount	0	-1	203
+trial	targetAright	totalerrorcount	0	-1	204
+trial	targetAright	totalinwindowcount	0	-1	205
+trial	targetAright	totalmaxlatency	0	-1	206
+trial	targetAright	totalmeanlatency	0	-1	207
+trial	targetAright	totalmedianlatency	0	-1	208
+trial	targetAright	totalminlatency	0	-1	209
+trial	targetAright	totalnumcorrect	0	-1	211
+trial	targetAright	totalnuminwindow	0	-1	212
+trial	targetAright	totalpercentcorrect	0	-1	213
+trial	targetAright	totalpercentinwindow	0	-1	214
+trial	targetAright	totalsdlatency	0	-1	215
+trial	targetAright	totalsumlatency	0	-1	216
+trial	targetAright	totaltrialcount	0	-1	217
+trial	targetAright	totalvarlatency	0	-1	218
+trial	targetAright	trialcode		-1	219
+trial	targetAright	trialcount	0	-1	220
+trial	targetAright	trialduration	0	-1	221
+trial	targetAright	typename	trial	-1	223
+trial	targetAright	unselectedcount	0	-1	224
+trial	targetAright	varlatency	0	-1	226
+trial	targetAright	windowcenter	0	-1	232
+trial	targetAright	windowdecthreshold	0	-1	233
+trial	targetAright	windowdecunit	33	-1	234
+trial	targetAright	windowhitduration	0	-1	235
+trial	targetAright	windowincthreshold	0	-1	236
+trial	targetAright	windowincunit	33	-1	237
+trial	targetAright	windowmaxcenter	0	-1	238
+trial	targetAright	windowmincenter	0	-1	239
+trial	targetAright	windowonset	0	-1	241
+trial	targetAright	windowwidth	0	-1	242
+trial	targetBleft	beginresponseframe	0	-1	6
+trial	targetBleft	beginresponsetime	0	-1	7
+trial	targetBleft	correct	0	-1	20
+trial	targetBleft	correctcount	0	-1	21
+trial	targetBleft	correctstreak	0	-1	22
+trial	targetBleft	count	0	-1	23
+trial	targetBleft	elapsedtime	204497420	-1	41
+trial	targetBleft	error	1	-1	50
+trial	targetBleft	errorcount	0	-1	51
+trial	targetBleft	errorstreak	0	-1	52
+trial	targetBleft	inputmask	0	-1	69
+trial	targetBleft	inwindow	0	-1	70
+trial	targetBleft	inwindowcount	0	-1	71
+trial	targetBleft	inwindowstreak	0	-1	72
+trial	targetBleft	latency	0	-1	92
+trial	targetBleft	maxlatency	0	-1	99
+trial	targetBleft	meanlatency	0	-1	104
+trial	targetBleft	medianlatency	0	-1	107
+trial	targetBleft	minlatency	0	-1	110
+trial	targetBleft	name	targetBleft	-1	116
+trial	targetBleft	next		-1	119
+trial	targetBleft	notinwindow	1	-1	123
+trial	targetBleft	notinwindowcount	0	-1	124
+trial	targetBleft	notinwindowstreak	0	-1	125
+trial	targetBleft	numcorrect	0	-1	126
+trial	targetBleft	numinwindow	0	-1	127
+trial	targetBleft	percentcorrect	0	-1	137
+trial	targetBleft	percentinwindow	0	-1	138
+trial	targetBleft	posttrialpause	250	-1	145
+trial	targetBleft	pretrialpause	0	-1	146
+trial	targetBleft	recorddata	1	-1	147
+trial	targetBleft	response		-1	154
+trial	targetBleft	responsex	-1	-1	156
+trial	targetBleft	responsey	-1	-1	157
+trial	targetBleft	screencapture	0	-1	160
+trial	targetBleft	sdlatency	0	-1	165
+trial	targetBleft	selectedcount	0	-1	168
+trial	targetBleft	showmousecursor	0	-1	174
+trial	targetBleft	sumlatency	0	-1	188
+trial	targetBleft	timeout	0	-1	199
+trial	targetBleft	totalcorrectcount	0	-1	202
+trial	targetBleft	totalcount	0	-1	203
+trial	targetBleft	totalerrorcount	0	-1	204
+trial	targetBleft	totalinwindowcount	0	-1	205
+trial	targetBleft	totalmaxlatency	0	-1	206
+trial	targetBleft	totalmeanlatency	0	-1	207
+trial	targetBleft	totalmedianlatency	0	-1	208
+trial	targetBleft	totalminlatency	0	-1	209
+trial	targetBleft	totalnumcorrect	0	-1	211
+trial	targetBleft	totalnuminwindow	0	-1	212
+trial	targetBleft	totalpercentcorrect	0	-1	213
+trial	targetBleft	totalpercentinwindow	0	-1	214
+trial	targetBleft	totalsdlatency	0	-1	215
+trial	targetBleft	totalsumlatency	0	-1	216
+trial	targetBleft	totaltrialcount	0	-1	217
+trial	targetBleft	totalvarlatency	0	-1	218
+trial	targetBleft	trialcode		-1	219
+trial	targetBleft	trialcount	0	-1	220
+trial	targetBleft	trialduration	0	-1	221
+trial	targetBleft	typename	trial	-1	223
+trial	targetBleft	unselectedcount	0	-1	224
+trial	targetBleft	varlatency	0	-1	226
+trial	targetBleft	windowcenter	0	-1	232
+trial	targetBleft	windowdecthreshold	0	-1	233
+trial	targetBleft	windowdecunit	33	-1	234
+trial	targetBleft	windowhitduration	0	-1	235
+trial	targetBleft	windowincthreshold	0	-1	236
+trial	targetBleft	windowincunit	33	-1	237
+trial	targetBleft	windowmaxcenter	0	-1	238
+trial	targetBleft	windowmincenter	0	-1	239
+trial	targetBleft	windowonset	0	-1	241
+trial	targetBleft	windowwidth	0	-1	242
+trial	targetBright	beginresponseframe	0	-1	6
+trial	targetBright	beginresponsetime	0	-1	7
+trial	targetBright	correct	1	-1	20
+trial	targetBright	correctcount	3	-1	21
+trial	targetBright	correctstreak	3	-1	22
+trial	targetBright	count	3	-1	23
+trial	targetBright	elapsedtime	16764	-1	41
+trial	targetBright	error	0	-1	50
+trial	targetBright	errorcount	0	-1	51
+trial	targetBright	errorstreak	0	-1	52
+trial	targetBright	inputmask	0	-1	69
+trial	targetBright	inwindow	0	-1	70
+trial	targetBright	inwindowcount	0	-1	71
+trial	targetBright	inwindowstreak	0	-1	72
+trial	targetBright	latency	339	-1	92
+trial	targetBright	maxlatency	339	-1	99
+trial	targetBright	meanlatency	280.3333333333333143855	-1	104
+trial	targetBright	medianlatency	259	-1	107
+trial	targetBright	minlatency	243	-1	110
+trial	targetBright	name	targetBright	-1	116
+trial	targetBright	next		-1	119
+trial	targetBright	notinwindow	1	-1	123
+trial	targetBright	notinwindowcount	3	-1	124
+trial	targetBright	notinwindowstreak	3	-1	125
+trial	targetBright	numcorrect	3	-1	126
+trial	targetBright	numinwindow	0	-1	127
+trial	targetBright	percentcorrect	100	-1	137
+trial	targetBright	percentinwindow	0	-1	138
+trial	targetBright	posttrialpause	250	-1	145
+trial	targetBright	pretrialpause	0	-1	146
+trial	targetBright	recorddata	1	-1	147
+trial	targetBright	response	23	-1	154
+trial	targetBright	responsex	-1	-1	156
+trial	targetBright	responsey	-1	-1	157
+trial	targetBright	screencapture	0	-1	160
+trial	targetBright	sdlatency	51.4328040586290953229	-1	165
+trial	targetBright	selectedcount	0	-1	168
+trial	targetBright	showmousecursor	0	-1	174
+trial	targetBright	sumlatency	841	-1	188
+trial	targetBright	timeout	0	-1	199
+trial	targetBright	totalcorrectcount	3	-1	202
+trial	targetBright	totalcount	3	-1	203
+trial	targetBright	totalerrorcount	0	-1	204
+trial	targetBright	totalinwindowcount	0	-1	205
+trial	targetBright	totalmaxlatency	339	-1	206
+trial	targetBright	totalmeanlatency	280.3333333333333143855	-1	207
+trial	targetBright	totalmedianlatency	259	-1	208
+trial	targetBright	totalminlatency	243	-1	209
+trial	targetBright	totalnumcorrect	3	-1	211
+trial	targetBright	totalnuminwindow	0	-1	212
+trial	targetBright	totalpercentcorrect	100	-1	213
+trial	targetBright	totalpercentinwindow	0	-1	214
+trial	targetBright	totalsdlatency	51.4328040586290953229	-1	215
+trial	targetBright	totalsumlatency	841	-1	216
+trial	targetBright	totaltrialcount	3	-1	217
+trial	targetBright	totalvarlatency	2645.3333333333334849158	-1	218
+trial	targetBright	trialcode		-1	219
+trial	targetBright	trialcount	3	-1	220
+trial	targetBright	trialduration	0	-1	221
+trial	targetBright	typename	trial	-1	223
+trial	targetBright	unselectedcount	0	-1	224
+trial	targetBright	varlatency	2645.3333333333334849158	-1	226
+trial	targetBright	windowcenter	0	-1	232
+trial	targetBright	windowdecthreshold	0	-1	233
+trial	targetBright	windowdecunit	33	-1	234
+trial	targetBright	windowhitduration	0	-1	235
+trial	targetBright	windowincthreshold	0	-1	236
+trial	targetBright	windowincunit	33	-1	237
+trial	targetBright	windowmaxcenter	0	-1	238
+trial	targetBright	windowmincenter	0	-1	239
+trial	targetBright	windowonset	0	-1	241
+trial	targetBright	windowwidth	0	-1	242
+values	values	completed	0	-1	243
+values	values	magnitude	unknown	-1	243
+values	values	n1a	0	-1	243
+values	values	n1b	0	-1	243
+values	values	n2a	0	-1	243
+values	values	n2b	0	-1	243
+values	values	n_correct	0	-1	243
+values	values	name	values	-1	116
+values	values	showsummaryfeedback	0	-1	243
+values	values	ss1a	0	-1	243
+values	values	ss1b	0	-1	243
+values	values	ss2a	0	-1	243
+values	values	ss2b	0	-1	243
+values	values	sum1a	0	-1	243
+values	values	sum1b	0	-1	243
+values	values	sum2a	0	-1	243
+values	values	sum2b	0	-1	243
+values	values	typename	values	-1	223
+variables	variables	currentgroupnumber	0	-1	29
+variables	variables	groupcount	0	-1	62
+variables	variables	name	variables	-1	116
+variables	variables	typename	variables	-1	223
