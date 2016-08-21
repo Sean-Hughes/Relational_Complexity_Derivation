@@ -35,13 +35,6 @@ stimulus items and labels immediately below this line.
 
 <item attributeA>
 /1 = "Woof"
-/2 = "Woof"
-/3 = "Woof"
-/4 = "Woof"
-/5 = "Woof"
-/6 = "Woof"
-/7 = "Woof"
-/8 = "Woof"
 </item>
 
 <item attributeBlabel>
@@ -50,13 +43,6 @@ stimulus items and labels immediately below this line.
 
 <item attributeB>
 /1 = "Meow"
-/2 = "Meow"
-/3 = "Meow"
-/4 = "Meow"
-/5 = "Meow"
-/6 = "Meow"
-/7 = "Meow"
-/8 = "Meow"
 </item>
 
 <item targetAlabel>
@@ -65,13 +51,6 @@ stimulus items and labels immediately below this line.
 
 <item targetA>
 /1 = "Dogs"
-/2 = "Dogs"
-/3 = "Dogs"
-/4 = "Dogs"
-/5 = "Dogs"
-/6 = "Dogs"
-/7 = "Dogs"
-/8 = "Dogs"
 </item>
 
 <item targetBlabel>
@@ -80,13 +59,6 @@ stimulus items and labels immediately below this line.
 
 <item targetB>
 /1 = "Cats"
-/2 = "Cats"
-/3 = "Cats"
-/4 = "Cats"
-/5 = "Cats"
-/6 = "Cats"
-/7 = "Cats"
-/8 = "Cats"
 </item>
 
 ***********************************************************************
@@ -621,23 +593,11 @@ Blocks
 ***********************************************************************
 Experiment
 ***********************************************************************
-Groupassignment is done by subject number
 
 <expt>
-/subjects = (1 of 2)
-/groupassignment = subjectnumber
 / blocks = [1=targetcompatiblepractice; 2=attributepractice; 3= compatibletestinstructions;
 				4=compatibletest2; 5=targetincompatiblepractice; 6= incompatibletestinstructions;
 				7=incompatibletest2; 8=summary]
-/onexptend = [values.completed = 1]
-</expt>
-
-<expt>
-/subjects = (2 of 2)
-/groupassignment = subjectnumber
-/ blocks = [1=targetincompatiblepractice; 2=attributepractice; 3=incompatibletestinstructions;
-				4=incompatibletest2; 5=targetcompatiblepractice; 6=compatibletestinstructions; 
-				7=compatibletest2; 8 =summary]
 /onexptend = [values.completed = 1]
 </expt>
 
