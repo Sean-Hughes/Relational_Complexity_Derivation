@@ -1,0 +1,57 @@
+﻿***************************************************************************************
+***************************************************************************************
+			BATCH FOR DERIVATION STUDY (HUSSEY AND HUGHES)
+***************************************************************************************
+***************************************************************************************
+Script Info
+
+Author: Sean Hughes
+last updated: 15-08-2016
+***************************************************************************************
+***************************************************************************************
+OVERVIEW
+***************************************************************************************
+***************************************************************************************
+Script provides the code for a batch file that adds a consent form to an Inquisit 
+Experiment.
+ 
+If participants do not agree to participate in the experiment, the entire batch file
+gets aborted via function script.abort() in the ConsentformScript.iqx script
+***************************************************************************************
+
+***************************************************************************************
+HIGHER DERIVATION OPPORTUNITIES CONDITION
+***************************************************************************************
+ 
+<batch>
+/ subjects=(1 of 2)
+/ groupassignment = subjectnumber
+/ file="Consent_form.iqx"
+/ file="Baseline_IAT.iqx"
+/ file="Relational_Training (OTM).iqx"
+/ file="Relational_Testing (OTM).iqx"
+/ file="Derivation_Opportunities.iqx"
+/ file="Test_IAT.iqx"
+</batch>
+
+ 
+***************************************************************************************
+LOWER DERIVATION OPPORTUNITIES CONDITION
+***************************************************************************************
+ 
+<batch>
+/ subjects=(2 of 2)
+/ groupassignment = subjectnumber
+/ file="Consent_form.iqx"
+/ file="Baseline_IAT.iqx"
+/ file="Relational_Training.iqx"
+/ file="Relational_Testing.iqx"
+/ file="Test_IAT.iqx"
+/ file="Derivation_Opportunities.iqx"
+</batch>
+
+***************************************************************************************
+***************************************************************************************
+											END
+***************************************************************************************
+***************************************************************************************
