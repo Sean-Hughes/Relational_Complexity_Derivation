@@ -5,7 +5,7 @@
 ***************************************************************************************
 Script Info
 
-Author: Sean Hughes
+Author: Sean Hughes (sean.hughes@ugent.be)
 last updated: 15-08-2016
 ***************************************************************************************
 ***************************************************************************************
@@ -44,8 +44,8 @@ LOWER DERIVATION OPPORTUNITIES CONDITION
 / groupassignment = subjectnumber
 / file="Consent_form.iqx"
 / file="Baseline_IAT.iqx"
-/ file="Relational_Training.iqx"
-/ file="Relational_Testing.iqx"
+/ file="Relational_Training (OTM).iqx"
+/ file="Relational_Testing (OTM).iqx"
 / file="Test_IAT.iqx"
 / file="Derivation_Opportunities.iqx"
 </batch>

@@ -1,4 +1,16 @@
-﻿*************************General Variables****************************
+﻿***************************************************************************************
+***************************************************************************************
+											SCRIPT OVERVIEW
+***************************************************************************************
+***************************************************************************************
+Script Info
+
+Author: Sean Hughes (sean.hughes@ugent.be)
+last updated: 15-08-2016
+***************************************************************************************
+***************************************************************************************
+
+*************************General Variables****************************
 **********************************************************************
 
 <defaults>
@@ -12,12 +24,12 @@
 </defaults>
 
 <expt>
-/ blocks = [1 = block1; 2 = block2]
+/ blocks = [1 = block1]
 </expt>
 
 <variables>
 
-/group = (1 of 1) (block1 = begin, block2 = Relational_Training_Phase)
+/group = (1 of 1) (block1 = Relational_Training_Phase)
 
 </variables>
 
@@ -56,11 +68,19 @@
 / caption = "What is your gender"
 </textbox>
 
+<textbox ProlificCode>
+/ caption = "Please enter your prolific ID here 
+(if you cannot remember it please quit the experiment now and retrieve it before continuing)
+Otherwise you cannot be paid"
+/ position = (10%,30%)
+/ textboxsize = (45, 40)
+/ multiline = true
+</textbox>
 
 ***********************************************
 
 <surveypage info_1>
-/questions = [1=age; 2=gender]
+/questions = [1=age; 2=gender; 3 = ProlificCode]
 </surveypage>
 
 
@@ -390,8 +410,9 @@
 **********  block  **********
 
 <block begin>
+/ preinstructions = (WelcomeInstructions)
 / screencolor = (0, 0, 0)
-/ trials = [1 = pause; 2 = info_1]
+/ trials = [1 = pause]
 </block>
 
 <block Relational_Training_Phase>
@@ -408,7 +429,7 @@
 <block end>
 / onblockbegin = [values.errorcountlearninga = 0]
 / preinstructions = (RTP_post_instructions)
-/ branch = [if (block.Relational_Training_Phase.currentblocknumber < 10) block.Relational_Training_Phase]
+/ branch = [if (block.Relational_Training_Phase.currentblocknumber < 9) block.Relational_Training_Phase]
 </block>
 
 <block exit>
@@ -427,11 +448,23 @@
 </instruct>
 
 <page RTP_instructions>
-^^ In the next part of the task you will once again have look at the word at the top of the screen and then at the two words at the bottom. Please select one of the two words at the bottom of the screen using the mouse.
+
+In the next part of the task please look at the word at the top of the screen and then at the two words at the bottom.^^ 
+Please select one of the two words at the bottom of the screen using the mouse.^^
+The computer will help you learn by telling you when you are correct or incorrect^^
+Please try to be as accurate as possible^^
 </page>
 
 <page RTP_post_instructions>
-^^  Thank you. You will be given another opportunity to practice this part of the task. Please take your time and try to be as ACCURATE as possible. When you are ready press the spacebar to continue.
+Thank you. You will be given another opportunity to practice this part of the task.^^
+Please take your time and try to be as ACCURATE as possible.^^
+When you are ready press the spacebar to continue.^^
 </page>
 
+<page WelcomeInstructions>
+Before you start, please:
 
+– maximize your browser window;
+– switch off phone/e-mail/music & anything else distracting
+- please have your Prolific ID ready [It can be found in your account info]:"
+</page>

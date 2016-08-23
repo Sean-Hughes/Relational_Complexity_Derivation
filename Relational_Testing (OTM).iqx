@@ -1,4 +1,16 @@
-﻿*************************General Variables****************************
+﻿***************************************************************************************
+***************************************************************************************
+											SCRIPT OVERVIEW
+***************************************************************************************
+***************************************************************************************
+Script Info
+
+Author: Sean Hughes (sean.hughes@ugent.be)
+last updated: 15-08-2016
+***************************************************************************************
+***************************************************************************************
+
+*************************General Variables****************************
 **********************************************************************
 
 <defaults>
@@ -357,7 +369,7 @@
 <page RTP_instructions>
 ^^ In the next part of the task you will do something similar to before. ^^
 
-However this is now a TEST phase. We will no longer tell you if you are correct or incorrect. As such, please respond as ***ACCURATELY AS POSSIBLE***. 
+However this is now a TEST phase. We will no longer tell you if you are correct or incorrect. As such, please take your time and respond as ***ACCURATELY AS POSSIBLE***. 
 </page>
 
 <page RTP_post_instructions>
