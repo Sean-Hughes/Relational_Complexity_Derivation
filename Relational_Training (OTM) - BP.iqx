@@ -289,15 +289,33 @@ Otherwise you cannot be paid"
 /txbgcolor=(255, 255, 255)
 </text>
 
+<text d_key>
+/ numitems = 1
+/ items = ("Press 'D' for")
+/ txcolor = black
+/ txbgcolor = white
+/ position = (25, 58)
+/ font = ("Times New Roman", -50, 500, 0, 49)
+</text>
+
+<text j_key>
+/ numitems = 1
+/ items = ("Press 'J' for")
+/ txcolor = black
+/ txbgcolor = white
+/ position = (72, 58)
+/ font = ("Times New Roman", -50, 500, 0, 49)
+</text>
+
 ********** Relational Training Phase ***********
 
 <trial A1_B1_B2> 
-/ inputdevice = mouse
-/ correctresponse = (B1_sample1)
-/ validresponse = (B1_sample1, B2_sample2)
-/ responsemessage = (B1_sample1, correctMessage, 1000)
-/ responsemessage = (B2_sample2, errorMessage, 1500)
-/ stimulustimes = [500 = A1_target; 1000 = B1_sample1, B2_sample2]
+/ inputdevice = keyboard
+/ correctresponse = (32)
+/ validresponse = (32, 36)
+/ responsemessage = (32, correctMessage, 1000)
+/ responsemessage = (36, errorMessage, 1500)
+/ stimulustimes = [500 = A1_target; 1000 = B1_sample1, B2_sample2, d_key, j_key]
 / pretrialpause = 1000
 
 / ontrialend = [if (trial.A1_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -305,12 +323,12 @@ Otherwise you cannot be paid"
 </trial>
 
 <trial A1_B2_B1> 
-/ inputdevice = mouse
-/ correctresponse = (B1_sample2)
-/ validresponse = (B1_sample2, B2_sample1)
-/ responsemessage = (B1_sample2, correctMessage, 1000)
-/ responsemessage = (B2_sample1, errorMessage, 1500)
-/ stimulustimes = [500 = A1_target; 1000 = B1_sample2, B2_sample1]
+/ inputdevice = keyboard
+/ correctresponse = (36)
+/ validresponse = (36, 32)
+/ responsemessage = (36, correctMessage, 1000)
+/ responsemessage = (32, errorMessage, 1500)
+/ stimulustimes = [500 = A1_target; 1000 = B1_sample2, B2_sample1, d_key, j_key]
 / pretrialpause = 500
 
 / ontrialend = [if (trial.A1_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -318,12 +336,12 @@ Otherwise you cannot be paid"
 </trial>
 
 <trial A1_C1_C2> 
-/ inputdevice = mouse
-/ correctresponse = (C1_sample1)
-/ validresponse = (C1_sample1, C2_sample2)
-/ responsemessage = (C1_sample1, correctMessage, 1000)
-/ responsemessage = (C2_sample2, errorMessage, 1500)
-/ stimulustimes = [500 = A1_target; 1000 = C1_sample1, C2_sample2]
+/ inputdevice = keyboard
+/ correctresponse = (32)
+/ validresponse = (32, 36)
+/ responsemessage = (32, correctMessage, 1000)
+/ responsemessage = (36, errorMessage, 1500)
+/ stimulustimes = [500 = A1_target; 1000 = C1_sample1, C2_sample2, d_key, j_key]
 / pretrialpause = 500
 
 / ontrialend = [if (trial.A1_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -331,12 +349,12 @@ Otherwise you cannot be paid"
 </trial>
 
 <trial A1_C2_C1> 
-/ inputdevice = mouse
-/ correctresponse = (C1_sample2)
-/ validresponse = (C1_sample2, C2_sample1)
-/ responsemessage = (C1_sample2, correctMessage, 1000)
-/ responsemessage = (C2_sample1, errorMessage, 1500)
-/ stimulustimes = [500 = A1_target; 1000 = C1_sample2, C2_sample1]
+/ inputdevice = keyboard
+/ correctresponse = (36)
+/ validresponse = (32, 36)
+/ responsemessage = (36, correctMessage, 1000)
+/ responsemessage = (32, errorMessage, 1500)
+/ stimulustimes = [500 = A1_target; 1000 = C1_sample2, C2_sample1, d_key, j_key]
 / pretrialpause = 500
 
 / ontrialend = [if (trial.A1_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -344,12 +362,12 @@ Otherwise you cannot be paid"
 </trial>
 
 <trial A2_B2_B1> 
-/ inputdevice = mouse
-/ correctresponse = (B2_sample1)
-/ validresponse = (B2_sample1, B1_sample2)
-/ responsemessage = (B2_sample1, correctMessage, 1000)
-/ responsemessage = (B1_sample2, errorMessage, 1500)
-/ stimulustimes = [500 = A2_target; 1000= B2_sample1, B1_sample2]
+/ inputdevice = keyboard
+/ correctresponse = (32)
+/ validresponse = (32, 36)
+/ responsemessage = (32, correctMessage, 1000)
+/ responsemessage = (36, errorMessage, 1500)
+/ stimulustimes = [500 = A2_target; 1000= B2_sample1, B1_sample2, d_key, j_key]
 / pretrialpause = 500
 
 / ontrialend = [if (trial.A2_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -357,12 +375,12 @@ Otherwise you cannot be paid"
 </trial>
 
 <trial A2_B1_B2> 
-/ inputdevice = mouse
-/ correctresponse = (B2_sample2)
-/ validresponse = (B2_sample2, B1_sample1)
-/ responsemessage = (B2_sample2, correctMessage, 1000)
-/ responsemessage = (B1_sample1, errorMessage, 1500)
-/ stimulustimes = [500 = A2_target; 1000 = B2_sample2, B1_sample1]
+/ inputdevice = keyboard
+/ correctresponse = (36)
+/ validresponse = (32, 36)
+/ responsemessage = (36, correctMessage, 1000)
+/ responsemessage = (32, errorMessage, 1500)
+/ stimulustimes = [500 = A2_target; 1000 = B2_sample2, B1_sample1, d_key, j_key]
 / pretrialpause = 500
 
 / ontrialend = [if (trial.A2_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -370,12 +388,12 @@ Otherwise you cannot be paid"
 </trial>
 
 <trial A2_C1_C2> 
-/ inputdevice = mouse
-/ correctresponse = (C2_sample2)
-/ validresponse = (C1_sample1, C2_sample2)
-/ responsemessage = (C2_sample2, correctMessage, 1000)
-/ responsemessage = (C1_sample1, errorMessage, 1500)
-/ stimulustimes = [500 = A2_target; 1000 = C1_sample1, C2_sample2]
+/ inputdevice = keyboard
+/ correctresponse = (36)
+/ validresponse = (32, 36)
+/ responsemessage = (36, correctMessage, 1000)
+/ responsemessage = (32, errorMessage, 1500)
+/ stimulustimes = [500 = A2_target; 1000 = C1_sample1, C2_sample2, d_key, j_key]
 / pretrialpause = 500
 
 / ontrialend = [if (trial.A2_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -383,12 +401,12 @@ Otherwise you cannot be paid"
 </trial>
 
 <trial A2_C2_C1> 
-/ inputdevice = mouse
-/ correctresponse = (C2_sample1)
-/ validresponse = (C1_sample2, C2_sample1)
-/ responsemessage = (C2_sample1, correctMessage, 1000)
-/ responsemessage = (C1_sample2, errorMessage, 1500)
-/ stimulustimes = [500 = A2_target; 1000 = C1_sample2, C2_sample1]
+/ inputdevice = keyboard
+/ correctresponse = (32)
+/ validresponse = (32, 36)
+/ responsemessage = (32, correctMessage, 1000)
+/ responsemessage = (36, errorMessage, 1500)
+/ stimulustimes = [500 = A2_target; 1000 = C1_sample2, C2_sample1, d_key, j_key]
 / pretrialpause = 500
 
 / ontrialend = [if (trial.A2_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -450,7 +468,10 @@ Otherwise you cannot be paid"
 <page RTP_instructions>
 
 In the next part of the task please look at the word at the top of the screen and then at the two words at the bottom.^^ 
-Please select one of the two words at the bottom of the screen using the mouse.^^
+Please select one of the two words at the bottom of the screen using the 'd' or 'j' keys.^^
+Specifically, press the 'd' key if you want to choose the word on the lower left. Press the 'j' key if you want to choose
+the word on the lower right.
+
 The computer will help you learn by telling you when you are correct or incorrect^^
 Please try to be as accurate as possible^^
 </page>

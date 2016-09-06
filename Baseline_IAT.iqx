@@ -280,37 +280,37 @@ Task instruction stimuli
 </text>
 
 <item instructions>
-/ 1 = "This is a timed task where you have to sort words. Put your fingers on the E and the I key. Sort the words in the middle of the screen based on the categories on the left (E) or right (I).
+/ 1 = "This is a timed task where you have to sort words. Put your fingers on the E and the I key. Sort the words in the middle of the screen based on the words that appear on the top left (E) or right (I) sides of the screen.
  
 Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes.
 
 When you make a mistake there will be a red cross. This cross will remain onscreen until you press the correct key."
 
 
-/ 2 = "Look above. The categories have changed. So have the items. 
+/ 2 = "Look above. The words have changed. So will the words that appear in the middle of the screen. 
 
-Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes."
+Sort the words in the middle of the screen based on the words that appear on the top left (E) or right (I) sides of the screen. Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes."
 / 3 = "
 
-Look above. The four categories you saw separately now appear together. 
+Look above. The four words you saw separately now appear together. 
 
-Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes"
+Sort the words in the middle of the screen based on the words that appear on the top left (E) or right (I) sides of the screen. Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes"
 
-/ 4 = "Look above. There are only two cateogries now and they have switched locations. The category that was previously on the left is now on the right (and vice-versa). 
+/ 4 = "Look above. There are only two words now and they have switched locations. The word that was previously on the left is now on the right (and vice-versa). 
 
-Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes"
+Sort the words in the middle of the screen based on the words that appear on the top left (E) or right (I) sides of the screen. Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes"
 
-/ 5 = "Look above. The four categories now appear together. 
+/ 5 = "Look above. The four words now appear together. 
 
-Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes"
+Sort the words in the middle of the screen based on the words that appear on the top left (E) or right (I) sides of the screen. Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes"
 / 6 = "
 
-Look above. The four categories now appear together. 
+Look above. The four words now appear together. 
 
-Sort the words in the middle of the screen based on the categories on the left (E) or right (I). Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes"
+Sort the words in the middle of the screen based on the words that appear on the top left (E) or right (I) sides of the screen. Try to respond AS QUICKLY AS POSSIBLE without making too many mistakes"
 / 7 = "
 
-Sort the same four categories once again. Remember to go as fast as you can while making as few mistakes as possible.
+Sort the same four words once again. Remember to go as fast as you can while making as few mistakes as possible.
 
 "
 </item>
@@ -592,9 +592,9 @@ Experiment
 ***********************************************************************
 
 <expt>
-/ blocks = [1=targetcompatiblepractice; 2=attributepractice; 3= compatibletestinstructions;
-				4=compatibletest2; 5=targetincompatiblepractice; 6= incompatibletestinstructions;
-				7=incompatibletest2; 8=summary]
+/ blocks = [1=targetincompatiblepractice; 2=attributepractice; 3= incompatibletestinstructions;
+				4=incompatibletest2; 5=targetcompatiblepractice; 6= compatibletestinstructions;
+				7=compatibletest2; 8=summary]
 /onexptend = [values.completed = 1]
 </expt>
 

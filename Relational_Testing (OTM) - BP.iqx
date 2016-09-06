@@ -245,13 +245,31 @@ last updated: 15-08-2016
 /txbgcolor=(255, 255, 255)
 </text>
 
+<text d_key>
+/ numitems = 1
+/ items = ("Press 'D' for")
+/ txcolor = black
+/ txbgcolor = white
+/ position = (25, 58)
+/ font = ("Times New Roman", -50, 500, 0, 49)
+</text>
+
+<text j_key>
+/ numitems = 1
+/ items = ("Press 'J' for")
+/ txcolor = black
+/ txbgcolor = white
+/ position = (72, 58)
+/ font = ("Times New Roman", -50, 500, 0, 49)
+</text>
+
 ********** Relational Testing Phase ***********
 
 <trial B1_C1_C2> 
-/ inputdevice = mouse
-/ correctresponse = (C1_sample1)
-/ validresponse = (C1_sample1, C2_sample2)
-/ stimulustimes = [500 = B1_target; 1000 = C1_sample1, C2_sample2]
+/ inputdevice = keyboard
+/ correctresponse = (32)
+/ validresponse = (32, 36)
+/ stimulustimes = [500 = B1_target; 1000 = C1_sample1, C2_sample2, d_key, j_key]
 / pretrialpause = 1000
 
 / ontrialend = [if (trial.B1_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -259,10 +277,10 @@ last updated: 15-08-2016
 </trial>
 
 <trial B1_C2_C1> 
-/ inputdevice = mouse
-/ correctresponse = (C1_sample2)
-/ validresponse = (C1_sample2, C2_sample1)
-/ stimulustimes = [500 = B1_target; 1000 = C1_sample2, C2_sample1]
+/ inputdevice = keyboard
+/ correctresponse = (36)
+/ validresponse = (36, 32)
+/ stimulustimes = [500 = B1_target; 1000 = C1_sample2, C2_sample1, d_key, j_key]
 / pretrialpause = 500
 
 / ontrialend = [if (trial.B1_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -270,10 +288,10 @@ last updated: 15-08-2016
 </trial>
 
 <trial C1_B1_B2> 
-/ inputdevice = mouse
-/ correctresponse = (B1_sample1)
-/ validresponse = (B1_sample1, B2_sample2)
-/ stimulustimes = [500 = C1_target; 1000 = B1_sample1, B2_sample2]
+/ inputdevice = keyboard
+/ correctresponse = (32)
+/ validresponse = (32, 36)
+/ stimulustimes = [500 = C1_target; 1000 = B1_sample1, B2_sample2, d_key, j_key]
 / pretrialpause = 500
 
 / ontrialend = [if (trial.C1_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -281,10 +299,10 @@ last updated: 15-08-2016
 </trial>
 
 <trial C1_B2_B1> 
-/ inputdevice = mouse
-/ correctresponse = (B1_sample2)
-/ validresponse = (B1_sample2, B2_sample1)
-/ stimulustimes = [500 = C1_target; 1000 = B1_sample2, B2_sample1]
+/ inputdevice = keyboard
+/ correctresponse = (36)
+/ validresponse = (36, 32)
+/ stimulustimes = [500 = C1_target; 1000 = B1_sample2, B2_sample1, d_key, j_key]
 / pretrialpause = 500
 
 / ontrialend = [if (trial.C1_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -292,10 +310,10 @@ last updated: 15-08-2016
 </trial>
 
 <trial B2_C2_C1> 
-/ inputdevice = mouse
-/ correctresponse = (C2_sample1)
-/ validresponse = (C2_sample1, C1_sample2)
-/ stimulustimes = [500 = B2_target; 1000= C2_sample1, C1_sample2]
+/ inputdevice = keyboard
+/ correctresponse = (32)
+/ validresponse = (32, 36)
+/ stimulustimes = [500 = B2_target; 1000= C2_sample1, C1_sample2, d_key, j_key]
 / pretrialpause = 500
 
 / ontrialend = [if (trial.B2_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -303,10 +321,10 @@ last updated: 15-08-2016
 </trial>
 
 <trial B2_C1_C2> 
-/ inputdevice = mouse
-/ correctresponse = (C2_sample2)
-/ validresponse = (C2_sample2, C1_sample1)
-/ stimulustimes = [500 = B2_target; 1000 = C2_sample2, C1_sample1]
+/ inputdevice = keyboard
+/ correctresponse = (36)
+/ validresponse = (36, 32)
+/ stimulustimes = [500 = B2_target; 1000 = C2_sample2, C1_sample1, d_key, j_key]
 / pretrialpause = 500
 
 / ontrialend = [if (trial.B2_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -314,10 +332,10 @@ last updated: 15-08-2016
 </trial>
 
 <trial C2_B1_B2> 
-/ inputdevice = mouse
-/ correctresponse = (B2_sample2)
-/ validresponse = (B1_sample1, B2_sample2)
-/ stimulustimes = [500 = C2_target; 1000 = B1_sample1, B2_sample2]
+/ inputdevice = keyboard
+/ correctresponse = (36)
+/ validresponse = (32, 36)
+/ stimulustimes = [500 = C2_target; 1000 = B1_sample1, B2_sample2, d_key, j_key]
 / pretrialpause = 500
 
 / ontrialend = [if (trial.C2_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -325,10 +343,10 @@ last updated: 15-08-2016
 </trial>
 
 <trial C2_B2_B1> 
-/ inputdevice = mouse
-/ correctresponse = (B2_sample1)
-/ validresponse = (B1_sample2, B2_sample1)
-/ stimulustimes = [500 = C2_target; 1000 = B1_sample2, B2_sample1]
+/ inputdevice = keyboard
+/ correctresponse = (32)
+/ validresponse = (36, 32)
+/ stimulustimes = [500 = C2_target; 1000 = B1_sample2, B2_sample1, d_key, j_key]
 / pretrialpause = 500
 
 / ontrialend = [if (trial.C2_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
