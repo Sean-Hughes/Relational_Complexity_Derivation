@@ -6,7 +6,9 @@
 Script Info
 
 Author: Sean Hughes (sean.hughes@ugent.be)
-last updated: 15-08-2016
+Code review: Ian Hussey (ian.hussey@ugent.be)
+last updated: 6-09-2016
+
 ***************************************************************************************
 ***************************************************************************************
 
@@ -49,12 +51,12 @@ last updated: 15-08-2016
 **************  stimuli ***************
 
 <item NeutralWords>
-/ 1 = "A1.jpg"
-/ 2 = "B1.jpg"
-/ 3 = "C1.jpg"
-/ 4 = "A2.jpg"
-/ 5 = "B2.jpg"
-/ 6 = "C2.jpg"
+/ 1 = "A1"
+/ 2 = "B1"
+/ 3 = "C1"
+/ 4 = "A2"
+/ 5 = "B2"
+/ 6 = "C2"
 </item>
 
 
@@ -83,153 +85,223 @@ Otherwise you cannot be paid"
 /questions = [1=age; 2=gender; 3 = ProlificCode]
 </surveypage>
 
-
 *****************stimuli**********************
-**********************************************
 
-<picture A1>
+<text A1>
 / numitems = 1
-/ items = ("A1.jpg")
+/ items = ("A1")
 / position = (50, 50)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture A1_target>
+<text A1_target>
 / numitems = 1
-/ items = ("A1.jpg")
+/ items = ("A1")
 / position = (50, 30)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture A1_sample1>
+<text A1_sample1>
 / numitems = 1
-/ items = ("A1.jpg")
+/ items = ("A1")
 / position = (25, 70)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture A1_sample2>
+<text A1_sample2>
 / numitems = 1
-/ items = ("A1.jpg")
+/ items = ("A1")
 / position = (75, 70)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture B1>
+<text B1>
 / numitems = 1
-/ items = ("B1.jpg")
+/ items = ("B1")
 / position = (50, 50)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture B1_target>
+<text B1_target>
 / numitems = 1
-/ items = ("B1.jpg")
+/ items = ("B1")
 / position = (50, 30)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture B1_sample1>
+<text B1_sample1>
 / numitems = 1
-/ items = ("B1.jpg")
+/ items = ("B1")
 / position = (25, 70)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture B1_sample2>
+<text B1_sample2>
 / numitems = 1
-/ items = ("B1.jpg")
+/ items = ("B1")
 / position = (75, 70)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture C1>
+<text C1>
 / numitems = 1
-/ items = ("C1.jpg")
+/ items = ("C1")
 / position = (50, 50)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture C1_target>
+<text C1_target>
 / numitems = 1
-/ items = ("C1.jpg")
+/ items = ("C1")
 / position = (50, 30)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture C1_sample1>
+<text C1_sample1>
 / numitems = 1
-/ items = ("C1.jpg")
+/ items = ("C1")
 / position = (25, 70)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture C1_sample2>
+<text C1_sample2>
 / numitems = 1
-/ items = ("C1.jpg")
+/ items = ("C1")
 / position = (75, 70)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture A2>
+<text A2>
 / numitems = 1
-/ items = ("A2.jpg")
+/ items = ("A2")
 / position = (50, 50)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture A2_target>
+<text A2_target>
 / numitems = 1
-/ items = ("A2.jpg")
+/ items = ("A2")
 / position = (50, 30)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture A2_sample1>
+<text A2_sample1>
 / numitems = 1
-/ items = ("A2.jpg")
+/ items = ("A2")
 / position = (25, 70)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture A2_sample2>
+<text A2_sample2>
 / numitems = 1
-/ items = ("A2.jpg")
+/ items = ("A2")
 / position = (75, 70)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture B2>
+<text B2>
 / numitems = 1
-/ items = ("B2.jpg")
+/ items = ("B2")
 / position = (50, 50)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture B2_target>
+<text B2_target>
 / numitems = 1
-/ items = ("B2.jpg")
+/ items = ("B2")
 / position = (50, 30)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture B2_sample1>
+<text B2_sample1>
 / numitems = 1
-/ items = ("B2.jpg")
+/ items = ("B2")
 / position = (25, 70)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture B2_sample2>
+<text B2_sample2>
 / numitems = 1
-/ items = ("B2.jpg")
+/ items = ("B2")
 / position = (75, 70)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture C2>
+<text C2>
 / numitems = 1
-/ items = ("C2.jpg")
+/ items = ("C2")
 / position = (50, 50)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture C2_target>
+<text C2_target>
 / numitems = 1
-/ items = ("C2.jpg")
+/ items = ("C2")
 / position = (50, 30)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture C2_sample1>
+<text C2_sample1>
 / numitems = 1
-/ items = ("C2.jpg")
+/ items = ("C2")
 / position = (25, 70)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
-<picture C2_sample2>
+<text C2_sample2>
 / numitems = 1
-/ items = ("C2.jpg")
+/ items = ("C2")
 / position = (75, 70)
-</picture>
+/ txcolor = black
+/ txbgcolor = white
+/ font = ("Arial", -50, 500, 0, 49)
+</text>
 
 <picture erasebig>
 / erase = false 
@@ -244,13 +316,14 @@ Otherwise you cannot be paid"
 </picture>
 
 **************** text ************************
+
 <text fixcross>
 / numitems = 1
 / items = ("+")
 / txcolor = (255, 255, 255)
 / txbgcolor = (0, 0, 0)
 / position = (50, 50)
-/ font = ("Courier New", -50, 700, 0, 49)
+/ font = ("Arial", -50, 700, 0, 49)
 </text>
 
 <text continue>
@@ -295,7 +368,7 @@ Otherwise you cannot be paid"
 / txcolor = black
 / txbgcolor = white
 / position = (25, 58)
-/ font = ("Times New Roman", -50, 500, 0, 49)
+/ font = ("Arial", -50, 500, 0, 49)
 </text>
 
 <text j_key>
@@ -304,7 +377,7 @@ Otherwise you cannot be paid"
 / txcolor = black
 / txbgcolor = white
 / position = (72, 58)
-/ font = ("Times New Roman", -50, 500, 0, 49)
+/ font = ("Arial", -50, 500, 0, 49)
 </text>
 
 ********** Relational Training Phase ***********
@@ -317,9 +390,7 @@ Otherwise you cannot be paid"
 / responsemessage = (36, errorMessage, 1500)
 / stimulustimes = [500 = A1_target; 1000 = B1_sample1, B2_sample2, d_key, j_key]
 / pretrialpause = 1000
-
 / ontrialend = [if (trial.A1_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
-
 </trial>
 
 <trial A1_B2_B1> 
@@ -330,9 +401,7 @@ Otherwise you cannot be paid"
 / responsemessage = (32, errorMessage, 1500)
 / stimulustimes = [500 = A1_target; 1000 = B1_sample2, B2_sample1, d_key, j_key]
 / pretrialpause = 500
-
 / ontrialend = [if (trial.A1_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
-
 </trial>
 
 <trial A1_C1_C2> 
@@ -343,9 +412,7 @@ Otherwise you cannot be paid"
 / responsemessage = (36, errorMessage, 1500)
 / stimulustimes = [500 = A1_target; 1000 = C1_sample1, C2_sample2, d_key, j_key]
 / pretrialpause = 500
-
 / ontrialend = [if (trial.A1_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
-
 </trial>
 
 <trial A1_C2_C1> 
@@ -356,9 +423,7 @@ Otherwise you cannot be paid"
 / responsemessage = (32, errorMessage, 1500)
 / stimulustimes = [500 = A1_target; 1000 = C1_sample2, C2_sample1, d_key, j_key]
 / pretrialpause = 500
-
 / ontrialend = [if (trial.A1_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
-
 </trial>
 
 <trial A2_B2_B1> 
@@ -369,9 +434,7 @@ Otherwise you cannot be paid"
 / responsemessage = (36, errorMessage, 1500)
 / stimulustimes = [500 = A2_target; 1000= B2_sample1, B1_sample2, d_key, j_key]
 / pretrialpause = 500
-
 / ontrialend = [if (trial.A2_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
-
 </trial>
 
 <trial A2_B1_B2> 
@@ -382,9 +445,7 @@ Otherwise you cannot be paid"
 / responsemessage = (32, errorMessage, 1500)
 / stimulustimes = [500 = A2_target; 1000 = B2_sample2, B1_sample1, d_key, j_key]
 / pretrialpause = 500
-
 / ontrialend = [if (trial.A2_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
-
 </trial>
 
 <trial A2_C1_C2> 
@@ -395,9 +456,7 @@ Otherwise you cannot be paid"
 / responsemessage = (32, errorMessage, 1500)
 / stimulustimes = [500 = A2_target; 1000 = C1_sample1, C2_sample2, d_key, j_key]
 / pretrialpause = 500
-
 / ontrialend = [if (trial.A2_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
-
 </trial>
 
 <trial A2_C2_C1> 
@@ -408,9 +467,7 @@ Otherwise you cannot be paid"
 / responsemessage = (36, errorMessage, 1500)
 / stimulustimes = [500 = A2_target; 1000 = C1_sample2, C2_sample1, d_key, j_key]
 / pretrialpause = 500
-
 / ontrialend = [if (trial.A2_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
-
 </trial>
 
 < trial pause>
@@ -435,13 +492,9 @@ Otherwise you cannot be paid"
 
 <block Relational_Training_Phase>
 / preinstructions = (RTP_instructions)
-
 / trials = [1-40 = noreplace(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
-
 / onblockend = [block.Relational_Training_Phase.currentblocknumber == block.Relational_Training_Phase.currentblocknumber + 1]
-
 / branch = [if (expressions.errorLa > 4 && block.Relational_Training_Phase.currentblocknumber < 10) block.end else block.exit]
-
 </block>
 
 <block end>
@@ -457,7 +510,7 @@ Otherwise you cannot be paid"
 **********  Instructions  *************
 
 <instruct>  
-/ font = ("Courier New", -20, 800, 0, 49)
+/ font = ("Arial", -20, 800, 0, 49)
 / inputdevice = keyboard
 / nextkey = (" ")
 / nextlabel = "Press the spacebar to continue"
