@@ -1,5 +1,5 @@
 ﻿************************************************
-               RELATIONAL TESTING
+               RELATIONAL TRAINING
 ************************************************
 Author: Sean Hughes (sean.hughes@ugent.be)
 Code review: Ian Hussey (ian.hussey@ugent.be)
@@ -9,8 +9,8 @@ Last updated: 6-09-2016
 
 <defaults>
 / screencolor = black
-/ font = ("Arial", -21, 700, 0, 34)
 / txcolor = white
+/ font = ("Arial", -21, 700, 0, 34)
 / inputdevice = keyboard
 / validkeys = (" ", "t")
 / halign = center
@@ -22,9 +22,7 @@ Last updated: 6-09-2016
 </expt>
 
 <variables>
-
-/group = (1 of 1) (block1 = Relational_Testing_Phase)
-
+/group = (1 of 1) (block1 = Relational_Training_Phase)
 </variables>
 
 <values>
@@ -35,7 +33,6 @@ Last updated: 6-09-2016
 / randomWords = noreplace(1,2,3,4,5,6)
 / randomPosition1 = noreplace(25, 75)
 / randomPosition2 = noreplace(25, 75)
-
 / errorLa = (values.errorcountlearninga)
 </expressions>
 
@@ -49,6 +46,25 @@ Last updated: 6-09-2016
 / 5 = "B2"
 / 6 = "C2"
 </item>
+
+***************** demographics *****************
+
+<textbox age>
+/ caption = "What is your age:"
+</textbox>
+
+<textbox gender>
+/ caption = "What is your gender"
+</textbox>
+
+<textbox ProlificCode>
+/ caption = "Please enter your prolific ID here 
+(if you cannot remember it please quit the experiment now and retrieve it before continuing)
+Otherwise you cannot be paid"
+/ position = (10%,30%)
+/ textboxsize = (45, 40)
+/ multiline = true
+</textbox>
 
 ***************** stimuli **********************
 
@@ -282,15 +298,6 @@ Last updated: 6-09-2016
 
 ***************** labels etc *******************
 
-<text fixcross>
-/ numitems = 1
-/ items = ("+")
-/ txcolor = white
-/ txbgcolor = black
-/ position = (50, 50)
-/ font = ("Arial", -50, 700, 0, 49)
-</text>
-
 <text continue>
 /numitems =1
 /items= ("Press the spacebar to continue")
@@ -298,6 +305,24 @@ Last updated: 6-09-2016
 / txbgcolor = black
 / position = (50, 95)
 / font = ("Arial", -18, 700, 0, 49)
+</text>
+
+<text correctMessage>
+/numitems =1
+/items= ("CORRECT")
+/ txcolor = green
+/ txbgcolor = black
+/ position = (50, 50)
+/ fontstyle = ("Arial", 5.00%, true, false, false, false)
+</text>
+
+<text errorMessage>
+/numitems = 1
+/items= ("WRONG")
+/ txcolor = red
+/ txbgcolor = black
+/ position = (50, 50)
+/ fontstyle = ("Arial", 5.00%, true, false, false, false)
 </text>
 
 <text blank>
@@ -322,99 +347,129 @@ Last updated: 6-09-2016
 / items = ("Press 'J' for")
 / txcolor = white
 / txbgcolor = black
-/ position = (72, 58)
+/ position = (75, 58)
 / font = ("Arial", -50, 500, 0, 49)
 </text>
 
-********* Relational Testing Phase *************
+******** Relational Training Phase *************
 
-<trial B1_C1_C2> 
+<trial A1_B1_B2> 
 / inputdevice = keyboard
 / correctresponse = ("f")
-/ correctresponse = ("f", "j")
-/ stimulustimes = [500 = B1_target; 1000 = C1_sample1, C2_sample2, f_key, j_key]
+/ validresponse = ("f", "j")
+/ responsemessage = ("f", correctMessage, 750)
+/ responsemessage = ("j", errorMessage, 1500)
+/ stimulustimes = [500 = A1_target; 1000 = B1_sample1, B2_sample2, f_key, j_key]
 / pretrialpause = 1000
-/ ontrialend = [if (trial.B1_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A1_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
-<trial B1_C2_C1> 
+<trial A1_B2_B1> 
 / inputdevice = keyboard
 / correctresponse = ("j")
-/ correctresponse = ("f", "j")
-/ stimulustimes = [500 = B1_target; 1000 = C1_sample2, C2_sample1, f_key, j_key]
+/ validresponse = ("f", "j")
+/ responsemessage = ("j", correctMessage, 1000)
+/ responsemessage = ("f", errorMessage, 1500)
+/ stimulustimes = [500 = A1_target; 1000 = B1_sample2, B2_sample1, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.B1_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A1_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
-<trial C1_B1_B2> 
+<trial A1_C1_C2> 
 / inputdevice = keyboard
 / correctresponse = ("f")
-/ correctresponse = ("f", "j")
-/ stimulustimes = [500 = C1_target; 1000 = B1_sample1, B2_sample2, f_key, j_key]
+/ validresponse = ("f", "j")
+/ responsemessage = ("f", correctMessage, 1000)
+/ responsemessage = ("j", errorMessage, 1500)
+/ stimulustimes = [500 = A1_target; 1000 = C1_sample1, C2_sample2, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.C1_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A1_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
-<trial C1_B2_B1> 
+<trial A1_C2_C1> 
 / inputdevice = keyboard
 / correctresponse = ("j")
-/ correctresponse = ("f", "j")
-/ stimulustimes = [500 = C1_target; 1000 = B1_sample2, B2_sample1, f_key, j_key]
+/ validresponse = ("f", "j")
+/ responsemessage = ("j", correctMessage, 1000)
+/ responsemessage = (32, errorMessage, 1500)
+/ stimulustimes = [500 = A1_target; 1000 = C1_sample2, C2_sample1, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.C1_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A1_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
-<trial B2_C2_C1> 
+<trial A2_B2_B1> 
 / inputdevice = keyboard
 / correctresponse = ("f")
-/ correctresponse = ("f", "j")
-/ stimulustimes = [500 = B2_target; 1000= C2_sample1, C1_sample2, f_key, j_key]
+/ validresponse = ("f", "j")
+/ responsemessage = ("f", correctMessage, 1000)
+/ responsemessage = ("j", errorMessage, 1500)
+/ stimulustimes = [500 = A2_target; 1000= B2_sample1, B1_sample2, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.B2_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A2_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
-<trial B2_C1_C2> 
+<trial A2_B1_B2> 
 / inputdevice = keyboard
 / correctresponse = ("j")
-/ correctresponse = ("f", "j")
-/ stimulustimes = [500 = B2_target; 1000 = C2_sample2, C1_sample1, f_key, j_key]
+/ validresponse = ("f", "j")
+/ responsemessage = ("j", correctMessage, 1000)
+/ responsemessage = ("f", errorMessage, 1500)
+/ stimulustimes = [500 = A2_target; 1000 = B2_sample2, B1_sample1, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.B2_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A2_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
-<trial C2_B1_B2> 
+<trial A2_C1_C2> 
 / inputdevice = keyboard
 / correctresponse = ("j")
-/ correctresponse = ("f", "j")
-/ stimulustimes = [500 = C2_target; 1000 = B1_sample1, B2_sample2, f_key, j_key]
+/ validresponse = ("f", "j")
+/ responsemessage = ("j", correctMessage, 1000)
+/ responsemessage = ("f", errorMessage, 1500)
+/ stimulustimes = [500 = A2_target; 1000 = C1_sample1, C2_sample2, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.C2_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A2_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
-<trial C2_B2_B1> 
+<trial A2_C2_C1> 
 / inputdevice = keyboard
 / correctresponse = ("f")
-/ correctresponse = ("f", "j")
-/ stimulustimes = [500 = C2_target; 1000 = B1_sample2, B2_sample1, f_key, j_key]
+/ validresponse = ("f", "j")
+/ responsemessage = ("f", correctMessage, 1000)
+/ responsemessage = ("j", errorMessage, 1500)
+/ stimulustimes = [500 = A2_target; 1000 = C1_sample2, C2_sample1, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.C2_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A2_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
 < trial pause>
-/trialcode = "pause"
-/stimulustimes = [ 1 = erasebig]
-/trialduration = 1000</trial>
+/ trialcode = "pause"
+/ stimulustimes = [ 1 = erasebig ]
+/ trialduration = 1000
+</trial>
 
 < trial exit>
-/trialcode = "exit"
-/stimulustimes = [ 1 = erasesmall]
-/trialduration = 1000</trial>
+/ trialcode = "exit"
+/ stimulustimes = [ 1 = erasesmall ]
+/ trialduration = 1000
+</trial>
 
 *****************  block  **********************
 
-<block Relational_Testing_Phase>
+<block Relational_Training_Phase>
 / preinstructions = (RTP_instructions)
-/ trials = [1-8 = noreplace(B1_C1_C2, B1_C2_C1, C1_B1_B2, C1_B2_B1, B2_C2_C1, B2_C1_C2, C2_B1_B2, C2_B2_B1)]
+/ trials = [1-40 = noreplace(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
+/ onblockend = [block.Relational_Training_Phase.currentblocknumber == block.Relational_Training_Phase.currentblocknumber + 1]
+/ branch = [if (expressions.errorLa > 4 && block.Relational_Training_Phase.currentblocknumber < 10) block.end else block.exit]
+</block>
+
+<block end>
+/ onblockbegin = [values.errorcountlearninga = 0]
+/ preinstructions = (RTP_post_instructions)
+/ branch = [if (block.Relational_Training_Phase.currentblocknumber < 9) block.Relational_Training_Phase]
+</block>
+
+<block exit>
+/ trials = [1 = exit]
 </block>
 
 **************  instructions  ******************
@@ -429,13 +484,22 @@ Last updated: 6-09-2016
 </instruct>
 
 <page RTP_instructions>
-^^ In the next part of the task you will do something similar to before. ^^
+In the next part of the task please look at the word at the top of the screen and then at the two words at the bottom.^^ 
 
-However this is now a TEST phase. We will no longer tell you if you are correct or incorrect. As such, please take your time and respond as ***ACCURATELY AS POSSIBLE***. 
+Please select one of the two words at the bottom of the screen using the 'f' or 'j' keys.^^
+
+Specifically, press the 'f' key if you want to choose the word on the lower left. Press the 'j' key if you want to choose
+the word on the lower right.^^
+
+The computer will help you learn by telling you when you are correct or incorrect.^^
+
+Please try to be as accurate as possible.^^
 </page>
 
 <page RTP_post_instructions>
-^^  Thank you. You will be given another opportunity to practice this part of the task. Please take your time and try to be as ACCURATE as possible. When you are ready press the spacebar to continue.
+Thank you. You will be given another opportunity to practice this part of the task.^^
+
+Please take your time and try to be as ACCURATE as possible.^^
+
+When you are ready press the spacebar to continue.^^
 </page>
-
-
