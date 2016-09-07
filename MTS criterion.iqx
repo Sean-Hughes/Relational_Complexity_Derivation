@@ -1,9 +1,8 @@
 ﻿************************************************
                RELATIONAL TESTING
 ************************************************
-Author: Sean Hughes (sean.hughes@ugent.be)
-Code review: Ian Hussey (ian.hussey@ugent.be)
-Last updated: 6-09-2016
+Authors: Sean Hughes (sean.hughes@ugent.be) & Ian Hussey (ian.hussey@ugent.be)
+Last updated: 7-09-2016
 
 ************* general variables ****************
 
@@ -29,74 +28,29 @@ Last updated: 6-09-2016
 / errorcountlearninga = 0
 </values>
 
-<expressions>
-/ randomWords = noreplace(1,2,3,4,5,6)
-/ randomPosition1 = noreplace(25, 75)
-/ randomPosition2 = noreplace(25, 75)
-/ errorLa = (values.errorcountlearninga)
-</expressions>
-
 ************** stimuli exemplars ***************
 
-<item NeutralWords>
-/ 1 = "A1"
-/ 2 = "B1"
-/ 3 = "C1"
-/ 4 = "A2"
-/ 5 = "B2"
-/ 6 = "C2"
+<item B1>
+/ 1 = "YEL"
+</item>
+
+<item B2>
+/ 1 = "VAZ"
+</item>
+
+<item C1>
+/ 1 = "LAF"
+</item>
+
+<item C2>
+/ 1 = "DWA"
 </item>
 
 ***************** stimuli **********************
 
-<text A1>
-/ numitems = 1
-/ items = ("A1")
-/ position = (50, 50)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text A1_target>
-/ numitems = 1
-/ items = ("A1")
-/ position = (50, 30)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text A1_sample1>
-/ numitems = 1
-/ items = ("A1")
-/ position = (25, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text A1_sample2>
-/ numitems = 1
-/ items = ("A1")
-/ position = (75, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text B1>
-/ numitems = 1
-/ items = ("B1")
-/ position = (50, 50)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
 <text B1_target>
 / numitems = 1
-/ items = ("B1")
+/ items = B1
 / position = (50, 30)
 / txcolor = white
 / txbgcolor = black
@@ -105,7 +59,7 @@ Last updated: 6-09-2016
 
 <text B1_sample1>
 / numitems = 1
-/ items = ("B1")
+/ items = B1
 / position = (25, 70)
 / txcolor = white
 / txbgcolor = black
@@ -114,17 +68,8 @@ Last updated: 6-09-2016
 
 <text B1_sample2>
 / numitems = 1
-/ items = ("B1")
+/ items = B1
 / position = (75, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text C1>
-/ numitems = 1
-/ items = ("C1")
-/ position = (50, 50)
 / txcolor = white
 / txbgcolor = black
 / font = ("Arial", -50, 500, 0, 49)
@@ -132,7 +77,7 @@ Last updated: 6-09-2016
 
 <text C1_target>
 / numitems = 1
-/ items = ("C1")
+/ items = C1
 / position = (50, 30)
 / txcolor = white
 / txbgcolor = black
@@ -141,7 +86,7 @@ Last updated: 6-09-2016
 
 <text C1_sample1>
 / numitems = 1
-/ items = ("C1")
+/ items = C1
 / position = (25, 70)
 / txcolor = white
 / txbgcolor = black
@@ -150,53 +95,8 @@ Last updated: 6-09-2016
 
 <text C1_sample2>
 / numitems = 1
-/ items = ("C1")
+/ items = C1
 / position = (75, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text A2>
-/ numitems = 1
-/ items = ("A2")
-/ position = (50, 50)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text A2_target>
-/ numitems = 1
-/ items = ("A2")
-/ position = (50, 30)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text A2_sample1>
-/ numitems = 1
-/ items = ("A2")
-/ position = (25, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text A2_sample2>
-/ numitems = 1
-/ items = ("A2")
-/ position = (75, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text B2>
-/ numitems = 1
-/ items = ("B2")
-/ position = (50, 50)
 / txcolor = white
 / txbgcolor = black
 / font = ("Arial", -50, 500, 0, 49)
@@ -204,7 +104,7 @@ Last updated: 6-09-2016
 
 <text B2_target>
 / numitems = 1
-/ items = ("B2")
+/ items = B2
 / position = (50, 30)
 / txcolor = white
 / txbgcolor = black
@@ -213,7 +113,7 @@ Last updated: 6-09-2016
 
 <text B2_sample1>
 / numitems = 1
-/ items = ("B2")
+/ items = B2
 / position = (25, 70)
 / txcolor = white
 / txbgcolor = black
@@ -222,17 +122,8 @@ Last updated: 6-09-2016
 
 <text B2_sample2>
 / numitems = 1
-/ items = ("B2")
+/ items = B2
 / position = (75, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text C2>
-/ numitems = 1
-/ items = ("C2")
-/ position = (50, 50)
 / txcolor = white
 / txbgcolor = black
 / font = ("Arial", -50, 500, 0, 49)
@@ -240,7 +131,7 @@ Last updated: 6-09-2016
 
 <text C2_target>
 / numitems = 1
-/ items = ("C2")
+/ items = C2
 / position = (50, 30)
 / txcolor = white
 / txbgcolor = black
@@ -249,7 +140,7 @@ Last updated: 6-09-2016
 
 <text C2_sample1>
 / numitems = 1
-/ items = ("C2")
+/ items = C2
 / position = (25, 70)
 / txcolor = white
 / txbgcolor = black
@@ -258,7 +149,7 @@ Last updated: 6-09-2016
 
 <text C2_sample2>
 / numitems = 1
-/ items = ("C2")
+/ items = C2
 / position = (75, 70)
 / txcolor = white
 / txbgcolor = black
@@ -331,7 +222,6 @@ Last updated: 6-09-2016
 / correctresponse = ("f", "j")
 / stimulustimes = [500 = B1_target; 1000 = C1_sample1, C2_sample2, f_key, j_key]
 / pretrialpause = 1000
-/ ontrialend = [if (trial.B1_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
 <trial B1_C2_C1> 
@@ -340,7 +230,6 @@ Last updated: 6-09-2016
 / correctresponse = ("f", "j")
 / stimulustimes = [500 = B1_target; 1000 = C1_sample2, C2_sample1, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.B1_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
 <trial C1_B1_B2> 
@@ -349,7 +238,6 @@ Last updated: 6-09-2016
 / correctresponse = ("f", "j")
 / stimulustimes = [500 = C1_target; 1000 = B1_sample1, B2_sample2, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.C1_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
 <trial C1_B2_B1> 
@@ -358,7 +246,6 @@ Last updated: 6-09-2016
 / correctresponse = ("f", "j")
 / stimulustimes = [500 = C1_target; 1000 = B1_sample2, B2_sample1, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.C1_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
 <trial B2_C2_C1> 
@@ -367,7 +254,6 @@ Last updated: 6-09-2016
 / correctresponse = ("f", "j")
 / stimulustimes = [500 = B2_target; 1000= C2_sample1, C1_sample2, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.B2_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
 <trial B2_C1_C2> 
@@ -376,7 +262,6 @@ Last updated: 6-09-2016
 / correctresponse = ("f", "j")
 / stimulustimes = [500 = B2_target; 1000 = C2_sample2, C1_sample1, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.B2_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
 <trial C2_B1_B2> 
@@ -385,7 +270,6 @@ Last updated: 6-09-2016
 / correctresponse = ("f", "j")
 / stimulustimes = [500 = C2_target; 1000 = B1_sample1, B2_sample2, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.C2_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
 <trial C2_B2_B1> 
@@ -394,7 +278,6 @@ Last updated: 6-09-2016
 / correctresponse = ("f", "j")
 / stimulustimes = [500 = C2_target; 1000 = B1_sample2, B2_sample1, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.C2_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
 < trial pause>

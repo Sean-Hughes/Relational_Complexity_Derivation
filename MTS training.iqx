@@ -1,9 +1,8 @@
 ﻿************************************************
                RELATIONAL TRAINING
 ************************************************
-Author: Sean Hughes (sean.hughes@ugent.be)
-Code review: Ian Hussey (ian.hussey@ugent.be)
-Last updated: 6-09-2016
+Authors: Sean Hughes (sean.hughes@ugent.be) & Ian Hussey (ian.hussey@ugent.be)
+Last updated: 7-09-2016
 
 ************* general variables ****************
 
@@ -22,7 +21,7 @@ Last updated: 6-09-2016
 </expt>
 
 <variables>
-/group = (1 of 1) (block1 = Relational_Training_Phase)
+/ group = (1 of 1) (block1 = Relational_Training_Phase)
 </variables>
 
 <values>
@@ -30,21 +29,33 @@ Last updated: 6-09-2016
 </values>
 
 <expressions>
-/ randomWords = noreplace(1,2,3,4,5,6)
-/ randomPosition1 = noreplace(25, 75)
-/ randomPosition2 = noreplace(25, 75)
 / errorLa = (values.errorcountlearninga)
 </expressions>
 
 ************** stimuli exemplars ***************
 
-<item NeutralWords>
-/ 1 = "A1"
-/ 2 = "B1"
-/ 3 = "C1"
-/ 4 = "A2"
-/ 5 = "B2"
-/ 6 = "C2"
+<item A1>
+/ 1 = "PRU"
+</item>
+
+<item A2>
+/ 1 = "WUP"
+</item>
+
+<item B1>
+/ 1 = "YEL"
+</item>
+
+<item B2>
+/ 1 = "VAZ"
+</item>
+
+<item C1>
+/ 1 = "LAF"
+</item>
+
+<item C2>
+/ 1 = "DWA"
 </item>
 
 ***************** demographics *****************
@@ -68,18 +79,9 @@ Otherwise you cannot be paid"
 
 ***************** stimuli **********************
 
-<text A1>
-/ numitems = 1
-/ items = ("A1")
-/ position = (50, 50)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
 <text A1_target>
 / numitems = 1
-/ items = ("A1")
+/ items = A1
 / position = (50, 30)
 / txcolor = white
 / txbgcolor = black
@@ -88,7 +90,7 @@ Otherwise you cannot be paid"
 
 <text A1_sample1>
 / numitems = 1
-/ items = ("A1")
+/ items = A1
 / position = (25, 70)
 / txcolor = white
 / txbgcolor = black
@@ -97,17 +99,8 @@ Otherwise you cannot be paid"
 
 <text A1_sample2>
 / numitems = 1
-/ items = ("A1")
+/ items = A1
 / position = (75, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text B1>
-/ numitems = 1
-/ items = ("B1")
-/ position = (50, 50)
 / txcolor = white
 / txbgcolor = black
 / font = ("Arial", -50, 500, 0, 49)
@@ -115,7 +108,7 @@ Otherwise you cannot be paid"
 
 <text B1_target>
 / numitems = 1
-/ items = ("B1")
+/ items = B1
 / position = (50, 30)
 / txcolor = white
 / txbgcolor = black
@@ -124,7 +117,7 @@ Otherwise you cannot be paid"
 
 <text B1_sample1>
 / numitems = 1
-/ items = ("B1")
+/ items = B1
 / position = (25, 70)
 / txcolor = white
 / txbgcolor = black
@@ -133,17 +126,8 @@ Otherwise you cannot be paid"
 
 <text B1_sample2>
 / numitems = 1
-/ items = ("B1")
+/ items = B1
 / position = (75, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text C1>
-/ numitems = 1
-/ items = ("C1")
-/ position = (50, 50)
 / txcolor = white
 / txbgcolor = black
 / font = ("Arial", -50, 500, 0, 49)
@@ -151,7 +135,7 @@ Otherwise you cannot be paid"
 
 <text C1_target>
 / numitems = 1
-/ items = ("C1")
+/ items = C1
 / position = (50, 30)
 / txcolor = white
 / txbgcolor = black
@@ -160,7 +144,7 @@ Otherwise you cannot be paid"
 
 <text C1_sample1>
 / numitems = 1
-/ items = ("C1")
+/ items = C1
 / position = (25, 70)
 / txcolor = white
 / txbgcolor = black
@@ -169,17 +153,8 @@ Otherwise you cannot be paid"
 
 <text C1_sample2>
 / numitems = 1
-/ items = ("C1")
+/ items = C1
 / position = (75, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text A2>
-/ numitems = 1
-/ items = ("A2")
-/ position = (50, 50)
 / txcolor = white
 / txbgcolor = black
 / font = ("Arial", -50, 500, 0, 49)
@@ -187,7 +162,7 @@ Otherwise you cannot be paid"
 
 <text A2_target>
 / numitems = 1
-/ items = ("A2")
+/ items = A2
 / position = (50, 30)
 / txcolor = white
 / txbgcolor = black
@@ -196,7 +171,7 @@ Otherwise you cannot be paid"
 
 <text A2_sample1>
 / numitems = 1
-/ items = ("A2")
+/ items = A2
 / position = (25, 70)
 / txcolor = white
 / txbgcolor = black
@@ -205,17 +180,8 @@ Otherwise you cannot be paid"
 
 <text A2_sample2>
 / numitems = 1
-/ items = ("A2")
+/ items = A2
 / position = (75, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text B2>
-/ numitems = 1
-/ items = ("B2")
-/ position = (50, 50)
 / txcolor = white
 / txbgcolor = black
 / font = ("Arial", -50, 500, 0, 49)
@@ -223,7 +189,7 @@ Otherwise you cannot be paid"
 
 <text B2_target>
 / numitems = 1
-/ items = ("B2")
+/ items = B2
 / position = (50, 30)
 / txcolor = white
 / txbgcolor = black
@@ -232,7 +198,7 @@ Otherwise you cannot be paid"
 
 <text B2_sample1>
 / numitems = 1
-/ items = ("B2")
+/ items = B2
 / position = (25, 70)
 / txcolor = white
 / txbgcolor = black
@@ -241,17 +207,8 @@ Otherwise you cannot be paid"
 
 <text B2_sample2>
 / numitems = 1
-/ items = ("B2")
+/ items = B2
 / position = (75, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text C2>
-/ numitems = 1
-/ items = ("C2")
-/ position = (50, 50)
 / txcolor = white
 / txbgcolor = black
 / font = ("Arial", -50, 500, 0, 49)
@@ -259,7 +216,7 @@ Otherwise you cannot be paid"
 
 <text C2_target>
 / numitems = 1
-/ items = ("C2")
+/ items = C2
 / position = (50, 30)
 / txcolor = white
 / txbgcolor = black
@@ -268,7 +225,7 @@ Otherwise you cannot be paid"
 
 <text C2_sample1>
 / numitems = 1
-/ items = ("C2")
+/ items = C2
 / position = (25, 70)
 / txcolor = white
 / txbgcolor = black
@@ -277,7 +234,7 @@ Otherwise you cannot be paid"
 
 <text C2_sample2>
 / numitems = 1
-/ items = ("C2")
+/ items = C2
 / position = (75, 70)
 / txcolor = white
 / txbgcolor = black
@@ -299,7 +256,7 @@ Otherwise you cannot be paid"
 ***************** labels etc *******************
 
 <text continue>
-/numitems =1
+/numitems = 1
 /items= ("Press the spacebar to continue")
 / txcolor = white
 / txbgcolor = black
@@ -308,7 +265,7 @@ Otherwise you cannot be paid"
 </text>
 
 <text correctMessage>
-/numitems =1
+/numitems = 1
 /items= ("CORRECT")
 / txcolor = green
 / txbgcolor = black
@@ -368,7 +325,7 @@ Otherwise you cannot be paid"
 / inputdevice = keyboard
 / correctresponse = ("j")
 / validresponse = ("f", "j")
-/ responsemessage = ("j", correctMessage, 1000)
+/ responsemessage = ("j", correctMessage, 750)
 / responsemessage = ("f", errorMessage, 1500)
 / stimulustimes = [500 = A1_target; 1000 = B1_sample2, B2_sample1, f_key, j_key]
 / pretrialpause = 500
@@ -379,7 +336,7 @@ Otherwise you cannot be paid"
 / inputdevice = keyboard
 / correctresponse = ("f")
 / validresponse = ("f", "j")
-/ responsemessage = ("f", correctMessage, 1000)
+/ responsemessage = ("f", correctMessage, 750)
 / responsemessage = ("j", errorMessage, 1500)
 / stimulustimes = [500 = A1_target; 1000 = C1_sample1, C2_sample2, f_key, j_key]
 / pretrialpause = 500
@@ -390,8 +347,8 @@ Otherwise you cannot be paid"
 / inputdevice = keyboard
 / correctresponse = ("j")
 / validresponse = ("f", "j")
-/ responsemessage = ("j", correctMessage, 1000)
-/ responsemessage = (32, errorMessage, 1500)
+/ responsemessage = ("j", correctMessage, 750)
+/ responsemessage = ("f", errorMessage, 1500)
 / stimulustimes = [500 = A1_target; 1000 = C1_sample2, C2_sample1, f_key, j_key]
 / pretrialpause = 500
 / ontrialend = [if (trial.A1_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
@@ -401,7 +358,7 @@ Otherwise you cannot be paid"
 / inputdevice = keyboard
 / correctresponse = ("f")
 / validresponse = ("f", "j")
-/ responsemessage = ("f", correctMessage, 1000)
+/ responsemessage = ("f", correctMessage, 750)
 / responsemessage = ("j", errorMessage, 1500)
 / stimulustimes = [500 = A2_target; 1000= B2_sample1, B1_sample2, f_key, j_key]
 / pretrialpause = 500
@@ -412,7 +369,7 @@ Otherwise you cannot be paid"
 / inputdevice = keyboard
 / correctresponse = ("j")
 / validresponse = ("f", "j")
-/ responsemessage = ("j", correctMessage, 1000)
+/ responsemessage = ("j", correctMessage, 750)
 / responsemessage = ("f", errorMessage, 1500)
 / stimulustimes = [500 = A2_target; 1000 = B2_sample2, B1_sample1, f_key, j_key]
 / pretrialpause = 500
@@ -423,7 +380,7 @@ Otherwise you cannot be paid"
 / inputdevice = keyboard
 / correctresponse = ("j")
 / validresponse = ("f", "j")
-/ responsemessage = ("j", correctMessage, 1000)
+/ responsemessage = ("j", correctMessage, 750)
 / responsemessage = ("f", errorMessage, 1500)
 / stimulustimes = [500 = A2_target; 1000 = C1_sample1, C2_sample2, f_key, j_key]
 / pretrialpause = 500
@@ -434,7 +391,7 @@ Otherwise you cannot be paid"
 / inputdevice = keyboard
 / correctresponse = ("f")
 / validresponse = ("f", "j")
-/ responsemessage = ("f", correctMessage, 1000)
+/ responsemessage = ("f", correctMessage, 750)
 / responsemessage = ("j", errorMessage, 1500)
 / stimulustimes = [500 = A2_target; 1000 = C1_sample2, C2_sample1, f_key, j_key]
 / pretrialpause = 500
@@ -453,7 +410,7 @@ Otherwise you cannot be paid"
 / trialduration = 1000
 </trial>
 
-*****************  block  **********************
+*****************  block  **********************  
 
 <block Relational_Training_Phase>
 / preinstructions = (RTP_instructions)
