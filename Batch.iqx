@@ -18,6 +18,7 @@ gets aborted via function script.abort() in the ConsentformScript.iqx script
 / subjects=(1 of 2)
 / groupassignment = subjectnumber
 / file="consent.iqx"
+/ file="demographics.iqx"
 / file="IAT baseline.iqx"
 / file="MTS training.iqx"
 / file="MTS criterion.iqx"
@@ -31,6 +32,7 @@ gets aborted via function script.abort() in the ConsentformScript.iqx script
 / subjects=(2 of 2)
 / groupassignment = subjectnumber
 / file="consent.iqx"
+/ file="demographics.iqx"
 / file="IAT baseline.iqx"
 / file="MTS training.iqx"
 / file="MTS criterion.iqx"
