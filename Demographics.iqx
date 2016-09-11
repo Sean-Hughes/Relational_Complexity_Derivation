@@ -1,0 +1,104 @@
+﻿***************************************************************************************
+***************************************************************************************
+											SCRIPT OVERVIEW
+***************************************************************************************
+***************************************************************************************
+Script Info
+
+Author: Sean Hughes (sean.hughes@ugent.be)
+last updated: 30-08-2016
+***************************************************************************************
+***************************************************************************************
+
+*************************General Variables****************************
+**********************************************************************
+
+<defaults>
+/ screencolor = (255, 255, 255)
+/ font = ("Arial", -21, 700, 0, 34)
+/ txcolor = (255, 255, 255)
+/ inputdevice = keyboard
+/ validkeys = (" ", "t")
+/ halign = center
+/ Com1BaudRate =9600
+</defaults>
+
+<expt>
+/ blocks = [1 = block1]
+</expt>
+
+<variables>
+
+/group = (1 of 1) (block1 = begin)
+
+</variables>
+
+
+***** Demographics******************************
+************************************************
+<textbox age>
+/ caption = "What is your age:"
+</textbox>
+
+<textbox gender>
+/ caption = "What is your gender"
+</textbox>
+
+<textbox ProlificCode>
+/ caption = " Please enter your prolific ID here 
+(if you cannot remember it please quit the experiment now 
+and retrieve it before continuing). Otherwise you cannot be paid."
+/ position = (10%,10%)
+/ textboxsize = (45, 40)
+/ multiline = true
+</textbox>
+
+***********************************************
+
+<surveypage info_1>
+/questions = [1=age]
+/ showpagenumbers = false 
+/showquestionnumbers = false
+</surveypage>
+
+<surveypage info_2>
+/questions = [1= gender]
+/ showpagenumbers = false 
+/showquestionnumbers = false
+</surveypage>
+
+<surveypage info_3>
+/questions = [1=ProlificCode]
+/ showpagenumbers = false 
+/showquestionnumbers = false
+</surveypage>
+
+**********  block  **********
+
+<block begin>
+/ preinstructions = (WelcomeInstructions)
+/ screencolor = (0, 0, 0)
+/ trials = [1 = info_1; 2= info_2; 3 = info_3]
+</block>
+
+**********  Instructions  *************
+
+<instruct>  
+/ font = ("Courier New", -20, 800, 0, 49)
+/ inputdevice = keyboard
+/ nextkey = (" ")
+/ nextlabel = "Press the spacebar to continue"
+/ prevlabel = "Press the 't' key to go back"
+/ prevkey = ("t")
+</instruct>
+
+<page WelcomeInstructions>
+
+Welcome to this experiment.^^
+
+Before you start, please:^^
+
+– maximize your browser window^^
+– switch off phone/e-mail/music & anything else distracting^^
+- please have your Prolific ID ready [It can be found in your account info]^^
+</page>
