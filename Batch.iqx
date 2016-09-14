@@ -23,6 +23,7 @@ gets aborted via function script.abort() in the ConsentformScript.iqx script
 / file="Relational Testing (MTS - OTM).iqx"
 / file="IAT Test.iqx"
 / file="Derivation Opportunities (MTS - OTM).iqx"
+/ file="Pilot feedback.iqx"
 </batch>
 
 *** high derivation opportunities condition ****
@@ -37,4 +38,5 @@ gets aborted via function script.abort() in the ConsentformScript.iqx script
 / file="Relational Testing (MTS - OTM).iqx"
 / file="Derivation Opportunities (MTS - OTM).iqx"
 / file="IAT Test.iqx"
+/ file="Pilot feedback.iqx"
 </batch>

@@ -1,0 +1,63 @@
+﻿***************************************************************************************
+***************************************************************************************
+											SCRIPT OVERVIEW
+***************************************************************************************
+***************************************************************************************
+Script Info
+
+Author: Sean Hughes (sean.hughes@ugent.be)
+last updated: 14-09-16
+***************************************************************************************
+***************************************************************************************
+
+*************************General Variables****************************
+**********************************************************************
+
+<defaults>
+/ screencolor = (255, 255, 255)
+/ font = ("Arial", -21, 700, 0, 34)
+/ txcolor = (255, 255, 255)
+/ inputdevice = keyboard
+/ validkeys = (" ", "t")
+/ halign = center
+/ Com1BaudRate = 9600
+</defaults>
+
+<expt>
+/ blocks = [1 = block1]
+</expt>
+
+<variables>
+
+/group = (1 of 1) (block1 = begin)
+
+</variables>
+
+
+***** Demographics******************************
+************************************************
+<textbox Feedback>
+/ caption = "We are still developing the procedure for this study - do you have any feedback that could help us?
+
+For example, were any instructions or requirements unclear? Was there anything we could change to make it easier to complete?
+
+Thank you for helping us improve the study!"
+/ position = (10%,10%)
+/ textboxsize = (45, 40)
+/ multiline = true
+</textbox>
+
+***********************************************
+
+<surveypage feedback_1>
+/ questions = [1 = Feedback]
+/ showpagenumbers = false 
+/ showquestionnumbers = false
+</surveypage>
+
+**********  block  **********
+
+<block begin>
+/ screencolor = (0, 0, 0)
+/ trials = [1 = feedback_1 ]
+</block>

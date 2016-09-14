@@ -206,7 +206,7 @@ expressions.d:						overall d-score
 / percentcorrect:       			the overall percent correct score of initial responses of test trials of D-score qualifying latencies
 
 <data>
-/ file = "baseline_IAT_rawdata.iqdat"
+/ file = "IAT_baseline_rawdata.iqdat"
 / columns = [date, time, group, subject, blockcode, blocknum, trialcode, trialnum, response, correct, latency, 
 stimulusnumber, stimulusitem, expressions.da, expressions.db, expressions.d, expressions.percentcorrect]
 / separatefiles = true
@@ -228,7 +228,7 @@ expressions.d:						overall d-score
 / percentcorrect:       			the overall percent correct score of initial responses of test trials of D-score qualifying latencies
 
 <summarydata >
-/ file = "baseline_IAT_summary.iqdat"
+/ file = "IAT_baseline_summary.iqdat"
 / columns = [script.startdate, script.starttime, script.subjectid, script.groupid, script.elapsedtime, values.completed,
 expressions.da, expressions.db, expressions.d, expressions.percentcorrect]
 </summarydata>
