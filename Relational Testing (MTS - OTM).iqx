@@ -2,7 +2,7 @@
                RELATIONAL TESTING
 ************************************************
 Authors: Sean Hughes (sean.hughes@ugent.be) & Ian Hussey (ian.hussey@ugent.be)
-Last updated: 7-09-2016
+Last updated: 9-09-2016
 
 ************* general variables ****************
 
@@ -31,15 +31,15 @@ Last updated: 7-09-2016
 ************** stimuli exemplars ***************
 
 <item B1>
-/ 1 = "YEL"
+/ 1 = "WUP"
 </item>
 
 <item B2>
-/ 1 = "VAZ"
+/ 1 = "LAF"
 </item>
 
 <item C1>
-/ 1 = "LAF"
+/ 1 = "YEL"
 </item>
 
 <item C2>
@@ -221,7 +221,7 @@ Last updated: 7-09-2016
 / correctresponse = ("f")
 / correctresponse = ("f", "j")
 / stimulustimes = [500 = B1_target; 1000 = C1_sample1, C2_sample2, f_key, j_key]
-/ pretrialpause = 1000
+/ pretrialpause = 500
 </trial>
 
 <trial B1_C2_C1> 
@@ -315,9 +315,4 @@ Last updated: 7-09-2016
 
 However this is now a TEST phase. We will no longer tell you if you are correct or incorrect. As such, please take your time and respond as ***ACCURATELY AS POSSIBLE***. 
 </page>
-
-<page RTP_post_instructions>
-^^  Thank you. You will be given another opportunity to practice this part of the task. Please take your time and try to be as ACCURATE as possible. When you are ready press the spacebar to continue.
-</page>
-
 

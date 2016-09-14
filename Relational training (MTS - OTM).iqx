@@ -2,7 +2,7 @@
                RELATIONAL TRAINING
 ************************************************
 Authors: Sean Hughes (sean.hughes@ugent.be) & Ian Hussey (ian.hussey@ugent.be)
-Last updated: 7-09-2016
+Last updated: 9-09-2016
 
 ************* general variables ****************
 
@@ -21,7 +21,7 @@ Last updated: 7-09-2016
 </expt>
 
 <variables>
-/ group = (1 of 1) (block1 = Relational_Training_Phase)
+/ group = (1 of 1) (block1 = Relational_Training_Phase_Block_1)
 </variables>
 
 <values>
@@ -39,43 +39,26 @@ Last updated: 7-09-2016
 </item>
 
 <item A2>
-/ 1 = "WUP"
-</item>
-
-<item B1>
-/ 1 = "YEL"
-</item>
-
-<item B2>
 / 1 = "VAZ"
 </item>
 
-<item C1>
+<item B1>
+/ 1 = "WUP"
+</item>
+
+<item B2>
 / 1 = "LAF"
+</item>
+
+<item C1>
+/ 1 = "YEL"
 </item>
 
 <item C2>
 / 1 = "DWA"
 </item>
 
-***************** demographics *****************
-
-<textbox age>
-/ caption = "What is your age:"
-</textbox>
-
-<textbox gender>
-/ caption = "What is your gender"
-</textbox>
-
-<textbox ProlificCode>
-/ caption = "Please enter your prolific ID here 
-(if you cannot remember it please quit the experiment now and retrieve it before continuing)
-Otherwise you cannot be paid"
-/ position = (10%,30%)
-/ textboxsize = (45, 40)
-/ multiline = true
-</textbox>
+************************************************
 
 ***************** stimuli **********************
 
@@ -317,7 +300,7 @@ Otherwise you cannot be paid"
 / responsemessage = ("f", correctMessage, 750)
 / responsemessage = ("j", errorMessage, 1500)
 / stimulustimes = [500 = A1_target; 1000 = B1_sample1, B2_sample2, f_key, j_key]
-/ pretrialpause = 1000
+/ pretrialpause = 500
 / ontrialend = [if (trial.A1_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
@@ -412,17 +395,37 @@ Otherwise you cannot be paid"
 
 *****************  block  **********************  
 
-<block Relational_Training_Phase>
+<block Relational_Training_Phase_Block_1>
 / preinstructions = (RTP_instructions)
 / trials = [1-40 = noreplace(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
-/ onblockend = [block.Relational_Training_Phase.currentblocknumber == block.Relational_Training_Phase.currentblocknumber + 1]
-/ branch = [if (expressions.errorLa > 4 && block.Relational_Training_Phase.currentblocknumber < 10) block.end else block.exit]
+/ branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_2 else block.exit]
 </block>
 
-<block end>
+<block Relational_Training_Phase_Block_2>
 / onblockbegin = [values.errorcountlearninga = 0]
 / preinstructions = (RTP_post_instructions)
-/ branch = [if (block.Relational_Training_Phase.currentblocknumber < 9) block.Relational_Training_Phase]
+/ trials = [1-40 = noreplace(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
+/ branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_3 else block.exit]
+</block>
+
+<block Relational_Training_Phase_Block_3>
+/ onblockbegin = [values.errorcountlearninga = 0]
+/ preinstructions = (RTP_post_instructions)
+/ trials = [1-40 = noreplace(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
+/ branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_4 else block.exit]
+</block>
+
+<block Relational_Training_Phase_Block_4>
+/ onblockbegin = [values.errorcountlearninga = 0]
+/ preinstructions = (RTP_post_instructions)
+/ trials = [1-40 = noreplace(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
+/ branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_5 else block.exit]
+</block>
+
+<block Relational_Training_Phase_Block_5>
+/ onblockbegin = [values.errorcountlearninga = 0]
+/ preinstructions = (RTP_post_instructions)
+/ trials = [1-40 = noreplace(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
 </block>
 
 <block exit>
@@ -445,7 +448,7 @@ In the next part of the task please look at the word at the top of the screen an
 
 Please select one of the two words at the bottom of the screen using the 'f' or 'j' keys.^^
 
-Specifically, press the 'f' key if you want to choose the word on the lower left. Press the 'j' key if you want to choose
+Press the 'f' key if you want to choose the word on the lower left. Press the 'j' key if you want to choose
 the word on the lower right.^^
 
 The computer will help you learn by telling you when you are correct or incorrect.^^
@@ -460,3 +463,11 @@ Please take your time and try to be as ACCURATE as possible.^^
 
 When you are ready press the spacebar to continue.^^
 </page>
+
+***********************************************************************
+Test Monkey
+***********************************************************************
+<monkey>
+/ latencydistribution = normal(500, 100)
+/ percentcorrect = 50
+</monkey>

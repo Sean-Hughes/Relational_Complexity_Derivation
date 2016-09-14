@@ -2,7 +2,7 @@
        ADDITIONAL DERIVATION OPPORTUNITIES
 ************************************************
 Authors: Sean Hughes (sean.hughes@ugent.be) & Ian Hussey (ian.hussey@ugent.be)
-Last updated: 7-09-2016
+Last updated: 9-09-2016
 
 ************* general variables ****************
 
@@ -38,15 +38,15 @@ Last updated: 7-09-2016
 ************** stimuli exemplars ***************
 
 <item B1>
-/ 1 = "YEL"
+/ 1 = "WUP"
 </item>
 
 <item B2>
-/ 1 = "VAZ"
+/ 1 = "LAF"
 </item>
 
 <item C1>
-/ 1 = "LAF"
+/ 1 = "YEL"
 </item>
 
 <item C2>
@@ -217,15 +217,15 @@ Last updated: 7-09-2016
 <trial B1_C1_C2> 
 / inputdevice = keyboard
 / correctresponse = ("f")
-/ correctresponse = ("f", "j")
+/ validresponse = ("f", "j")
 / stimulustimes = [500 = B1_target; 1000 = C1_sample1, C2_sample2, f_key, j_key]
-/ pretrialpause = 1000
+/ pretrialpause = 500
 </trial>
 
 <trial B1_C2_C1> 
 / inputdevice = keyboard
 / correctresponse = ("j")
-/ correctresponse = ("f", "j")
+/ validresponse  = ("f", "j")
 / stimulustimes = [500 = B1_target; 1000 = C1_sample2, C2_sample1, f_key, j_key]
 / pretrialpause = 500
 </trial>
@@ -233,7 +233,7 @@ Last updated: 7-09-2016
 <trial C1_B1_B2> 
 / inputdevice = keyboard
 / correctresponse = ("f")
-/ correctresponse = ("f", "j")
+/ validresponse  = ("f", "j")
 / stimulustimes = [500 = C1_target; 1000 = B1_sample1, B2_sample2, f_key, j_key]
 / pretrialpause = 500
 </trial>
@@ -241,7 +241,7 @@ Last updated: 7-09-2016
 <trial C1_B2_B1> 
 / inputdevice = keyboard
 / correctresponse = ("j")
-/ correctresponse = ("f", "j")
+/ validresponse  = ("f", "j")
 / stimulustimes = [500 = C1_target; 1000 = B1_sample2, B2_sample1, f_key, j_key]
 / pretrialpause = 500
 </trial>
@@ -249,7 +249,7 @@ Last updated: 7-09-2016
 <trial B2_C2_C1> 
 / inputdevice = keyboard
 / correctresponse = ("f")
-/ correctresponse = ("f", "j")
+/ validresponse  = ("f", "j")
 / stimulustimes = [500 = B2_target; 1000 = C2_sample1, C1_sample2, f_key, j_key]
 / pretrialpause = 500
 </trial>
@@ -257,7 +257,7 @@ Last updated: 7-09-2016
 <trial B2_C1_C2> 
 / inputdevice = keyboard
 / correctresponse = ("j")
-/ correctresponse = ("f", "j")
+/ validresponse  = ("f", "j")
 / stimulustimes = [500 = B2_target; 1000 = C2_sample2, C1_sample1, f_key, j_key]
 / pretrialpause = 500
 </trial>
@@ -265,7 +265,7 @@ Last updated: 7-09-2016
 <trial C2_B1_B2> 
 / inputdevice = keyboard
 / correctresponse = ("j")
-/ correctresponse = ("f", "j")
+/ validresponse  = ("f", "j")
 / stimulustimes = [500 = C2_target; 1000 = B1_sample1, B2_sample2, f_key, j_key]
 / pretrialpause = 500
 </trial>
@@ -273,7 +273,7 @@ Last updated: 7-09-2016
 <trial C2_B2_B1> 
 / inputdevice = keyboard
 / correctresponse = ("f")
-/ correctresponse = ("f", "j")
+/ validresponse  = ("f", "j")
 / stimulustimes = [500 = C2_target; 1000 = B1_sample2, B2_sample1, f_key, j_key]
 / pretrialpause = 500
 </trial>
@@ -294,12 +294,12 @@ Last updated: 7-09-2016
 
 <block Derivation_Opportunities_1>
 / preinstructions = (RTP_instructions_1)
-/ trials = [1-36 = noreplace(B1_C1_C2, B1_C2_C1, C1_B1_B2, C1_B2_B1, B2_C2_C1, B2_C1_C2, C2_B1_B2, C2_B2_B1)]
+/ trials = [1-40 = noreplacenorepeat(B1_C1_C2, B1_C2_C1, C1_B1_B2, C1_B2_B1, B2_C2_C1, B2_C1_C2, C2_B1_B2, C2_B2_B1)]
 </block>
 
 <block Derivation_Opportunities_2>
 / preinstructions = (RTP_instructions_2)
-/ trials = [1-36 = noreplace(B1_C1_C2, B1_C2_C1, C1_B1_B2, C1_B2_B1, B2_C2_C1, B2_C1_C2, C2_B1_B2, C2_B2_B1)]
+/ trials = [1-40 = noreplacenorepeat(B1_C1_C2, B1_C2_C1, C1_B1_B2, C1_B2_B1, B2_C2_C1, B2_C1_C2, C2_B1_B2, C2_B2_B1)]
 </block>
 
 **************  instructions  ******************

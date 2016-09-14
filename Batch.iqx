@@ -2,8 +2,8 @@
 BATCH SCRIPT FOR DERIVATION STUDY (HUSSEY AND HUGHES)
 ************************************************
 Author: Sean Hughes (sean.hughes@ugent.be)
-Code review: Ian Hussey (ian.hussey@ugent.be)
-Last updated: 6-09-2016
+Code review: Sean Hughes (sean.hughes@ugent.be)
+Last updated: 9-09-2016
 
 ******************* overview *******************
 Script provides the code for a batch file that adds a consent form to an Inquisit 
@@ -20,10 +20,10 @@ gets aborted via function script.abort() in the ConsentformScript.iqx script
 / file="consent.iqx"
 / file="demographics.iqx"
 / file="IAT baseline.iqx"
-/ file="MTS training.iqx"
-/ file="MTS criterion.iqx"
+/ file="Relational training (MTS - OTM).iqx"
+/ file="Relational Testing (MTS - OTM).iqx"
 / file="IAT test.iqx"
-/ file="MTS test.iqx"
+/ file="Derivation Opportunities (MTS - OTM).iqx"
 </batch>
 
 *** high derivation opportunities condition ****
@@ -34,8 +34,8 @@ gets aborted via function script.abort() in the ConsentformScript.iqx script
 / file="consent.iqx"
 / file="demographics.iqx"
 / file="IAT baseline.iqx"
-/ file="MTS training.iqx"
-/ file="MTS criterion.iqx"
-/ file="MTS test.iqx"
+/ file="Relational training (MTS - OTM).iqx"
+/ file="Relational Testing (MTS - OTM).iqx"
+/ file="Derivation Opportunities (MTS - OTM).iqx"
 / file="IAT test.iqx"
 </batch>
