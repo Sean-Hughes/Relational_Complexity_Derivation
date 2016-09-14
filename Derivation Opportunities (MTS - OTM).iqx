@@ -2,7 +2,7 @@
        ADDITIONAL DERIVATION OPPORTUNITIES
 ************************************************
 Authors: Sean Hughes (sean.hughes@ugent.be) & Ian Hussey (ian.hussey@ugent.be)
-Last updated: 9-09-2016
+Last updated: 14-09-2016
 
 ************* general variables ****************
 
@@ -21,19 +21,12 @@ Last updated: 9-09-2016
 </expt>
 
 <variables>
-/group = (1 of 1) (block1 = Derivation_Opportunities_1, block2 = Derivation_Opportunities_2)
+/ group = (1 of 1) (block1 = Derivation_Opportunities_1, block2 = Derivation_Opportunities_2)
 </variables>
 
 <values>
 / errorcountlearninga = 0
 </values>
-
-<expressions>
-/ randomWords = noreplace(1,2,3,4,5,6)
-/ randomPosition1 = noreplace(25, 75)
-/ randomPosition2 = noreplace(25, 75)
-/ errorLa = (values.errorcountlearninga)
-</expressions>
 
 ************** stimuli exemplars ***************
 
@@ -208,7 +201,7 @@ Last updated: 9-09-2016
 / items = ("Press 'J' for")
 / txcolor = white
 / txbgcolor = black
-/ position = (72, 58)
+/ position = (75, 58)
 / font = ("Arial", -50, 500, 0, 49)
 </text>
 
@@ -225,7 +218,7 @@ Last updated: 9-09-2016
 <trial B1_C2_C1> 
 / inputdevice = keyboard
 / correctresponse = ("j")
-/ validresponse  = ("f", "j")
+/ validresponse = ("f", "j")
 / stimulustimes = [500 = B1_target; 1000 = C1_sample2, C2_sample1, f_key, j_key]
 / pretrialpause = 500
 </trial>
@@ -233,7 +226,7 @@ Last updated: 9-09-2016
 <trial C1_B1_B2> 
 / inputdevice = keyboard
 / correctresponse = ("f")
-/ validresponse  = ("f", "j")
+/ validresponse = ("f", "j")
 / stimulustimes = [500 = C1_target; 1000 = B1_sample1, B2_sample2, f_key, j_key]
 / pretrialpause = 500
 </trial>
@@ -241,7 +234,7 @@ Last updated: 9-09-2016
 <trial C1_B2_B1> 
 / inputdevice = keyboard
 / correctresponse = ("j")
-/ validresponse  = ("f", "j")
+/ validresponse = ("f", "j")
 / stimulustimes = [500 = C1_target; 1000 = B1_sample2, B2_sample1, f_key, j_key]
 / pretrialpause = 500
 </trial>
@@ -249,7 +242,7 @@ Last updated: 9-09-2016
 <trial B2_C2_C1> 
 / inputdevice = keyboard
 / correctresponse = ("f")
-/ validresponse  = ("f", "j")
+/ validresponse = ("f", "j")
 / stimulustimes = [500 = B2_target; 1000 = C2_sample1, C1_sample2, f_key, j_key]
 / pretrialpause = 500
 </trial>
@@ -257,7 +250,7 @@ Last updated: 9-09-2016
 <trial B2_C1_C2> 
 / inputdevice = keyboard
 / correctresponse = ("j")
-/ validresponse  = ("f", "j")
+/ validresponse = ("f", "j")
 / stimulustimes = [500 = B2_target; 1000 = C2_sample2, C1_sample1, f_key, j_key]
 / pretrialpause = 500
 </trial>
@@ -265,7 +258,7 @@ Last updated: 9-09-2016
 <trial C2_B1_B2> 
 / inputdevice = keyboard
 / correctresponse = ("j")
-/ validresponse  = ("f", "j")
+/ validresponse = ("f", "j")
 / stimulustimes = [500 = C2_target; 1000 = B1_sample1, B2_sample2, f_key, j_key]
 / pretrialpause = 500
 </trial>
@@ -273,7 +266,7 @@ Last updated: 9-09-2016
 <trial C2_B2_B1> 
 / inputdevice = keyboard
 / correctresponse = ("f")
-/ validresponse  = ("f", "j")
+/ validresponse = ("f", "j")
 / stimulustimes = [500 = C2_target; 1000 = B1_sample2, B2_sample1, f_key, j_key]
 / pretrialpause = 500
 </trial>
@@ -304,7 +297,7 @@ Last updated: 9-09-2016
 
 **************  instructions  ******************
 
-<instruct>  
+<instruct> 
 / font = ("Arial", -20, 800, 0, 49)
 / inputdevice = keyboard
 / nextkey = (" ")
@@ -323,4 +316,9 @@ However this is now a TEST phase. We will no longer tell you if you are correct 
 ^^  Thank you. You will be given another opportunity to practice this part of the task. Please take your time and try to be as ACCURATE as possible. When you are ready press the spacebar to continue.
 </page>
 
+************** Test monkey  ********************
 
+<monkey>
+/ latencydistribution = normal(500, 100)
+/ percentcorrect = 95
+</monkey>

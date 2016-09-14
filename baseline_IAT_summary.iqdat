@@ -1,0 +1,3 @@
+script.startdate	script.starttime	script.subjectid	script.groupid	script.elapsedtime	values.completed	expressions.da	expressions.db	expressions.d	expressions.percentcorrect
+091416	17:36:34	1	1	4634	0			0	0
+091416	17:36:53	1	1	259562	1		0.3404879814169185503	0.1702439907084592752	98.648648648648645576

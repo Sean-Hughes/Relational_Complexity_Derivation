@@ -2,7 +2,7 @@
                RELATIONAL TRAINING
 ************************************************
 Authors: Sean Hughes (sean.hughes@ugent.be) & Ian Hussey (ian.hussey@ugent.be)
-Last updated: 9-09-2016
+Last updated: 14-09-2016
 
 ************* general variables ****************
 
@@ -57,8 +57,6 @@ Last updated: 9-09-2016
 <item C2>
 / 1 = "DWA"
 </item>
-
-************************************************
 
 ***************** stimuli **********************
 
@@ -250,7 +248,7 @@ Last updated: 9-09-2016
 <text correctMessage>
 /numitems = 1
 /items= ("CORRECT")
-/ txcolor = green
+/ txcolor = lightgreen
 / txbgcolor = black
 / position = (50, 50)
 / fontstyle = ("Arial", 5.00%, true, false, false, false)
@@ -397,35 +395,35 @@ Last updated: 9-09-2016
 
 <block Relational_Training_Phase_Block_1>
 / preinstructions = (RTP_instructions)
-/ trials = [1-40 = noreplace(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
+/ trials = [1-40 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
 / branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_2 else block.exit]
 </block>
 
 <block Relational_Training_Phase_Block_2>
 / onblockbegin = [values.errorcountlearninga = 0]
 / preinstructions = (RTP_post_instructions)
-/ trials = [1-40 = noreplace(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
+/ trials = [1-40 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
 / branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_3 else block.exit]
 </block>
 
 <block Relational_Training_Phase_Block_3>
 / onblockbegin = [values.errorcountlearninga = 0]
 / preinstructions = (RTP_post_instructions)
-/ trials = [1-40 = noreplace(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
+/ trials = [1-40 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
 / branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_4 else block.exit]
 </block>
 
 <block Relational_Training_Phase_Block_4>
 / onblockbegin = [values.errorcountlearninga = 0]
 / preinstructions = (RTP_post_instructions)
-/ trials = [1-40 = noreplace(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
+/ trials = [1-40 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
 / branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_5 else block.exit]
 </block>
 
 <block Relational_Training_Phase_Block_5>
 / onblockbegin = [values.errorcountlearninga = 0]
 / preinstructions = (RTP_post_instructions)
-/ trials = [1-40 = noreplace(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
+/ trials = [1-40 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
 </block>
 
 <block exit>
@@ -464,10 +462,9 @@ Please take your time and try to be as ACCURATE as possible.^^
 When you are ready press the spacebar to continue.^^
 </page>
 
-***********************************************************************
-Test Monkey
-***********************************************************************
+************** Test monkey  ********************
+
 <monkey>
 / latencydistribution = normal(500, 100)
-/ percentcorrect = 50
+/ percentcorrect = 95
 </monkey>
