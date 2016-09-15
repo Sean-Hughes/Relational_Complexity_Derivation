@@ -206,7 +206,7 @@ expressions.d:						overall d-score
 / percentcorrect:       			the overall percent correct score of initial responses of test trials of D-score qualifying latencies
 
 <data>
-/ file = "test_IAT_rawdata.iqdat"
+/ file = "IAT_test_rawdata.iqdat"
 / columns = [date, time, group, subject, blockcode, blocknum, trialcode, trialnum, response, correct, latency, 
 stimulusnumber, stimulusitem, expressions.da, expressions.db, expressions.d, expressions.percentcorrect]
 / separatefiles = true
@@ -228,7 +228,7 @@ expressions.d:						overall d-score
 / percentcorrect:       			the overall percent correct score of initial responses of test trials of D-score qualifying latencies
 
 <summarydata >
-/ file = "test_IAT_summary.iqdat"
+/ file = "IAT_test_summary.iqdat"
 / columns = [script.startdate, script.starttime, script.subjectid, script.groupid, script.elapsedtime, values.completed,
 expressions.da, expressions.db, expressions.d, expressions.percentcorrect]
 </summarydata>
@@ -481,107 +481,81 @@ Trials
 Blocks
 ***********************************************************************
 
-<block attributepractice>
+<block IAT_test_attributepractice>
 / bgstim = (attribute_1left, attribute_2right)
 / trials = [1=instructions;2-9 = random(attribute_1, attribute_2)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
 
-<block targetcompatiblepractice>
+<block IAT_test_targetcompatiblepractice>
 / bgstim = (target_1left, target_2right)
 / trials = [1=instructions;2-9 = random(target_1left, target_2right)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
 
-<block targetincompatiblepractice>
+<block IAT_test_targetincompatiblepractice>
 / bgstim = (target_1right, target_2left)
 / trials = [1=instructions;2-9 = random(target_1right, target_2left)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
 
-<block targetcompatiblepracticeswitch>
+<block IAT_test_targetcompatiblepracticeswitch>
 / bgstim = (target_1left, target_2right)
 / trials = [1=instructions;2-9 = random(target_1left, target_2right)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
 
-<block targetincompatiblepracticeswitch>
+<block IAT_test_targetincompatiblepracticeswitch>
 / bgstim = (target_1right, target_2left)
 / trials = [1=instructions;2-9 = random(target_1right, target_2left)]
 / errormessage = true(error,200)
 / responsemode = correct
 </block>
 
-<block compatibletest1>
-/ bgstim = (target_1left, orleft, attribute_1leftmixed, target_2right, orright, attribute_2rightmixed)
-/ trials = [1=instructions;
-  3,5,7,9,11,13,15,17,19,21= random(target_1left, target_2right);
-  2,4,6,8,10,12,14,16,18,20 = random(attribute_1, attribute_2)]
-/ errormessage = true(error,200)
-/ responsemode = correct
-/ ontrialend = [if(block.compatibletest1.latency  <= 10000 && block.compatibletest1.currenttrialnumber != 1 ) values.sum1a =  values.sum1a + block.compatibletest1.latency]
-/ ontrialend = [if(block.compatibletest1.latency  <= 10000 && block.compatibletest1.currenttrialnumber != 1 ) values.n1a +=  1]
-/ ontrialend = [if(block.compatibletest1.latency  <= 10000 && block.compatibletest1.currenttrialnumber != 1 ) values.ss1a =  values.ss1a + (block.compatibletest1.latency * block.compatibletest1.latency)]
-/ ontrialend = [if(block.compatibletest1.latency  <= 10000 && block.compatibletest1.currenttrialnumber != 1 ) values.n_correct += block.compatibletest1.correct]
-</block>
-
-<block compatibletest2>
+<block IAT_test_compatible_block>
 / bgstim = (target_1left, orleft, attribute_1leftmixed, target_2right, orright, attribute_2rightmixed)
 / trials = [
   2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40 = random(target_1left, target_2right);
   1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39 = random(attribute_1, attribute_2)]
 / errormessage = true(error,200)
 / responsemode = correct
-/ ontrialend = [if(block.compatibletest2.latency  <= 10000) values.sum1b =  values.sum1b + block.compatibletest2.latency]
-/ ontrialend = [if(block.compatibletest2.latency  <= 10000) values.n1b += 1]
-/ ontrialend = [if(block.compatibletest2.latency  <= 10000) values.ss1b =  values.ss1b + (block.compatibletest2.latency * block.compatibletest2.latency)]
-/ ontrialend = [if(block.compatibletest2.latency  <= 10000) values.n_correct += block.compatibletest2.correct]
+/ ontrialend = [if(block.IAT_test_compatible_block.latency  <= 10000) values.sum1b =  values.sum1b + block.IAT_test_compatible_block.latency]
+/ ontrialend = [if(block.IAT_test_compatible_block.latency  <= 10000) values.n1b += 1]
+/ ontrialend = [if(block.IAT_test_compatible_block.latency  <= 10000) values.ss1b =  values.ss1b + (block.IAT_test_compatible_block.latency * block.IAT_test_compatible_block.latency)]
+/ ontrialend = [if(block.IAT_test_compatible_block.latency  <= 10000) values.n_correct += block.IAT_test_compatible_block.correct]
 </block>
 
-<block incompatibletest1>
-/ bgstim = (target_2left, orleft, attribute_1leftmixed, target_1right, orright, attribute_2rightmixed)
-/ trials = [1=instructions;
-  3,5,7,9,11,13,15,17,19,21 = random(target_2left, target_1right);
-  2,4,6,8,10,12,14,16,18,20 = random(attribute_1, attribute_2)]
-/ errormessage = true(error,200)
-/ responsemode = correct
-/ ontrialend = [if(block.incompatibletest1.latency  <= 10000 && block.incompatibletest1.currenttrialnumber != 1) values.sum2a =  values.sum2a + block.incompatibletest1.latency]
-/ ontrialend = [if(block.incompatibletest1.latency  <= 10000 && block.incompatibletest1.currenttrialnumber != 1 ) values.n2a +=  1]
-/ ontrialend = [if(block.incompatibletest1.latency  <= 10000 && block.incompatibletest1.currenttrialnumber != 1 ) values.ss2a =  values.ss2a + (block.incompatibletest1.latency * block.incompatibletest1.latency)]
-/ ontrialend = [if(block.incompatibletest1.latency  <= 10000 && block.incompatibletest1.currenttrialnumber != 1 ) values.n_correct += block.incompatibletest1.correct]
-</block>
-
-<block incompatibletest2>
+<block IAT_test_incompatible_block>
 / bgstim = (target_2left, orleft, attribute_1leftmixed, target_1right, orright, attribute_2rightmixed)
 / trials = [
   2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40 = random(target_2left, target_1right);
   1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39 = random(attribute_1, attribute_2)]
 / errormessage = true(error,200)
 / responsemode = correct
-/ ontrialend = [if(block.incompatibletest2.latency  <= 10000) values.sum2b =  values.sum2b + block.incompatibletest2.latency]
-/ ontrialend = [if(block.incompatibletest2.latency  <= 10000) values.n2b +=  1]
-/ ontrialend = [if(block.incompatibletest2.latency  <= 10000) values.ss2b =  values.ss2b + (block.incompatibletest2.latency * block.incompatibletest2.latency)]
-/ ontrialend = [if(block.incompatibletest2.latency  <= 10000) values.n_correct += block.incompatibletest2.correct]
+/ ontrialend = [if(block.IAT_test_incompatible_block.latency  <= 10000) values.sum2b =  values.sum2b + block.IAT_test_incompatible_block.latency]
+/ ontrialend = [if(block.IAT_test_incompatible_block.latency  <= 10000) values.n2b +=  1]
+/ ontrialend = [if(block.IAT_test_incompatible_block.latency  <= 10000) values.ss2b =  values.ss2b + (block.IAT_test_incompatible_block.latency * block.IAT_test_incompatible_block.latency)]
+/ ontrialend = [if(block.IAT_test_incompatible_block.latency  <= 10000) values.n_correct += block.IAT_test_incompatible_block.correct]
 </block>
 
 
-<block compatibletestinstructions>
+<block IAT_test_compatibletestinstructions>
 / bgstim = (target_1left, orleft, attribute_1leftmixed, target_2right, orright, attribute_2rightmixed)
 / trials = [1=instructions]
 / recorddata = false
 </block>
 
-<block incompatibletestinstructions>
+<block IAT_test_incompatibletestinstructions>
 / bgstim = (target_2left, orleft, attribute_1leftmixed, target_1right, orright, attribute_2rightmixed)
 / trials = [1=instructions]
 / recorddata = false
 </block>
 
-<block summary>
+<block IAT_test_summary>
 /skip = [values.showsummaryfeedback == false]
 / trials = [1=summary]
 / recorddata = false
@@ -592,9 +566,9 @@ Experiment
 ***********************************************************************
 
 <expt>
-/ blocks = [1=targetincompatiblepractice; 2=attributepractice; 3= incompatibletestinstructions;
-				4=incompatibletest2; 5=targetcompatiblepractice; 6= compatibletestinstructions;
-				7=compatibletest2; 8=summary]
+/ blocks = [1=IAT_test_targetincompatiblepractice; 2=IAT_test_attributepractice; 3= IAT_test_incompatibletestinstructions;
+				4=IAT_test_incompatible_block; 5=IAT_test_targetcompatiblepractice; 6= IAT_test_compatibletestinstructions;
+				7=IAT_test_compatible_block; 8=IAT_test_summary]
 /onexptend = [values.completed = 1]
 </expt>
 
@@ -605,15 +579,3 @@ Test Monkey
 / latencydistribution = normal(500, 100)
 / percentcorrect = 90
 </monkey>
-
-
-
-
-
-
-
-
-
-
-
-
