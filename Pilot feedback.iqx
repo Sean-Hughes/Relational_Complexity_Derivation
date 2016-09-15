@@ -39,7 +39,9 @@ last updated: 14-09-16
 <textbox Feedback>
 / caption = "We are still developing the procedure for this study - do you have any feedback that could help us?
 
-For example, were any instructions or requirements unclear? Was there anything we could change to make it easier to complete?
+For example, were any instructions or requirements unclear? In the training, did stimuli appear too quickly or too slowly? Were blocks too long or too short?
+
+Was there anything we could change to make it easier to complete?
 
 Thank you for helping us improve the study!"
 / position = (10%,10%)
