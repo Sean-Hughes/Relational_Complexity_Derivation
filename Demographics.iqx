@@ -29,7 +29,7 @@ last updated: 14-09-16
 
 <variables>
 
-/group = (1 of 1) (block1 = begin)
+/group = (1 of 1) (block1 = demographics)
 
 </variables>
 
@@ -75,7 +75,7 @@ and retrieve it before continuing). Otherwise you cannot be paid."
 
 **********  block  **********
 
-<block begin>
+<block demographics>
 / preinstructions = (WelcomeInstructions)
 / screencolor = (0, 0, 0)
 / trials = [1 = info_1; 2 = info_2; 3 = info_3]
