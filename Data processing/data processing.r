@@ -31,7 +31,7 @@ library(data.table)
 # Data acquisition and cleaning
 
 ## Set the working directory
-setwd("/Users/Ian/Dropbox/Work/Studies/DCC work/DCC Article 2 - Derivation/Experiments 2 - Ian and Sean/OSF files/3 Data")
+setwd("~/Git/Derivation study/Measures/")
 
 # Create a list of all files in this folder that use the extension ".csv"
 files <- list.files(pattern = "\\.iqdat$")  
@@ -204,5 +204,5 @@ output_df <-
 
 ########################################################################
 # Write to disk
-write.csv(output_df, file = "/Users/Ian/Dropbox/Work/Studies/DCC work/DCC Article 2 - Derivation/Experiments 2 - Ian and Sean/OSF files/4 Data processing/processed data for analysis.csv", row.names=FALSE)
+write.csv(output_df, file = "~/Git/Derivation study/Data processing/processed data for analysis.csv", row.names=FALSE)
 

@@ -29,8 +29,8 @@ condition_b_code_in_data  <- 2
 output_file_name          <- "t test output - IAT D1.txt"
 
 # data acquisition
-setwd("/Users/Ian/Dropbox/Work/Studies/DCC work/DCC Article 2 - Derivation/Experiments 2 - Ian and Sean/OSF files/5 Analyses/")
-data_df <- read.csv("/Users/Ian/Dropbox/Work/Studies/DCC work/DCC Article 2 - Derivation/Experiments 2 - Ian and Sean/OSF files/4 Data processing/processed data for analysis.csv")
+setwd("~/Git/Derivation study/Analyses/")
+data_df <- read.csv("~/Git/Derivation study/Data processing/processed data for analysis.csv")
 attach(data_df)  # use the input data frame for all tests below
 
 # t test

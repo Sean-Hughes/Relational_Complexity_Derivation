@@ -46,11 +46,11 @@ output_file_name        <- "BEST output - deriv opps RTs.txt"
 ROPE                    <- c(-0.2, 0.2)  # region of practical equivalence (ROPE) for assessing group equality.
 
 # working directory where output will be saved
-setwd("/Users/Ian/Dropbox/Work/Studies/DCC work/DCC Article 2 - Derivation/Experiments 2 - Ian and Sean/OSF files/5 Analyses/")
+setwd("~/Git/Derivation study/Analyses/")
 
 # Data acquisition and exclusion of failers
 data_df <- 
-  read.csv("/Users/Ian/Dropbox/Work/Studies/DCC work/DCC Article 2 - Derivation/Experiments 2 - Ian and Sean/OSF files/4 Data processing/processed data for analysis.csv") %>%
+  read.csv("~/Git/Derivation study/Data processing/processed data for analysis.csv") %>%
   filter(exclude == FALSE)  # exclude participants who met any of the three mastery criteria
 
 # BEST test
