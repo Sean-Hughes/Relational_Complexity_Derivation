@@ -30,7 +30,12 @@ output_file_name          <- "t test output - IAT D1.txt"
 
 # data acquisition
 setwd("~/Git/Derivation study/Analyses/")
-data_df <- read.csv("~/Git/Derivation study/Data processing/processed data for analysis.csv")
+
+# Data acquisition 
+data_df <- 
+  read.csv("~/Git/Derivation study/Data processing/processed data for analysis.csv") %>%
+  filter(exclude == FALSE)  # exclude participants who met any of the three mastery criteria
+
 attach(data_df)  # use the input data frame for all tests below
 
 # t test

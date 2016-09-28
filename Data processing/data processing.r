@@ -6,14 +6,14 @@
 # Ian Hussey (ian.hussey@ugent.be)
 
 # Version:
-# 0.1
+# 1.0
 
 # Notes:
 # prolific_ID is used only to pay participants and must be deleted from all data files before 
 # raw data is posted online
 
 # To do:
-# Exclude IAT acc and latency >2.5 SD from mean
+# None.
 
 ########################################################################
 # Clean workspace
@@ -31,10 +31,10 @@ library(data.table)
 # Data acquisition and cleaning
 
 ## Set the working directory
-setwd("~/Git/Derivation study/Measures/")
+setwd("/Users/Ian/Dropbox/Work/Projects/Hussey & Hughes - Derivation study/OSF Derivation study/Data/Experiment data")
 
-# Create a list of all files in this folder that use the extension ".csv"
-files <- list.files(pattern = "\\.iqdat$")  
+# Read all files with the .iqdat extension
+files <- list.files(pattern = "\\.csv$")  
 
 # Read these files sequentially into a single data frame
 input_df <- dplyr::tbl_df(plyr::rbind.fill(lapply(files, data.table::fread, header = TRUE)))  # tbl_df() requires dplyr, rbind.fill() requires plyr, fread requires data.table
@@ -43,7 +43,6 @@ input_df <- dplyr::tbl_df(plyr::rbind.fill(lapply(files, data.table::fread, head
 cleaned_df <- 
   input_df %>%
   dplyr::select(subject,
-                group,  # condition
                 date,
                 time,
                 blockcode,  # name of block
@@ -51,20 +50,21 @@ cleaned_df <-
                 trialnum,
                 response,  # for string responses
                 correct,
-                latency,
-                expressions.d,
-                expressions.percentcorrect) %>%
+                latency) %>%
   dplyr::rename(participant = subject,
-                condition = group,
                 block_name = blockcode,
                 block_n = blocknum,
                 trial_n = trialnum,
                 string_response = response,
                 accuracy = correct,
-                rt = latency,
-                IAT_D1 = expressions.d,
-                IAT_percent_correct = expressions.percentcorrect)
-    
+                rt = latency) %>%
+  dplyr::mutate(participant = as.numeric(participant),
+                block_n = as.numeric(block_n),
+                trial_n = as.numeric(trial_n),
+                accuracy = as.numeric(accuracy),
+                rt = as.numeric(rt),
+                condition = ifelse(participant%%2 == 1, "low", ifelse(participant%%2 == 0, "high", NA)))
+
 
 ########################################################################
 # demographics and parameters 
@@ -182,6 +182,7 @@ IAT_test_perc_acc_fast_trials_df <-
 ########################################################################
 # Join data frames and assess exclusion criteria
 
+# join dfs
 output_df <- 
   plyr::join_all(list(as.data.frame(demographics_df),  # join_all throws a requires input be data.frame error, despite is.data.frame returning TRUE for all members of list. Workaround is to coerce all to DF here. 
                       as.data.frame(rel_train_n_blocks_df),
@@ -192,17 +193,36 @@ output_df <-
                       as.data.frame(IAT_test_D1_and_mean_rt_df),
                       as.data.frame(IAT_test_perc_acc_fast_trials_df)),
                  by = "participant",
-                 type = "full") %>%
+                 type = "full")
+
+# define IAT outliers (+/- 2.5 SD on lat or acc)
+IAT_outlier_cutoffs_df <- 
+  output_df %>% 
+  dplyr::summarize(accuracy_upper = mean(IAT_test_perc_acc, na.rm = TRUE) + (2.5 * sd(IAT_test_perc_acc, na.rm = TRUE)),
+                   accuracy_lower = mean(IAT_test_perc_acc, na.rm = TRUE) - (2.5 * sd(IAT_test_perc_acc, na.rm = TRUE)),
+                   latency_upper = mean(IAT_test_rt_mean, na.rm = TRUE) + (2.5 * sd(IAT_test_rt_mean, na.rm = TRUE)),
+                   latency_lower = mean(IAT_test_rt_mean, na.rm = TRUE) - (2.5 * sd(IAT_test_rt_mean, na.rm = TRUE)))
+
+# define IAT outliers (add to output_df)
+output_df <- 
+  output_df %>%
+  dplyr::mutate(IAT_outlier = ifelse(IAT_test_perc_acc > IAT_outlier_cutoffs_df$accuracy_upper, TRUE, 
+                                     ifelse(IAT_test_perc_acc < IAT_outlier_cutoffs_df$accuracy_lower, TRUE,
+                                            ifelse(IAT_test_rt_mean > IAT_outlier_cutoffs_df$latency_upper, TRUE,
+                                                   ifelse(IAT_test_rt_mean < IAT_outlier_cutoffs_df$latency_lower, TRUE, FALSE)))))
+
+# Assess if each participant meet any of the four exclusion criteria. Also excludes participants with partial data.
+output_df <- 
+  output_df %>%
   rowwise() %>%
-  dplyr::mutate(exclude = ifelse(rel_train_mastery == "fail",  # assess if each participant meet any of the three exclusion criteria
-                                 TRUE, 
-                                 ifelse(rel_test_mastery == "fail", 
-                                        TRUE,
-                                        ifelse(IAT_test_exclude_based_on_fast_trials == "fail",
-                                               TRUE,
-                                               FALSE))))
+  dplyr::mutate(exclude = ifelse(rel_train_mastery == "fail", TRUE, 
+                                 ifelse(rel_test_mastery == "fail", TRUE,
+                                        ifelse(IAT_test_exclude_based_on_fast_trials == "fail", TRUE,
+                                               ifelse(IAT_outlier == TRUE, TRUE,
+                                                      FALSE)))))
+
 
 ########################################################################
 # Write to disk
-write.csv(output_df, file = "~/Git/Derivation study/Data processing/processed data for analysis.csv", row.names=FALSE)
+write.csv(output_df, file = "~/Git/Derivation study/Data processing/processed data for analysis.csv", row.names = FALSE)
 

@@ -32,11 +32,11 @@ stimulus items and labels immediately below this line.
 
 ***********************************************************************
 <item attribute_1_label>
-/1 = "LAF"
+/1 = "LOF"
 </item>
 
 <item attribute_1>
-/1 = "LAF"
+/1 = "LOF"
 </item>
 
 <item attribute_2_label>
@@ -48,11 +48,11 @@ stimulus items and labels immediately below this line.
 </item>
 
 <item target_1_label>
-/1 = "WUP"
+/1 = "WIP"
 </item>
 
 <item target_1>
-/1 = "WUP"
+/1 = "WIP"
 </item>
 
 <item target_2_label>
