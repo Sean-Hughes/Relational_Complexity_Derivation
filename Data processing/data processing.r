@@ -31,7 +31,7 @@ library(data.table)
 # Data acquisition and cleaning
 
 ## Set the working directory
-setwd("/Users/Ian/Dropbox/Work/Projects/Hussey & Hughes - Derivation study/OSF Derivation study/Data/Experiment data")
+setwd("/Users/Ian/Dropbox/Work/Projects/Hussey & Hughes - Derivation study/OSF Derivation study/Data/")
 
 # Read all files with the .iqdat extension
 files <- list.files(pattern = "\\.csv$")  
