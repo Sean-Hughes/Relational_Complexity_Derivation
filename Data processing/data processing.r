@@ -114,7 +114,7 @@ rel_test_perc_acc_df <-
   dplyr::select(participant, accuracy) %>%
   dplyr::group_by(participant) %>%
   dplyr::summarize(rel_test_perc_acc = round(sum(accuracy)/n(), 3)*100) %>%  # % accuracy
-  dplyr::mutate(rel_test_mastery = ifelse(rel_test_perc_acc >= 87.5, "pass", "fail"))  # 87.5 is 7/8 correct
+  dplyr::mutate(rel_test_mastery = ifelse(rel_test_perc_acc >= 81.25, "pass", "fail"))  # 81.25 is 13/16 correct
 
 
 ########################################################################
@@ -147,8 +147,8 @@ deriv_opps_perc_acc_df <-
 # select relevant data
 IAT_test_df <-  
   cleaned_df %>%
-  dplyr::filter(grepl("IAT_test_", block_name),  # IAT Test only and test blocks only
-                rt <= 10000)  # rts less than 10,000 only             
+  dplyr::filter(block_name == "IAT_test_compatible_block" | block_name == "IAT_test_incompatible_block",  # Test IAT only, and test blocks only
+                rt <= 10000)  # rts less than 10,000 only            
 
 # D1 and mean rt
 IAT_test_D1_and_mean_rt_df <-

@@ -190,7 +190,7 @@ Last updated: 14-09-2016
 <text f_key>
 / numitems = 1
 / items = ("Press 'F' for")
-/ txcolor = white
+/ txcolor = lightgreen
 / txbgcolor = black
 / position = (25, 58)
 / font = ("Arial", -50, 500, 0, 49)
@@ -199,7 +199,7 @@ Last updated: 14-09-2016
 <text j_key>
 / numitems = 1
 / items = ("Press 'J' for")
-/ txcolor = white
+/ txcolor = lightgreen
 / txbgcolor = black
 / position = (75, 58)
 / font = ("Arial", -50, 500, 0, 49)
@@ -287,12 +287,12 @@ Last updated: 14-09-2016
 
 <block Relational_Testing_Phase>
 / preinstructions = (RTP_instructions)
-/ trials = [1-8 = noreplacenorepeat(B1_C1_C2, B1_C2_C1, C1_B1_B2, C1_B2_B1, B2_C2_C1, B2_C1_C2, C2_B1_B2, C2_B2_B1)]
+/ trials = [1-16 = noreplacenorepeat(B1_C1_C2, B1_C2_C1, C1_B1_B2, C1_B2_B1, B2_C2_C1, B2_C1_C2, C2_B1_B2, C2_B2_B1)]
 </block>
 
 **************  instructions  ******************
 
-<instruct>  
+<instruct>
 / font = ("Arial", -20, 800, 0, 49)
 / inputdevice = keyboard
 / nextkey = (" ")
@@ -302,9 +302,11 @@ Last updated: 14-09-2016
 </instruct>
 
 <page RTP_instructions>
-^^ In the next part of the task you will do something similar to before. ^^
-
-However this is now a TEST phase. We will no longer tell you if you are correct or incorrect. As such, please take your time and respond as ***ACCURATELY AS POSSIBLE***. 
+^^NEW TASK: in order to respond correctly, you will have to infer from what you learned in the last task.
+^^This task is really important for the experiment - please take your time and try to respond as *ACCURATELY* as possible.
+^^This task is much shorter, and you will do it only once.
+^^You will no longer be given feedback after each trial, as this task tests what you have previously learned.
+^^Please place your fingers on the 'F' and 'J' keys.
 </page>
 
 ************** Test monkey  ********************
