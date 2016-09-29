@@ -1,0 +1,64 @@
+﻿************************************************
+		Strategies questionnaire
+************************************************
+Authors: Sean Hughes (sean.hughes@ugent.be) & Ian Hussey (ian.hussey@ugent.be)
+last updated: 29-09-16
+
+************************************************
+General Variables
+************************************************
+<defaults>
+/ screencolor = black
+/ txcolor = white
+/ font = ("Arial", -21, 700, 0, 34)
+/ inputdevice = keyboard
+/ validkeys = (" ", "t")
+/ halign = center
+/ Com1BaudRate = 9600
+</defaults>
+
+<expt>
+/ blocks = [1 = block1]
+</expt>
+
+<variables>
+/ group = (1 of 1) (block1 = begin)
+</variables>
+
+************************************************
+text
+************************************************
+
+<textbox feedback>
+/ caption = 
+"Final question:
+
+Did you use any strategies to help you figure out and remember the relationships between the nonsense words *other than trying to memorise them*? 
+
+For example, did you write anything down? 
+
+It's ok if you did, we just appreciate you being honest here."
+/ position = (10%,10%)
+/ textboxsize = (45, 40)
+/ multiline = true
+/ required = FALSE
+</textbox>
+
+************************************************
+question
+************************************************
+
+<surveypage feedback_1>
+/ questions = [1 = feedback]
+/ showpagenumbers = false 
+/ showquestionnumbers = false
+</surveypage>
+
+************************************************
+block
+************************************************
+
+<block begin>
+/ screencolor = black
+/ trials = [ 1 = feedback_1 ]
+</block>

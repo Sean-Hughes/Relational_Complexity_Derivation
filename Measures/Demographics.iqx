@@ -14,9 +14,9 @@ last updated: 14-09-16
 **********************************************************************
 
 <defaults>
-/ screencolor = (255, 255, 255)
+/ screencolor = black
+/ txcolor = white
 / font = ("Arial", -21, 700, 0, 34)
-/ txcolor = (255, 255, 255)
 / inputdevice = keyboard
 / validkeys = (" ", "t")
 / halign = center
@@ -28,9 +28,7 @@ last updated: 14-09-16
 </expt>
 
 <variables>
-
-/group = (1 of 1) (block1 = demographics)
-
+/ group = (1 of 1) (block1 = demographics)
 </variables>
 
 
@@ -77,7 +75,7 @@ and retrieve it before continuing). Otherwise you cannot be paid."
 
 <block demographics>
 / preinstructions = (WelcomeInstructions)
-/ screencolor = (0, 0, 0)
+/ screencolor = black
 / trials = [1 = info_1; 2 = info_2; 3 = info_3]
 </block>
 
@@ -93,8 +91,8 @@ and retrieve it before continuing). Otherwise you cannot be paid."
 </instruct>
 
 <page WelcomeInstructions>
-^^Welcome to this experiment. Before you start, please:
+^^Welcome to the experiment. Before you start, please:
 ^^– maximize your browser window.
 ^^– switch off phone/e-mail/music & anything else distracting.
-^^– please have your Prolific ID ready - It can be found in your account info.
+^^– please have your Prolific ID ready; it can be found in your account info.
 </page>
