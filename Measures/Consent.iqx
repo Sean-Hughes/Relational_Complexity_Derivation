@@ -16,7 +16,7 @@ gets aborted via function script.abort()
 The consentform as htm file does not take up the entire screen space to leave room for response buttons
 
 <html Consent>
-/ items = ("Consent.htm")
+/ items = ("consent.htm")
 / position = (50%, 40%)
 / size = (70%, 70%)
 </html>
