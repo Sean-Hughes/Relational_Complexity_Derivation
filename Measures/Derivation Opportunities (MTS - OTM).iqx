@@ -31,11 +31,11 @@ Last updated: 14-09-2016
 ************** stimuli exemplars ***************
 
 <item B1>
-/ 1 = "WUP"
+/ 1 = "WIP"
 </item>
 
 <item B2>
-/ 1 = "LAF"
+/ 1 = "LOF"
 </item>
 
 <item C1>
@@ -156,18 +156,6 @@ Last updated: 14-09-2016
 / font = ("Arial", -50, 500, 0, 49)
 </text>
 
-<picture erasebig>
-/ erase = false 
-/ numitems = 1
-/ items = ("erasebig.jpg")
-</picture>
-
-<picture erasesmall>
-/ erase = false 
-/ numitems = 1
-/ items = ("erasesmall.jpg")
-</picture>
-
 ***************** labels etc *******************
 
 <text continue>
@@ -190,7 +178,7 @@ Last updated: 14-09-2016
 <text f_key>
 / numitems = 1
 / items = ("Press 'F' for")
-/ txcolor = white
+/ txcolor = lightgreen
 / txbgcolor = black
 / position = (25, 58)
 / font = ("Arial", -50, 500, 0, 49)
@@ -199,7 +187,7 @@ Last updated: 14-09-2016
 <text j_key>
 / numitems = 1
 / items = ("Press 'J' for")
-/ txcolor = white
+/ txcolor = lightgreen
 / txbgcolor = black
 / position = (75, 58)
 / font = ("Arial", -50, 500, 0, 49)
@@ -271,18 +259,6 @@ Last updated: 14-09-2016
 / pretrialpause = 500
 </trial>
 
-< trial pause>
-/trialcode = "pause"
-/stimulustimes = [ 1 = erasebig]
-/trialduration = 1000
-</trial>
-
-< trial exit>
-/trialcode = "exit"
-/stimulustimes = [ 1 = erasesmall]
-/trialduration = 1000
-</trial>
-
 *****************  block  **********************
 
 <block Derivation_Opportunities_1>
@@ -307,13 +283,17 @@ Last updated: 14-09-2016
 </instruct>
 
 <page RTP_instructions_1>
-^^ In the next part of the task you will do something similar to before. ^^
-
-However this is now a TEST phase. We will no longer tell you if you are correct or incorrect. As such, please respond as ***ACCURATELY AS POSSIBLE***. 
+^^The next task is similar to a previous one. Please respond respond based on what you previously learned about the relationships between the stimuli.
+^^Try to respond as *ACCURATELY* as possible. When you are accurate you will naturally go quickly too.
+^^You will not be given feedback after each trial, as this task tests what you have previously learned. 
+^^Please place your fingers on the 'F' and 'J' keys.
 </page>
 
 <page RTP_instructions_2>
-^^  Thank you. You will be given another opportunity to practice this part of the task. Please take your time and try to be as ACCURATE as possible. When you are ready press the spacebar to continue.
+^^Well done. You'll now complete one more block of the same task.
+^^Try to respond as *ACCURATELY* as possible. When you are accurate you will naturally go quickly too.
+^^You will not be given feedback after each trial, as this task tests what you have previously learned.
+^^Please place your fingers on the 'F' and 'J' keys.
 </page>
 
 ************** Test monkey  ********************

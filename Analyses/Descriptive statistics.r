@@ -23,11 +23,11 @@ data_df <- read.csv("~/Git/Derivation study/Data processing/processed data for a
 ###################################################################
 # distribution plots for DVs
 
-plot(density(data_df$IAT_test_D1[data_df$condition == 1]))
-lines(density(data_df$IAT_test_D1[data_df$condition == 2]))
+plot(density(data_df$IAT_test_D1[data_df$condition == "low"]))
+lines(density(data_df$IAT_test_D1[data_df$condition == "high"]))
 
-plot(density(data_df$deriv_opps_rt_mean[data_df$condition == 1]))
-lines(density(data_df$deriv_opps_rt_mean[data_df$condition == 2]))
+plot(density(data_df$deriv_opps_rt_mean[data_df$condition == "low"]))
+lines(density(data_df$deriv_opps_rt_mean[data_df$condition == "high"]))
 
 ###################################################################
 # descriptives

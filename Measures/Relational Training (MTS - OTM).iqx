@@ -1,5 +1,5 @@
 ﻿************************************************
-               RELATIONAL TRAINING
+              RELATIONAL TRAINING
 ************************************************
 Authors: Sean Hughes (sean.hughes@ugent.be) & Ian Hussey (ian.hussey@ugent.be)
 Last updated: 14-09-2016
@@ -43,11 +43,11 @@ Last updated: 14-09-2016
 </item>
 
 <item B1>
-/ 1 = "WUP"
+/ 1 = "WIP"
 </item>
 
 <item B2>
-/ 1 = "LAF"
+/ 1 = "LOF"
 </item>
 
 <item C1>
@@ -222,18 +222,6 @@ Last updated: 14-09-2016
 / font = ("Arial", -50, 500, 0, 49)
 </text>
 
-<picture erasebig>
-/ erase = false 
-/ numitems = 1
-/ items = ("erasebig.jpg")
-</picture>
-
-<picture erasesmall>
-/ erase = false 
-/ numitems = 1
-/ items = ("erasesmall.jpg")
-</picture>
-
 ***************** labels etc *******************
 
 <text continue>
@@ -274,7 +262,7 @@ Last updated: 14-09-2016
 <text f_key>
 / numitems = 1
 / items = ("Press 'F' for")
-/ txcolor = white
+/ txcolor = lightgreen
 / txbgcolor = black
 / position = (25, 58)
 / font = ("Arial", -50, 500, 0, 49)
@@ -283,7 +271,7 @@ Last updated: 14-09-2016
 <text j_key>
 / numitems = 1
 / items = ("Press 'J' for")
-/ txcolor = white
+/ txcolor = lightgreen
 / txbgcolor = black
 / position = (75, 58)
 / font = ("Arial", -50, 500, 0, 49)
@@ -379,15 +367,9 @@ Last updated: 14-09-2016
 / ontrialend = [if (trial.A2_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
 </trial>
 
-< trial pause>
-/ trialcode = "pause"
-/ stimulustimes = [ 1 = erasebig ]
-/ trialduration = 1000
-</trial>
-
 < trial exit>
 / trialcode = "exit"
-/ stimulustimes = [ 1 = erasesmall ]
+/ stimulustimes = [ 1 = blank ]
 / trialduration = 1000
 </trial>
 
@@ -401,28 +383,28 @@ Last updated: 14-09-2016
 
 <block Relational_Training_Phase_Block_2>
 / onblockbegin = [values.errorcountlearninga = 0]
-/ preinstructions = (RTP_post_instructions)
+/ preinstructions = (RTP_instructions_2)
 / trials = [1-40 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
 / branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_3 else block.exit]
 </block>
 
 <block Relational_Training_Phase_Block_3>
 / onblockbegin = [values.errorcountlearninga = 0]
-/ preinstructions = (RTP_post_instructions)
+/ preinstructions = (RTP_instructions_2)
 / trials = [1-40 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
 / branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_4 else block.exit]
 </block>
 
 <block Relational_Training_Phase_Block_4>
 / onblockbegin = [values.errorcountlearninga = 0]
-/ preinstructions = (RTP_post_instructions)
+/ preinstructions = (RTP_instructions_2)
 / trials = [1-40 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
 / branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_5 else block.exit]
 </block>
 
 <block Relational_Training_Phase_Block_5>
 / onblockbegin = [values.errorcountlearninga = 0]
-/ preinstructions = (RTP_post_instructions)
+/ preinstructions = (RTP_instructions_2)
 / trials = [1-40 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
 </block>
 
@@ -442,24 +424,16 @@ Last updated: 14-09-2016
 </instruct>
 
 <page RTP_instructions>
-In the next part of the task please look at the word at the top of the screen and then at the two words at the bottom.^^ 
-
-Please select one of the two words at the bottom of the screen using the 'f' or 'j' keys.^^
-
-Press the 'f' key if you want to choose the word on the lower left. Press the 'j' key if you want to choose
-the word on the lower right.^^
-
-The computer will help you learn by telling you when you are correct or incorrect.^^
-
-Please try to be as accurate as possible.^^
+^^In the next task, you will learn about the relationships between six nonsense words. 
+^^You will repeat this task until you have learned to respond very accurately.
+^^There is no shortcut to learning the relationships between the words; the only way to respond accurately is to learn from the feedback presented after each trial.
+^^Please place your fingers on the 'F' and 'J' keys.
 </page>
 
-<page RTP_post_instructions>
-Thank you. You will be given another opportunity to practice this part of the task.^^
-
-Please take your time and try to be as ACCURATE as possible.^^
-
-When you are ready press the spacebar to continue.^^
+<page RTP_instructions_2>
+^^Well done, this task is a difficult task.
+^^You will repeat this same task until you have learned to respond very accurately.
+^^Please place your fingers on the 'F' and 'J' keys.
 </page>
 
 ************** Test monkey  ********************
