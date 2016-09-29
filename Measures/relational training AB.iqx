@@ -50,14 +50,6 @@ Last updated: 29-09-2016
 / 1 = "LOF"
 </item>
 
-<item C1>
-/ 1 = "YEL"
-</item>
-
-<item C2>
-/ 1 = "DWA"
-</item>
-
 ***************** stimuli **********************
 
 <text A1_target>
@@ -114,33 +106,6 @@ Last updated: 29-09-2016
 / font = ("Arial", -50, 500, 0, 49)
 </text>
 
-<text C1_target>
-/ numitems = 1
-/ items = C1
-/ position = (50, 30)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text C1_sample1>
-/ numitems = 1
-/ items = C1
-/ position = (25, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text C1_sample2>
-/ numitems = 1
-/ items = C1
-/ position = (75, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
 <text A2_target>
 / numitems = 1
 / items = A2
@@ -189,33 +154,6 @@ Last updated: 29-09-2016
 <text B2_sample2>
 / numitems = 1
 / items = B2
-/ position = (75, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text C2_target>
-/ numitems = 1
-/ items = C2
-/ position = (50, 30)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text C2_sample1>
-/ numitems = 1
-/ items = C2
-/ position = (25, 70)
-/ txcolor = white
-/ txbgcolor = black
-/ font = ("Arial", -50, 500, 0, 49)
-</text>
-
-<text C2_sample2>
-/ numitems = 1
-/ items = C2
 / position = (75, 70)
 / txcolor = white
 / txbgcolor = black
@@ -301,28 +239,6 @@ Last updated: 29-09-2016
 / ontrialend = [if (trial.A1_B2_B1.error == true) values.errors_in_block_counter = values.errors_in_block_counter + 1]
 </trial>
 
-<trial A1_C1_C2> 
-/ inputdevice = keyboard
-/ correctresponse = ("f")
-/ validresponse = ("f", "j")
-/ responsemessage = ("f", correctMessage, 750)
-/ responsemessage = ("j", errorMessage, 1500)
-/ stimulustimes = [500 = A1_target; 1000 = C1_sample1, C2_sample2, f_key, j_key]
-/ pretrialpause = 500
-/ ontrialend = [if (trial.A1_C1_C2.error == true) values.errors_in_block_counter = values.errors_in_block_counter + 1]
-</trial>
-
-<trial A1_C2_C1> 
-/ inputdevice = keyboard
-/ correctresponse = ("j")
-/ validresponse = ("f", "j")
-/ responsemessage = ("j", correctMessage, 750)
-/ responsemessage = ("f", errorMessage, 1500)
-/ stimulustimes = [500 = A1_target; 1000 = C1_sample2, C2_sample1, f_key, j_key]
-/ pretrialpause = 500
-/ ontrialend = [if (trial.A1_C2_C1.error == true) values.errors_in_block_counter = values.errors_in_block_counter + 1]
-</trial>
-
 <trial A2_B2_B1> 
 / inputdevice = keyboard
 / correctresponse = ("f")
@@ -343,28 +259,6 @@ Last updated: 29-09-2016
 / stimulustimes = [500 = A2_target; 1000 = B2_sample2, B1_sample1, f_key, j_key]
 / pretrialpause = 500
 / ontrialend = [if (trial.A2_B1_B2.error == true) values.errors_in_block_counter = values.errors_in_block_counter + 1]
-</trial>
-
-<trial A2_C1_C2> 
-/ inputdevice = keyboard
-/ correctresponse = ("j")
-/ validresponse = ("f", "j")
-/ responsemessage = ("j", correctMessage, 750)
-/ responsemessage = ("f", errorMessage, 1500)
-/ stimulustimes = [500 = A2_target; 1000 = C1_sample1, C2_sample2, f_key, j_key]
-/ pretrialpause = 500
-/ ontrialend = [if (trial.A2_C1_C2.error == true) values.errors_in_block_counter = values.errors_in_block_counter + 1]
-</trial>
-
-<trial A2_C2_C1> 
-/ inputdevice = keyboard
-/ correctresponse = ("f")
-/ validresponse = ("f", "j")
-/ responsemessage = ("f", correctMessage, 750)
-/ responsemessage = ("j", errorMessage, 1500)
-/ stimulustimes = [500 = A2_target; 1000 = C1_sample2, C2_sample1, f_key, j_key]
-/ pretrialpause = 500
-/ ontrialend = [if (trial.A2_C2_C1.error == true) values.errors_in_block_counter = values.errors_in_block_counter + 1]
 </trial>
 
 < trial exit>
