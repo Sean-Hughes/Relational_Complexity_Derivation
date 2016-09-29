@@ -2,7 +2,7 @@
                RELATIONAL TESTING
 ************************************************
 Authors: Sean Hughes (sean.hughes@ugent.be) & Ian Hussey (ian.hussey@ugent.be)
-Last updated: 14-09-2016
+Last updated: 29-09-2016
 
 ************* general variables ****************
 
@@ -21,12 +21,8 @@ Last updated: 14-09-2016
 </expt>
 
 <variables>
-/ group = (1 of 1) (block1 = Relational_Testing_Phase)
+/ group = (1 of 1) (block1 = Relational_Testing_Phase_BC)
 </variables>
-
-<values>
-/ errorcountlearninga = 0
-</values>
 
 ************** stimuli exemplars ***************
 
@@ -261,7 +257,7 @@ Last updated: 14-09-2016
 
 *****************  block  **********************
 
-<block Relational_Testing_Phase>
+<block Relational_Testing_Phase_BC>
 / preinstructions = (RTP_instructions)
 / trials = [1-16 = noreplacenorepeat(B1_C1_C2, B1_C2_C1, C1_B1_B2, C1_B2_B1, B2_C2_C1, B2_C1_C2, C2_B1_B2, C2_B2_B1)]
 </block>

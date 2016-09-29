@@ -21,15 +21,15 @@ Last updated: 29-09-2016
 </expt>
 
 <variables>
-/ group = (1 of 1) (block1 = Relational_Training_Phase_Block_1)
+/ group = (1 of 1) (block1 = Relational_Training_Phase_AB_Block_1)
 </variables>
 
 <values>
-/ errorcountlearninga = 0
+/ errors_in_block_counter = 0
 </values>
 
 <expressions>
-/ errorLa = (values.errorcountlearninga)
+/ n_errors_in_block = (values.errors_in_block_counter)
 </expressions>
 
 ************** stimuli exemplars ***************
@@ -287,7 +287,7 @@ Last updated: 29-09-2016
 / responsemessage = ("j", errorMessage, 1500)
 / stimulustimes = [500 = A1_target; 1000 = B1_sample1, B2_sample2, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.A1_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A1_B1_B2.error == true) values.errors_in_block_counter = values.errors_in_block_counter + 1]
 </trial>
 
 <trial A1_B2_B1> 
@@ -298,7 +298,7 @@ Last updated: 29-09-2016
 / responsemessage = ("f", errorMessage, 1500)
 / stimulustimes = [500 = A1_target; 1000 = B1_sample2, B2_sample1, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.A1_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A1_B2_B1.error == true) values.errors_in_block_counter = values.errors_in_block_counter + 1]
 </trial>
 
 <trial A1_C1_C2> 
@@ -309,7 +309,7 @@ Last updated: 29-09-2016
 / responsemessage = ("j", errorMessage, 1500)
 / stimulustimes = [500 = A1_target; 1000 = C1_sample1, C2_sample2, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.A1_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A1_C1_C2.error == true) values.errors_in_block_counter = values.errors_in_block_counter + 1]
 </trial>
 
 <trial A1_C2_C1> 
@@ -320,7 +320,7 @@ Last updated: 29-09-2016
 / responsemessage = ("f", errorMessage, 1500)
 / stimulustimes = [500 = A1_target; 1000 = C1_sample2, C2_sample1, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.A1_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A1_C2_C1.error == true) values.errors_in_block_counter = values.errors_in_block_counter + 1]
 </trial>
 
 <trial A2_B2_B1> 
@@ -331,7 +331,7 @@ Last updated: 29-09-2016
 / responsemessage = ("j", errorMessage, 1500)
 / stimulustimes = [500 = A2_target; 1000= B2_sample1, B1_sample2, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.A2_B2_B1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A2_B2_B1.error == true) values.errors_in_block_counter = values.errors_in_block_counter + 1]
 </trial>
 
 <trial A2_B1_B2> 
@@ -342,7 +342,7 @@ Last updated: 29-09-2016
 / responsemessage = ("f", errorMessage, 1500)
 / stimulustimes = [500 = A2_target; 1000 = B2_sample2, B1_sample1, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.A2_B1_B2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A2_B1_B2.error == true) values.errors_in_block_counter = values.errors_in_block_counter + 1]
 </trial>
 
 <trial A2_C1_C2> 
@@ -353,7 +353,7 @@ Last updated: 29-09-2016
 / responsemessage = ("f", errorMessage, 1500)
 / stimulustimes = [500 = A2_target; 1000 = C1_sample1, C2_sample2, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.A2_C1_C2.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A2_C1_C2.error == true) values.errors_in_block_counter = values.errors_in_block_counter + 1]
 </trial>
 
 <trial A2_C2_C1> 
@@ -364,7 +364,7 @@ Last updated: 29-09-2016
 / responsemessage = ("j", errorMessage, 1500)
 / stimulustimes = [500 = A2_target; 1000 = C1_sample2, C2_sample1, f_key, j_key]
 / pretrialpause = 500
-/ ontrialend = [if (trial.A2_C2_C1.error == true) values.errorcountlearninga = values.errorcountlearninga + 1]
+/ ontrialend = [if (trial.A2_C2_C1.error == true) values.errors_in_block_counter = values.errors_in_block_counter + 1]
 </trial>
 
 < trial exit>
@@ -375,37 +375,37 @@ Last updated: 29-09-2016
 
 *****************  block  **********************  
 
-<block Relational_Training_Phase_Block_1>
-/ preinstructions = (RTP_instructions)
-/ trials = [1-40 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
-/ branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_2 else block.exit]
+<block Relational_Training_Phase_AB_Block_1>
+/ preinstructions = (RTP_instructions_1)
+/ trials = [1-16 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A2_B2_B1, A2_B1_B2)]
+/ branch = [if (expressions.n_errors_in_block > 2 && currentblocknumber < 5) block.Relational_Training_Phase_AB_Block_2 else block.exit]
 </block>
 
-<block Relational_Training_Phase_Block_2>
-/ onblockbegin = [values.errorcountlearninga = 0]
+<block Relational_Training_Phase_AB_Block_2>
+/ onblockbegin = [values.errors_in_block_counter = 0]
 / preinstructions = (RTP_instructions_2)
-/ trials = [1-40 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
-/ branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_3 else block.exit]
+/ trials = [1-16 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A2_B2_B1, A2_B1_B2)]
+/ branch = [if (expressions.n_errors_in_block > 2 && currentblocknumber < 5) block.Relational_Training_Phase_AB_Block_3 else block.exit]
 </block>
 
-<block Relational_Training_Phase_Block_3>
-/ onblockbegin = [values.errorcountlearninga = 0]
+<block Relational_Training_Phase_AB_Block_3>
+/ onblockbegin = [values.errors_in_block_counter = 0]
 / preinstructions = (RTP_instructions_2)
-/ trials = [1-40 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
-/ branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_4 else block.exit]
+/ trials = [1-16 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A2_B2_B1, A2_B1_B2)]
+/ branch = [if (expressions.n_errors_in_block > 2 && currentblocknumber < 5) block.Relational_Training_Phase_AB_Block_4 else block.exit]
 </block>
 
-<block Relational_Training_Phase_Block_4>
-/ onblockbegin = [values.errorcountlearninga = 0]
+<block Relational_Training_Phase_AB_Block_4>
+/ onblockbegin = [values.errors_in_block_counter = 0]
 / preinstructions = (RTP_instructions_2)
-/ trials = [1-40 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
-/ branch = [if (expressions.errorLa > 4 && currentblocknumber < 5) block.Relational_Training_Phase_Block_5 else block.exit]
+/ trials = [1-16 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A2_B2_B1, A2_B1_B2)]
+/ branch = [if (expressions.n_errors_in_block > 2 && currentblocknumber < 5) block.Relational_Training_Phase_AB_Block_5 else block.exit]
 </block>
 
-<block Relational_Training_Phase_Block_5>
-/ onblockbegin = [values.errorcountlearninga = 0]
+<block Relational_Training_Phase_AB_Block_5>
+/ onblockbegin = [values.errors_in_block_counter = 0]
 / preinstructions = (RTP_instructions_2)
-/ trials = [1-40 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A1_C1_C2, A1_C2_C1, A2_B2_B1, A2_B1_B2, A2_C1_C2, A2_C2_C1)]
+/ trials = [1-16 = noreplacenorepeat(A1_B1_B2, A1_B2_B1, A2_B2_B1, A2_B1_B2)]
 </block>
 
 <block exit>
@@ -423,7 +423,7 @@ Last updated: 29-09-2016
 / prevkey = ("t")
 </instruct>
 
-<page RTP_instructions>
+<page RTP_instructions_1>
 ^^In the next part of the experiment you will see three nonsense words on the screen - one at the top and two on the bottom 
 ^^Your job is to figure out which word on the bottom of the screen goes with the word at the top. I.e., you have to figure out what words go together.
 ^^IMPORTANT: There is no 'shortcut' to knowing which nonsense words go together. The only way you can learn how one word is related to another is by using the feedback the task gives you.
@@ -441,5 +441,5 @@ Last updated: 29-09-2016
 
 <monkey>
 / latencydistribution = normal(500, 100)
-/ percentcorrect = 95
+/ percentcorrect = 10
 </monkey>
