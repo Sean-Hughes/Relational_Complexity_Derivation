@@ -1,5 +1,5 @@
 ﻿************************************************
-              RELATIONAL TRAINING
+              RELATIONAL TRAINING (AC Relations)
 ************************************************
 Authors: Sean Hughes (sean.hughes@ugent.be) & Ian Hussey (ian.hussey@ugent.be)
 Last updated: 29-09-2016
@@ -315,17 +315,18 @@ Last updated: 29-09-2016
 / nextlabel = "Press the spacebar to continue"
 / prevlabel = "Press the 't' key to go back"
 / prevkey = ("t")
+/ windowsize = (800px, 600px)
 </instruct>
 
 <page RTP_instructions_1>
-^^The next task presents is similar to what you just did, but present new nonsense words as well as some you've seen before.
-^^Again, your job is to figure out which word on the bottom of the screen goes with the word at the top. I.e., you have to figure out what words go together.
-^^Note: you will only move to the subsequent parts of the experiment once you have learned to respond very ACCURATELY.
+^^ The next task is similar to what you've just done. However this time we will present new nonsense words along with some you've seen before.
+^^ Again, your job is to figure out which word on the bottom of the screen goes with the word at the top. I.e., you have to figure out what words go together.
+^^ Note: you will only move on with the experiment once you have learned to respond very ACCURATELY.
 </page>
 
 <page RTP_instructions_2>
 ^^Well done. We will give you another opportunity to practice the same task.
-^^Note: you will only move to the subsequent parts of the experiment once you have learned to respond very ACCURATELY.
+^^Note: you will only move on with the experiment once you have learned to respond very ACCURATELY.
 </page>
 
 ************** Test monkey  ********************

@@ -14,8 +14,8 @@ last updated: 14-09-16
 **********************************************************************
 
 <defaults>
-/ screencolor = black
-/ txcolor = white
+/ screencolor = white
+/ txcolor = black
 / font = ("Arial", -21, 700, 0, 34)
 / inputdevice = keyboard
 / validkeys = (" ", "t")
@@ -75,7 +75,7 @@ and retrieve it before continuing). Otherwise you cannot be paid."
 
 <block demographics>
 / preinstructions = (WelcomeInstructions)
-/ screencolor = black
+/ screencolor = white
 / trials = [1 = info_1; 2 = info_2; 3 = info_3]
 </block>
 

@@ -1,5 +1,5 @@
 ﻿************************************************
-               RELATIONAL TESTING
+               RELATIONAL TESTING (Combinatorial Entailment of BC Relations)
 ************************************************
 Authors: Sean Hughes (sean.hughes@ugent.be) & Ian Hussey (ian.hussey@ugent.be)
 Last updated: 29-09-2016
@@ -271,12 +271,13 @@ Last updated: 29-09-2016
 / nextlabel = "Press the spacebar to continue"
 / prevlabel = "Press the 't' key to go back"
 / prevkey = ("t")
+/ windowsize = (800px, 600px)
 </instruct>
 
 <page RTP_instructions>
 ^^IMPORTANT: In the next task, you will have to use what you learned in the previous tasks to figure out which words go together here.
-^^This task is crucial to the experiment - please take your time and try to respond as ACCURATELY as possible.
-^^We will no longer tell you when you are correct or incorrect, as this task tests what you previously learned.
+^^This task is CRUCIAL to the experiment - please take your time and try to respond as ACCURATELY as possible.
+^^IMPORTANT: We will no longer tell you when you are correct or incorrect, as we are testing what you previously learned.
 </page>
 
 ************** Test monkey  ********************

@@ -1,5 +1,5 @@
 ﻿************************************************
-              RELATIONAL TRAINING
+              RELATIONAL TRAINING (AB Relations)
 ************************************************
 Authors: Sean Hughes (sean.hughes@ugent.be) & Ian Hussey (ian.hussey@ugent.be)
 Last updated: 29-09-2016
@@ -315,18 +315,19 @@ Last updated: 29-09-2016
 / nextlabel = "Press the spacebar to continue"
 / prevlabel = "Press the 't' key to go back"
 / prevkey = ("t")
+/ windowsize = (800px, 600px)
 </instruct>
 
 <page RTP_instructions_1>
-^^The next task presents three nonsense words on each screen, one at the top and two on the bottom.
-^^Your job is to figure out which word on the bottom of the screen goes with the word at the top. I.e., you have to figure out which words go together.
-^^IMPORTANT: There is no 'shortcut' to knowing which nonsense words go together. The only way you can learn how one word is related to another is by using the feedback the task gives you.
-^^Note: you will only move to the subsequent parts of the experiment once you have learned to respond very ACCURATELY.
+^^ In the next part of the experiment you will see three nonsense words, one at the top and two on the bottom of the screen.
+^^ Your job is to figure out which word on the bottom of the screen goes with the word at the top. I.e., you have to figure out which words go together.
+^^ IMPORTANT: There is no 'shortcut' to knowing which words go together. The only way you can learn how one word is related to another is by listening to the computer (i.e., it will tell you if you are correct or incorrect).
+^^ Note: you will only move on with the experiment once you have learned to respond very ACCURATELY. 
 </page>
 
 <page RTP_instructions_2>
 ^^Well done. We will give you another opportunity to practice the same task.
-^^Note: you will only move to the subsequent parts of the experiment once you have learned to respond very ACCURATELY.
+^^Note: you will only move on with the experiment once you have learned to respond very ACCURATELY.
 </page>
 
 ************** Test monkey  ********************
